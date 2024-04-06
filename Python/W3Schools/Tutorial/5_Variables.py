@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - Tutorial
-# Section 5: Introduction
+# Section 5: Variables
 
 # RULES FOR NAMING VARIABLES
     # A variable name must start with a letter or the underscore character

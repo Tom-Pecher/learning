@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - Tutorial
-# Section 6: Introduction
+# Section 6: Data Types
 
 # CATEGORIES
     # Text Type: 	    str
