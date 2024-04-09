@@ -9,6 +9,7 @@
     # Variable names are case-sensitive (age, Age and AGE are three different variables)
     # A variable name cannot be any of the Python keywords.
 
+
 # NAMING CONVENTIONS
     # The general convention for Python naming is SNAKE CASE:
 my_variable_name = "John"
@@ -21,6 +22,7 @@ MyVariableName = "John"
 
     # Constant values are designated with UPPER CASE:
 MY_CONSTANT = "3.14159265"
+
 
 # VALUE ASSIGNMENT
     # Variable's values are assigned using the = operator:
@@ -43,6 +45,7 @@ fruits = ["apple", "banana", "cherry"]
 x, _, y = fruits
 print(x)
 print(y)
+
 
 # OUTPUT VARIABLES
     # We can use print() to output a variable's value:
@@ -67,6 +70,7 @@ print(x + y + z)
 x = 5
 y = 10
 print(x + y)
+
 
 # SCOPE BASICS
     # Variables can only be accessed in the block of code they were defined in:

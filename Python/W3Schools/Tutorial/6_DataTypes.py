@@ -12,6 +12,7 @@
     # Binary Types: 	bytes, bytearray, memoryview
     # None Type: 	    NoneType
 
+
 # GETTING TYPE
     # type(value)
         # input type: any
@@ -19,6 +20,7 @@
     # displays an object's type as a string
 x = 5
 print(type(x))
+
 
 # ASSIGNMENT
 x = "Hello World" 	                            # str 	       - text
@@ -36,6 +38,7 @@ x = b"Hello" 	                                # bytes 	   - immutable bytes obje
 x = bytearray(5) 	                            # bytearray    - mutable array of bytes
 x = memoryview(bytes(5)) 	                    # memoryview   - mutable memoryview object
 x = None 	                                    # NoneType     - null
+
 
 # SETTING TYPES
 x = str("Hello World") 	                        # str 	

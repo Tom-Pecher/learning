@@ -13,6 +13,7 @@ b = '''sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua.'''
 print(a, b)
 
+
 # STRINGS AS COLLECTIONS
     # Strings in python are arrays of bytes so they can be indexed:
 a = "Hello, World!"
@@ -40,6 +41,7 @@ print("free" in txt)
 a = "Hello, World!"
 print(a + '?!')
 
+
 # FORMAT STRINGS
     # string.format(values)
         # input type: any
@@ -57,6 +59,7 @@ itemno = 567
 price = 49.95
 myorder = "I want to pay {2} dollars for {0} pieces of item {1}."
 print(myorder.format(quantity, itemno, price))
+
 
 # ESCAPE CHARACTERS
     # For an added level of customization and special cases, we can use escape characters:
