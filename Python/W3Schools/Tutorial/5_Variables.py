@@ -30,46 +30,46 @@ x = "Orange"
 
     # Multiple values can be assigned at once:
 x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+print("1.", x)
+print("2.", y)
+print("3.", z)
 
     # Or single values can be assigned to multiple variables:
 x = y = z = "Orange"
-print(x)
-print(y)
-print(z)
+print("4.", x)
+print("5.", y)
+print("6.", z)
 
     # Similarly, we can unpack collections, using _ as a placeholder
 fruits = ["apple", "banana", "cherry"]
 x, _, y = fruits
-print(x)
-print(y)
+print("7.", x)
+print("8.", y)
 
 
 # OUTPUT VARIABLES
     # We can use print() to output a variable's value:
 x = "Python is awesome"
-print(x)
+print("9.", x)
 
     # Or multiple values:
 x = "Python"
 y = "is"
 z = "awesome"
-print(x, y, z)
+print("10.", x, y, z)
 
     # Alternatively, we can concatenate the variables into one and print:
 x = "Python"
 y = "is"
 z = "awesome"
-print(x + y + z)
+print("11.", x + y + z)
 # NOTE: This only works if the + operator is defined for the two variable types
 # This is because some functions/operators work differently on different variable types
 
     # For integers rather than strings, + is a mathematical operator:
 x = 5
 y = 10
-print(x + y)
+print("12.", x + y)
 
 
 # SCOPE BASICS
@@ -82,19 +82,19 @@ myfunc()            # x in scope
 
     # The same variable can have different values in different scopes:
 x = "apple"
-print(x)            # prints "apple"
+print("13.", x)            # prints "apple"
 def myfunc():
   x = "orange"
   return x
-print(myfunc())     # prints "orange"
-print(x)            # prints "apple"
+print("14.", myfunc())     # prints "orange"
+print("15.", x)            # prints "apple"
 
     # One can assign a global scope to a local variable:
 if True:
   global a
   a = "fantastic"
 myfunc()
-print("Python is " + a) 
+print("16.", "Python is " + a) 
 
     # Or override the value of existing global variables:
 x = "awesome"
@@ -102,4 +102,4 @@ def myfunc():
   global x
   x = "fantastic"
 myfunc()
-print("Python is " + x) 
+print("17.", "Python is " + x) 

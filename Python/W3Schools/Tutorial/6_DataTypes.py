@@ -19,7 +19,7 @@
         # output type: str
     # displays an object's type as a string
 x = 5
-print(type(x))
+print("1.", type(x))
 
 
 # ASSIGNMENT

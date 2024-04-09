@@ -4,12 +4,12 @@
 
 # OPERATORS
     # Comparative operators return boolean outputs:
-print(10 > 9)
-print(10 >= 9)
-print(10 == 9)
-print(10 is 9)
-print(10 < 9) 
-print(10 <= 9)
+print("1.", 10 > 9)
+print("2.", 10 >= 9)
+print("3.", 10 == 9)
+print("4.", 10 is 9)
+print("5.", 10 < 9) 
+print("6.", 10 <= 9)
 
 
 # CONSTRUCTOR
@@ -22,19 +22,19 @@ print(10 <= 9)
     # NOTE: any object whose __len__() function returns 0 will return False in bool(object).
 
     # The following all return True:
-bool("abc")
-bool(123)
-bool(["apple", "cherry", "banana"])
+print("7.", bool("abc"))
+print("8.", bool(123))
+print("9.", bool(["apple", "cherry", "banana"]))
 
     # The following all return False:
-bool(False)
-bool(None)
-bool(0)
-bool("")
-bool(())
-bool([])
-bool({})
+print("10.", bool(False))
+print("11.", bool(None))
+print("12.", bool(0))
+print("13.", bool(""))
+print("14.", bool(()))
+print("15.", bool([]))
+print("16.", bool({}))
 
     # Many built-in functions also return booleans:
 x = 200
-print(isinstance(x, int)) 
+print("17.", isinstance(x, int)) 
