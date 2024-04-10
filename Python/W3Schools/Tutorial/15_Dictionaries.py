@@ -180,3 +180,50 @@ this_dict =	{
   "year"  : 1964
 }
 my_dict = dict(this_dict)
+
+
+# NESTED DICTIONARIES
+    # Nested dictionaries are dictionaries that contain other dictionaries as values:
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+
+    # An alternative method of initialization:
+child1 = {
+  "name" : "Emil",
+  "year" : 2004
+}
+child2 = {
+  "name" : "Tobias",
+  "year" : 2007
+}
+child3 = {
+  "name" : "Linus",
+  "year" : 2011
+}
+myfamily = {
+  "child1" : child1,
+  "child2" : child2,
+  "child3" : child3
+}
+
+    # We can access elements from the inner dictionaries like so:
+print("21.", myfamily["child2"]["name"])
+
+    # Here is how to loop through a nested dictionary:
+for x, obj in myfamily.items():
+  print("22.", x)
+
+  for y in obj:
+    print("23.", y + ':', obj[y])
