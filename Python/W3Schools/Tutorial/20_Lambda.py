@@ -8,9 +8,9 @@ x = lambda a : a + 10
 print("1.", x(5))
 
     # One use case of lambda functions is generating a set of functions:
-def myfunc(n):
+def my_func(n):
   return lambda a : a * n
-mydoubler = myfunc(2)
-mytripler = myfunc(3)
-print("2.", mydoubler(11))
-print("3.", mytripler(11))
+my_doubler = my_func(2)
+my_tripler = my_func(3)
+print("2.", my_doubler(11))
+print("3.", my_tripler(11))

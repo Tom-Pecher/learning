@@ -24,18 +24,18 @@ class Person:
     return f"{self.name}({self.age})"
   
     # Instead of overriding existing functions, we can also create new ones:
-  def myfunc(self):
+  def my_func(self):
     print("Hello my name is " + self.name)
 
 p1 = Person("John", 36) 
 print("2.", p1.name)
 print("3.", p1.age)
 print("4.", p1)
-print("5.", p1.myfunc())
+print("5.", p1.my_func())
 
     # An objects attributes can be modified from outside of the class like so:
 p1.age = 40
-print("6.", p1.myfunc())
+print("6.", p1.my_func())
 
     # We can also delete object attributes with the del keyword:
 del p1.age

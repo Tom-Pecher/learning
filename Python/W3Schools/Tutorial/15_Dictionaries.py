@@ -184,7 +184,7 @@ my_dict = dict(this_dict)
 
 # NESTED DICTIONARIES
     # Nested dictionaries are dictionaries that contain other dictionaries as values:
-myfamily = {
+my_family = {
   "child1" : {
     "name" : "Emil",
     "year" : 2004
@@ -212,17 +212,17 @@ child3 = {
   "name" : "Linus",
   "year" : 2011
 }
-myfamily = {
+my_family = {
   "child1" : child1,
   "child2" : child2,
   "child3" : child3
 }
 
     # We can access elements from the inner dictionaries like so:
-print("21.", myfamily["child2"]["name"])
+print("21.", my_family["child2"]["name"])
 
     # Here is how to loop through a nested dictionary:
-for x, obj in myfamily.items():
+for x, obj in my_family.items():
   print("22.", x)
 
   for y in obj:

@@ -9,11 +9,11 @@ class Person:
   def __init__(self, fname, lname):
     self.firstname = fname
     self.lastname = lname
-  def printname(self):
+  def print_name(self):
     print("1.", self.firstname, self.lastname)
 
 x = Person("John", "Doe")
-x.printname()
+x.print_name()
 
     # Child class
 class Student(Person): # We specify parent classes in the definition like so.
