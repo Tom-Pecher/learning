@@ -70,36 +70,3 @@ print("11.", x + y + z)
 x = 5
 y = 10
 print("12.", x + y)
-
-
-# SCOPE BASICS
-    # Variables can only be accessed in the block of code they were defined in:
-                    # Nothing in scope
-x = "value 1"       # x in scope
-def myfunc():       # 
-  y = "value 2"     # x and y in scope
-myfunc()            # x in scope
-
-    # The same variable can have different values in different scopes:
-x = "apple"
-print("13.", x)            # prints "apple"
-def myfunc():
-  x = "orange"
-  return x
-print("14.", myfunc())     # prints "orange"
-print("15.", x)            # prints "apple"
-
-    # One can assign a global scope to a local variable:
-if True:
-  global a
-  a = "fantastic"
-myfunc()
-print("16.", "Python is " + a) 
-
-    # Or override the value of existing global variables:
-x = "awesome"
-def myfunc():
-  global x
-  x = "fantastic"
-myfunc()
-print("17.", "Python is " + x) 
