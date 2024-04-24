@@ -2,7 +2,7 @@
 # PYTHON: W3Schools - Tutorial
 # Section 1: Introduction
 
-# DISPLAYING TEXT
+# BASICS
     # print(value)
         # input type: any
         # output type: None
