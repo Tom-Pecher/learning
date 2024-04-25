@@ -1,7 +1,7 @@
 
 
 # PYTHON: W3Schools - Tutorial
-# Section 1: Introduction
+# Section 1: File Handling
 
 # BASICS
     # The main way of interacting with files in Python is with the open() method:
