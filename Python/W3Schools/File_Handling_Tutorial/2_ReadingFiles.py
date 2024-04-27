@@ -1,7 +1,7 @@
 
 
 # PYTHON: W3Schools - Tutorial
-# Section 2: Read Files
+# Section 2: Reading Files
 
 # BASICS
     # We can use the file.read() function to read all contents from a file object:
