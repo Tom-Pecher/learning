@@ -1,6 +1,5 @@
 
-
-# PYTHON: W3Schools - Tutorial
+# PYTHON: W3Schools - File Handling Tutorial
 # Section 1: File Handling
 
 # BASICS

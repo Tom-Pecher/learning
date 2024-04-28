@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - Tutorial
+# PYTHON: W3Schools - Main Tutorial
 # Section 13: Tuples
 
 # BASICS
