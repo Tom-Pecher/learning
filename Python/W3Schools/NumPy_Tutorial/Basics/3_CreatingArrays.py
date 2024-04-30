@@ -6,7 +6,7 @@
     # Numpy's main datatype for manipulating collections of numbers is the ndarray (n-dimensional):
 import numpy as np
 
-arr = np.array([1, 2, 3, 4, 5])
+arr = np.array([1, 2, 3, 4, 5]) # NOTE: Strings also count.
 print("1.", arr)
 print("2.", type(arr)) 
 
