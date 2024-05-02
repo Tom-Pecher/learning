@@ -35,4 +35,4 @@ print("5.", arr)
 
     # The function np.dstack() stacks along height (depth):
 arr = np.dstack((arr1, arr2))
-print("6.", arr) 
+print("6.", arr)

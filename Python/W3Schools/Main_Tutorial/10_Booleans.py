@@ -8,7 +8,7 @@ print("1.", 10 > 9)
 print("2.", 10 >= 9)
 print("3.", 10 == 9)
 print("4.", 10 is 9)
-print("5.", 10 < 9) 
+print("5.", 10 < 9)
 print("6.", 10 <= 9)
 
 
@@ -37,4 +37,4 @@ print("16.", bool({}))
 
     # Many built-in functions also return booleans:
 x = 200
-print("17.", isinstance(x, int)) 
+print("17.", isinstance(x, int))

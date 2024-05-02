@@ -32,4 +32,4 @@ c3 = -5j
 # RANDOM
     # We can generate random numbers in a variety of ways using the methods in the "random" module:
 import random
-print("1.", random.randrange(1, 10)) 
+print("1.", random.randrange(1, 10))
