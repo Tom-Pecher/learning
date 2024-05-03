@@ -3,9 +3,9 @@
 # Section 12: Array Split
 
 # BASICS
+    # The function np.array_split() splits an ndarray into a specified number of parts: 
 import numpy as np
 
-    # The function np.array_split() splits an ndarray into a specified number of parts:
 arr = np.array([1, 2, 3, 4, 5, 6])
 print("1.", np.array_split(arr, 3))
 
