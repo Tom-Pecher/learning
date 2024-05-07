@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 4: Array Indexing
 
-# BASICS
-    # Indexing works much the same way as for any other collection:
 import numpy as np
 
+# BASICS
+    # Indexing works much the same way as for any other collection:
 arr = np.array([[0, 1, 1, 2], [3, 5, 8, 13]])
 print("1.", arr[1][-1])
 

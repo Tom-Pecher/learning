@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 15: Array Filter
 
-# BASICS
-    # Using a list of booleans, we can filter the values of an ndarray:
 import numpy as np
 
+# BASICS
+    # Using a list of booleans, we can filter the values of an ndarray:
 arr = np.array([41, 42, 43, 44])
 x = [True, False, True, False]
 print("1.", arr[x]) 

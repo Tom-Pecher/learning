@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 3: Creating Arrays
 
-# BASICS
-    # Numpy's main datatype for manipulating collections of numbers is the ndarray (n-dimensional):
 import numpy as np
 
+# BASICS
+    # Numpy's main datatype for manipulating collections of numbers is the ndarray (n-dimensional):
 arr = np.array([1, 2, 3, 4, 5]) # NOTE: Strings also count.
 print("1.", arr)
 print("2.", type(arr)) 

@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 9: Array Reshape
 
-# BASICS
-    # We can change the dimensions of an array by calling np.ndarray.reshape():
 import numpy as np
 
+# BASICS
+    # We can change the dimensions of an array by calling np.ndarray.reshape():
 arr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12])
 newarr = arr.reshape(4, 3)  # NOTE: If it is not possible to reshape the array (dimensions are uneven), an error will be thrown.
 print("1.", newarr, newarr.shape)

@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 11: Array Join
 
-# BASICS
-    # In numpy, we cannot use + to join ndarrays (this would add the contents), instead we can use np.concatenate():
 import numpy as np
 
+# BASICS
+    # In numpy, we cannot use + to join ndarrays (this would add the contents), instead we can use np.concatenate():
 arr1 = np.array([1, 2, 3])
 arr2 = np.array([4, 5, 6])
 arr = np.concatenate((arr1, arr2))

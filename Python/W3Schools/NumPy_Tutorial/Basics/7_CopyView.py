@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 7: Copying and Viewing
 
-# BASICS
-    # The np.ndarray.copy() function returns a new, separate ndarray:
 import numpy as np
 
+# BASICS
+    # The np.ndarray.copy() function returns a new, separate ndarray:
 arr = np.array([1, 2, 3, 4, 5])
 x = arr.copy()
 arr[0] = 42

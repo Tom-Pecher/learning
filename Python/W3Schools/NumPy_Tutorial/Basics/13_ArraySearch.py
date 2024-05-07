@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 13: Array Search
 
-# BASICS
-    # To obtain the indices of a certain value in an ndarray, we can use np.where():
 import numpy as np
 
+# BASICS
+    # To obtain the indices of a certain value in an ndarray, we can use np.where():
 arr = np.array([1, 2, 3, 4, 5, 4, 4])
 print("1.", np.where(arr == 4))
 

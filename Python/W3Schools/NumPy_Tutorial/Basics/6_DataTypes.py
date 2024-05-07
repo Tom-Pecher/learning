@@ -15,12 +15,10 @@
     #   U   -   unicode string
     #   V   -   fixed chunk of memory for other type (void)
 
-
+import numpy as np
 
 # BASICS
     # We can check the datatype of a numpy object with its dtype attribute:
-import numpy as np
-
 arr = np.array([1, 2, 3, 4])
 print("1.", arr.dtype) 
 

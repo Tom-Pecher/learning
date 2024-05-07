@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 14: Array Sort
 
-# BASICS
-    # We can use numpy to sort ndarrays:
 import numpy as np
 
+# BASICS
+    # We can use numpy to sort ndarrays:
 arr = np.array([3, 2, 0, 1])
 print("1.", np.sort(arr)) # NOTE: np.sort() returns a copy and leaves the original intact.
 

@@ -2,10 +2,10 @@
 # PYTHON: W3Schools - NumPy Tutorial
 # Section 10: Array Iterating
 
-# BASICS
-    # We can iterate through an ndarray as with any other collection:
 import numpy as np
 
+# BASICS
+    # We can iterate through an ndarray as with any other collection:
 arr = np.array([1, 2, 3, 4, 5])
 for x in arr:
   print("1.", x)
