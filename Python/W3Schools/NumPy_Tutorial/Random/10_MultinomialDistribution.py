@@ -5,5 +5,5 @@
 from numpy import random
 
 # BASICS
-    # The function random.logistic() samples from a logistic distribution with the specified mean (loc) and standard deviation (scale):
-print("1.", random.multinomial(n=6, pvals=[1/6, 1/6, 1/6, 1/6, 1/6, 1/6]))
+    # The function random.multinomial() samples from a multinomial distribution with the specified n and an ndarray of the probability of each outcome:
+print("1.", random.multinomial(n=10, pvals=[1/6, 3/6, 2/6]))
