@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Ufunc Tutorial
 # Section 9: Finding LCM
 
 import numpy as np

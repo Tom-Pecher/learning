@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Ufunc Tutorial
 # Section 1: Introduction
 
 import numpy as np

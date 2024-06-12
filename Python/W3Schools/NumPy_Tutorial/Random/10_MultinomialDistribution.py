@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Random Tutorial
 # Section 10: Multinomial Distribution
 
 from numpy import random

@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Random Tutorial
 # Section 5: Normal Distribution
 
 import matplotlib.pyplot as plt

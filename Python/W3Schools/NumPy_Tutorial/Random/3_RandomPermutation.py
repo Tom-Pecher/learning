@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Random Tutorial
 # Section 3: Random Permutation
 
 from numpy import random

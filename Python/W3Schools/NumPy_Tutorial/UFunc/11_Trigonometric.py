@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Ufunc Tutorial
 # Section 11: Trigonometric
 
 import numpy as np

@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Ufunc Tutorial
 # Section 4: Rounding Decimals
 
 import numpy as np

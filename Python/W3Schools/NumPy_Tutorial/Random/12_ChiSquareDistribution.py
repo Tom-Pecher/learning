@@ -1,5 +1,5 @@
 
-# PYTHON: W3Schools - NumPy Tutorial
+# PYTHON: W3Schools - NumPy Random Tutorial
 # Section 12: Chi-Square Distribution
 
 import matplotlib.pyplot as plt
