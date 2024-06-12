@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 10: Ufunc Finding GCD
+# Section 10: Finding GCD
 
 import numpy as np
 

@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 9: Ufunc Finding LCM
+# Section 9: Finding LCM
 
 import numpy as np
 

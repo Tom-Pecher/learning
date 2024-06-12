@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 8: Ufunc Differences
+# Section 8: Differences
 
 import numpy as np
 

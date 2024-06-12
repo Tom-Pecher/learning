@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 1: Random Introduction
+# Section 1: Introduction
 
 from numpy import random
 

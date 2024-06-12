@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 3: Ufunc Simple Arithmetic
+# Section 3: Simple Arithmetic
 
 import numpy as np
 

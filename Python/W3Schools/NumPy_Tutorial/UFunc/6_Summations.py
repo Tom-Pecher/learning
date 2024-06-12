@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 6: Ufunc Summations
+# Section 6: Summations
 
 import numpy as np
 

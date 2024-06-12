@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 4: Ufunc Rounding Decimals
+# Section 4: Rounding Decimals
 
 import numpy as np
 

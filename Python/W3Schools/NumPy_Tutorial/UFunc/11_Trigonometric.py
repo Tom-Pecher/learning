@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 11: Ufunc Trigonometric
+# Section 11: Trigonometric
 
 import numpy as np
 

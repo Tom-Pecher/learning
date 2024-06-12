@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 5: Ufunc Logarithms
+# Section 5: Logarithms
 
 import numpy as np
 

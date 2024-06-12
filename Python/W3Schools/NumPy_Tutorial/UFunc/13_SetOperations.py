@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 12: Ufunc Hyperbolic
+# Section 13: Set Operations
 
 import numpy as np
 

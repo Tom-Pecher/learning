@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 7: Ufunc Products
+# Section 7: Products
 
 import numpy as np
 

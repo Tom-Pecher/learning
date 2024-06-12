@@ -1,6 +1,6 @@
 
 # PYTHON: W3Schools - NumPy Tutorial
-# Section 1: Ufunc Introduction
+# Section 1: Introduction
 
 import numpy as np
 
