@@ -12,7 +12,7 @@ from scipy.sparse import csr_matrix
     #    CSR - Compressed Sparse Row: for fast row slicing, faster matrix vector products
 
 
-# CSR MATRICES:
+# CSR MATRICES
     # In a CSR matrix, each non-zero item is preceeded by its position (the 2 is in the 0th row at position 8):
 arr = np.array([0, 0, 0, 0, 0, 1, 1, 0, 2])
 print("1.", csr_matrix(arr))
