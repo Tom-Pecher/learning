@@ -8,9 +8,9 @@ using namespace std;
 int main() {
    
   // CREATING VARIABLES
-  int myNum;                              // Declaration of the variable (allocates memory).
-  myNum = 10;                             // Assignment of the variable (give it a value).
-  cout << myNum;                          // Prints the variable. NOTE: the name of a variable is called the identifier.
+  int var;                                // Declaration of the variable (allocates memory).
+  var = 10;                               // Assignment of the variable (give it a value).
+  cout << var;                            // Prints the variable. NOTE: the name of a variable is called the identifier.
 
   // VARIABLE TYPES
   int myNum = 5;                          // Integer (whole number without decimals).
@@ -20,8 +20,8 @@ int main() {
   bool myBoolean = true;                  // Boolean (true or false).
 
   // MULTIPLE VARIABLES
-  int x = 5, y = 6, z = 50;               // We can declare many variables at once.
-  cout << x + y + z;
+  int a = 5, b = 6, c = 50;               // We can declare many variables at once.
+  cout << a + b + c;
 
   int x, y, z;                            // We can also assign one value to multiple variables.
   x = y = z = 50;
