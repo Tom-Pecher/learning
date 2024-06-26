@@ -12,5 +12,6 @@ int main() {
   cout << "Type a number: ";
   cin >> x;                                   // Get user input from the keyboard
   cout << "Your number is: " << x;            // Display user input.
+  
   return 0;
 }
