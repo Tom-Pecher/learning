@@ -10,7 +10,7 @@ int main() {
   // CREATING VARIABLES
   int var;                                // Declaration of the variable (allocates memory).
   var = 10;                               // Assignment of the variable (give it a value).
-  cout << var;                            // Prints the variable. NOTE: the name of a variable is called the identifier.
+  cout << "1. " << var << endl;           // Prints the variable. NOTE: the name of a variable is called the identifier.
 
   // VARIABLE TYPES
   int myNum = 5;                          // Integer (whole number without decimals).
@@ -21,11 +21,11 @@ int main() {
 
   // MULTIPLE VARIABLES
   int a = 5, b = 6, c = 50;               // We can declare many variables at once.
-  cout << a + b + c;
+  cout << "2. " << a + b + c << endl;
 
   int x, y, z;                            // We can also assign one value to multiple variables.
   x = y = z = 50;
-  cout << x + y + z;
+  cout << "3. " << x + y + z << endl;
 
   // CONSTANTS
   const float PI = 3.14;                  // Constants are read-only variables whose value cannot be reassigned.

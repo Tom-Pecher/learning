@@ -9,9 +9,9 @@ int main() {
 
   // USER INPUT
   int x; 
-  cout << "Type a number: ";
-  cin >> x;                                   // Get user input from the keyboard
-  cout << "Your number is: " << x;            // Display user input.
+  cout << "1. " << "Type a number: " << endl;
+  cin >> x;                                                // Get user input from the keyboard
+  cout << "2. " << "Your number is: " << x << endl;        // Display user input.
   
   return 0;
 }
