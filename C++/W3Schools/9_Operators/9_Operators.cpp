@@ -1,10 +1,6 @@
 
 // C++: W3Schools - Main Tutorial
-// Section 8: Data Types
-
-#include <iostream>
-#include <string>
-using namespace std;
+// Section 9: Operators
 
 int main() {
 
