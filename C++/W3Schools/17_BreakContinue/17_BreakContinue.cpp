@@ -1,6 +1,6 @@
 
 // C++: W3Schools - Main Tutorial
-// Section 15: While
+// Section 17: Break and Continue
 
 #include <iostream>
 using namespace std;

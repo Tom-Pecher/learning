@@ -1,6 +1,6 @@
 
 // C++: W3Schools - Main Tutorial
-// Section 15: While
+// Section 16: For Loop
 
 #include <iostream>
 using namespace std;
