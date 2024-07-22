@@ -1,11 +1,8 @@
 
 # W3Schools
-C
-            
+        
 C++
-    Main                    0-5
-
-C#
+    Main                    0-18
 
 Python
     Main                    0-35    (COMPLETE)
@@ -23,7 +20,3 @@ Python
         Basics              0-7     (COMPLETE)
         Cleaning Data       1-5     (COMPLETE)
         Advanced            1-2     (COMPLETE)
-
-R
-
-Rust
