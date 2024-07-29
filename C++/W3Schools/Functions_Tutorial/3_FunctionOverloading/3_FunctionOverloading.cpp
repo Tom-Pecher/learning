@@ -1,5 +1,5 @@
 
-// C++: W3Schools - Main Tutorial
+// C++: W3Schools - Functions Tutorial
 // Section 3: Functions Overloading
 
 #include <iostream>

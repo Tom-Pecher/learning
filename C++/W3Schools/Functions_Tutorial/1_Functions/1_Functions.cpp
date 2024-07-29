@@ -1,5 +1,5 @@
 
-// C++: W3Schools - Main Tutorial
+// C++: W3Schools - Functions Tutorial
 // Section 1: Functions
 
 #include <iostream>
