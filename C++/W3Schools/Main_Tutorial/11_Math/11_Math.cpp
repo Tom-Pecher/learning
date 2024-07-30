@@ -17,5 +17,8 @@ int main() {
   cout << "4. " << round(2.6) << endl;      // round(x) rounds x to the nearest integer.
   cout << "5. " << log(2) << endl;          // log(x) takes the natural logarithm of x.
 
+  // RANDOM
+  cout << "6. " << rand() << endl;          // returns a random positive integers.
+
   return 0;
 }
