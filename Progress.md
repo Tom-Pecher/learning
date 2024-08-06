@@ -20,3 +20,6 @@ Python
         Basics              0-7     (COMPLETE)
         Cleaning Data       1-5     (COMPLETE)
         Advanced            1-2     (COMPLETE)
+
+Wolfram
+    Main                    Not Started
