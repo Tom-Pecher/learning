@@ -1,8 +1,8 @@
 
 from random import choices
 
-# Priorities: 0 - 10
-p = {
+
+LEARNING_TOPICS = {
     'C'              :  7,
     'C++'            :  10,
     'C#'             :  6,
@@ -31,8 +31,48 @@ p = {
     'WOLFRAM'        :  9,
     'YAML'           :  3
 }
-
-selection = choices(tuple(p.keys()), tuple(p.values()), k=1)[0]
-
+selection = choices(tuple(LEARNING_TOPICS.keys()), tuple(LEARNING_TOPICS.values()), k=1)[0]
 print(f'Your daily topic is "{selection}"!')
 print('Complete 3 sections of the W3Schools course or equivalent.')
+
+
+DATA_STRUCTURES = [
+    'ARRAYS',
+    'GRAPHS',
+    'LINKED LISTS',
+    'STACKS',
+    'TREES',
+    'QUEUES'
+]
+SEARCH_ALGORITHMS = [
+    'BINARY SEARCH',
+    'EXPONENTIAL SEARCH',
+    'INTERPOLATION SEARCH',
+    'JUMP SEARCH',
+    'LINEAR SEARCH',
+    'TERNARY SEARCH'
+]
+SORTING_ALGORITHMS = [
+    'BUBBLE SORT',
+    'COUNTING SORT',
+    'HEAP SORT',
+    'INSERTION SORT',
+    'MERGE SORT',
+    'RADIX SORT',
+    'SELECTION SORT',
+    'SHELL SORT',
+    'QUICK SORT'
+]
+TEMPLATES_LANGUAGES = [
+    'C',
+    'C++',
+    'C#',
+    'GOLANG',
+    'JAVA',
+    'JAVASCRIPT',
+    'PHP',
+    'PYTHON',
+    'RUST',
+    'WOLFRAM'
+]
+
