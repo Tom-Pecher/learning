@@ -1,4 +1,7 @@
 
+WOLFRAM MATHEMATICA: v13.1
+Functions beginning with A
+
 AASTriangle
 AbelianGroup
 Abort
