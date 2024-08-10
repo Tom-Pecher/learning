@@ -1,5 +1,5 @@
 
-from random import choices
+from random import choice, choices
 
 
 LEARNING_TOPICS = {
@@ -31,10 +31,24 @@ LEARNING_TOPICS = {
     'WOLFRAM'        :  9,
     'YAML'           :  3
 }
-selection = choices(tuple(LEARNING_TOPICS.keys()), tuple(LEARNING_TOPICS.values()), k=1)[0]
-print(f'Your daily topic is "{selection}"!')
-print('Complete 3 sections of the W3Schools course or equivalent.')
+learning_selection = choices(tuple(LEARNING_TOPICS.keys()), tuple(LEARNING_TOPICS.values()), k=1)[0]
+print('LEARNING:')
+print(f'Your daily topic is "{learning_selection}"!')
 
+
+
+TEMPLATES_LANGUAGES = [
+    'C',
+    'C++',
+    'C#',
+    'GOLANG',
+    'JAVA',
+    'JAVASCRIPT',
+    'PHP',
+    'PYTHON',
+    'RUST',
+    'WOLFRAM'
+]
 
 DATA_STRUCTURES = [
     'ARRAYS',
@@ -63,16 +77,31 @@ SORTING_ALGORITHMS = [
     'SHELL SORT',
     'QUICK SORT'
 ]
-TEMPLATES_LANGUAGES = [
-    'C',
-    'C++',
-    'C#',
-    'GOLANG',
-    'JAVA',
-    'JAVASCRIPT',
-    'PHP',
-    'PYTHON',
-    'RUST',
-    'WOLFRAM'
+
+all_template_tasks = DATA_STRUCTURES + SEARCH_ALGORITHMS + SORTING_ALGORITHMS
+exercise_selection = choices(all_template_tasks)
+language_selection = choices(TEMPLATES_LANGUAGES)
+print('LEARNING:')
+print(f'Your daily exercise is "{exercise_selection}" in "{language_selection}"!')
+
+
+
+ML_ALGORITHMS = [
+    'ANN',
+    'AUTOENCODER',
+    'BOLTZMANN MACHINE'
+    'CNN',
+    'DBSCAN',
+    'GAN',
+    'GMM',
+    'K-MEANS CLUSTERING',
+    'KNN',
+    'PCA',
+    'RNN',
+    'TRANSFORMER'
 ]
 
+ml_exercise_selection = choices(ML_ALGORITHMS)
+language_selection = choices(TEMPLATES_LANGUAGES)
+print('LEARNING:')
+print(f'Your daily exercise is "{ml_exercise_selection}" in "{language_selection}"!')
