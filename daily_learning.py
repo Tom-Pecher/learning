@@ -31,6 +31,7 @@ LEARNING_TOPICS = {
     'WOLFRAM'        :  9,
     'YAML'           :  3
 }
+
 learning_selection = choices(tuple(LEARNING_TOPICS.keys()), tuple(LEARNING_TOPICS.values()), k=1)[0]
 print('LEARNING:')
 print(f'Your daily topic is "{learning_selection}"!')
