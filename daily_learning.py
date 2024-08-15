@@ -1,5 +1,5 @@
 
-from random import choice, choices
+from random import choices
 
 
 LEARNING_TOPICS = {
