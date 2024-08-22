@@ -1,0 +1,3047 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[    122527,       3039]
+NotebookOptionsPosition[    112232,       2867]
+NotebookOutlinePosition[    112620,       2883]
+CellTagsIndexPosition[    112577,       2880]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lesson", "Section",
+ CellChangeTimes->{{3.933044945653796*^9, 
+  3.93304494744347*^9}},ExpressionUUID->"8b259311-48ae-4ecd-8dc6-\
+ea5e4a506588"],
+
+Cell["Colours:", "CodeText",
+ CellChangeTimes->{{3.933044861803259*^9, 3.933044867017395*^9}, {
+   3.933045003450053*^9, 3.9330450087137957`*^9}, 3.933089449790792*^9, {
+   3.93317969759693*^9, 3.93317970854603*^9}, {3.933186202705182*^9, 
+   3.9331862062254*^9}, {3.933187342019389*^9, 3.9331873463539677`*^9}, {
+   3.933273569693528*^9, 3.933273577668787*^9}, {3.933273619983815*^9, 
+   3.933273627646536*^9}, {3.933273677019211*^9, 3.933273678012903*^9}, {
+   3.933275010205743*^9, 
+   3.933275011187068*^9}},ExpressionUUID->"1bfd07db-0489-4d4f-b4e1-\
+fd122b4004cc"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "Red", ",", "Green", ",", "Blue", ",", "Yellow", ",", "Orange", ",", "Pink",
+    ",", "Purple"}], "}"}]], "Input",
+ CellChangeTimes->{{3.93304484482167*^9, 3.933044849130591*^9}, {
+   3.933089402847278*^9, 3.933089406134206*^9}, 3.933179692545727*^9, {
+   3.933186192420826*^9, 3.933186193731662*^9}, 3.933187330721175*^9, 
+   3.9332735599710417`*^9, {3.933273655543584*^9, 3.933273661826927*^9}, {
+   3.933275013233555*^9, 3.933275014817527*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"f8d2a430-ab95-46ca-ba29-c508cd213514"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.5, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.5, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{3.93304485150222*^9, 3.9330894087332487`*^9, 
+  3.933179694325385*^9, 3.9331861943341017`*^9, 3.933187337754816*^9, 
+  3.933273631013673*^9, 3.9332736626374598`*^9, 3.9332750158852663`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"1c75f68b-e3c7-47bc-9cbd-da06c591aaae"]
+}, Open  ]],
+
+Cell["RGB:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.9330894481358023`*^9, {
+   3.933179717712529*^9, 3.9331797206155643`*^9}, {3.93318621665483*^9, 
+   3.933186219848651*^9}, {3.933187359861453*^9, 3.933187362453854*^9}, {
+   3.9332736707548428`*^9, 3.933273713175805*^9}, {3.9332750275165787`*^9, 
+   3.933275028075162*^9}},ExpressionUUID->"e642b81f-36cc-4e82-a2f4-\
+4f887c416eb6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RGBColor", "[", 
+  RowBox[{"0.4", ",", "0.7", ",", "0.3"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, {
+   3.933089412535061*^9, 3.933089418428152*^9}, 3.933179714171417*^9, 
+   3.93318621071139*^9, 3.933187351707911*^9, {3.9332736470384607`*^9, 
+   3.933273656704566*^9}, 3.933275024572444*^9},
+ CellLabel->"In[2]:=",ExpressionUUID->"71383e52-7b63-4a77-aefa-e5a3fea85e72"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[0.4, 0.7, 0.3]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.933044877087737*^9, 3.933089419498522*^9, 
+  3.933179715834436*^9, 3.933186222546289*^9, 3.9331873528203077`*^9, 
+  3.933273729059029*^9, 3.933275030246523*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"2dc901ab-d280-4dea-a038-afa9c9742976"]
+}, Open  ]],
+
+Cell["Hue:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+  3.933045010762053*^9, 3.933045016167248*^9}, {3.933089436370775*^9, 
+  3.933089446503499*^9}, {3.9331797435721292`*^9, 3.933179754788056*^9}, {
+  3.9331862360282717`*^9, 3.933186237362522*^9}, {3.933187382677767*^9, 
+  3.93318738662904*^9}, {3.93327372298297*^9, 3.933273723890574*^9}, {
+  3.933275058413588*^9, 
+  3.933275058839319*^9}},ExpressionUUID->"c74fa225-8583-4f63-8f0b-\
+f521f0ce3736"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Hue", "[", "0.8", "]"}]], "Input",
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, {
+   3.933089412535061*^9, 3.933089418428152*^9}, {3.9331797330858097`*^9, 
+   3.933179738019827*^9}, 3.93318622850671*^9, 3.933187372800397*^9, 
+   3.933273717824172*^9, 3.933275034586753*^9},
+ CellLabel->"In[3]:=",ExpressionUUID->"8b74de4e-8fbd-4edd-b60c-7aac71e8d117"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> Hue[0.8]|>,
+  "HueColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.933044877087737*^9, 3.933089419498522*^9, 
+  3.933179739635041*^9, 3.9331862295700817`*^9, 3.9331873736548357`*^9, 
+  3.933273727390458*^9, 3.933275054132352*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"83b6581e-52c6-44d9-9001-bbdc97f930f1"]
+}, Open  ]],
+
+Cell["Random colour:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+  3.933045010762053*^9, 3.933045016167248*^9}, {3.933089436370775*^9, 
+  3.933089446503499*^9}, {3.9331797435721292`*^9, 3.933179754788056*^9}, {
+  3.9331862360282717`*^9, 3.933186237362522*^9}, {3.933187382677767*^9, 
+  3.93318738662904*^9}, {3.93327372298297*^9, 3.933273723890574*^9}, {
+  3.933275058413588*^9, 
+  3.933275077577236*^9}},ExpressionUUID->"194a5a3a-387e-48f7-a349-\
+083b853bab96"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"RandomColor", "[", "]"}]], "Input",
+ CellChangeTimes->{{3.9332750686868362`*^9, 3.933275068687945*^9}},
+ CellLabel->"In[4]:=",ExpressionUUID->"35914cbb-2a1b-48f8-b19a-d80706d9a87d"],
+
+Cell[BoxData[
+ TemplateBox[<|
+  "color" -> RGBColor[
+    0.06465248349426966, 0.8440896164547476, 0.9411122693457117]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.9332750696228952`*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"33637e60-60e5-4120-99d0-21ace450fb2f"]
+}, Open  ]],
+
+Cell["Complement colour:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+  3.933045010762053*^9, 3.933045016167248*^9}, {3.933089436370775*^9, 
+  3.933089446503499*^9}, {3.9331797435721292`*^9, 3.933179754788056*^9}, {
+  3.9331862360282717`*^9, 3.933186237362522*^9}, {3.933187382677767*^9, 
+  3.93318738662904*^9}, {3.93327372298297*^9, 3.933273723890574*^9}, {
+  3.933275058413588*^9, 
+  3.933275091467567*^9}},ExpressionUUID->"2b1d6d6b-a97f-4883-8989-\
+83269a770bc2"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ColorNegate", "[", "Red", "]"}]], "Input",
+ CellChangeTimes->{{3.933275082098164*^9, 3.933275082099004*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"95f40e54-7e86-4818-8c6d-bc7be7ff710b"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[0., 1., 1.]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.9332750934178553`*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"22eeccb3-916b-48a9-93c2-e48a57ba90b8"]
+}, Open  ]],
+
+Cell["Blend colours:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+  3.933045010762053*^9, 3.933045016167248*^9}, {3.933089436370775*^9, 
+  3.933089446503499*^9}, {3.9331797435721292`*^9, 3.933179754788056*^9}, {
+  3.9331862360282717`*^9, 3.933186237362522*^9}, {3.933187382677767*^9, 
+  3.93318738662904*^9}, {3.93327372298297*^9, 3.933273723890574*^9}, {
+  3.933275058413588*^9, 
+  3.9332751118637342`*^9}},ExpressionUUID->"a4788a2b-ae32-43e9-ba66-\
+4a7ac5a0f4c6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", "Blue"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933275099252613*^9, 3.93327509925373*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"787f615e-247f-4041-b982-3cdb0ee0ad2e"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[
+     Rational[1, 2], 0, 
+     Rational[1, 2]]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.933275113319766*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"9dfc4f11-b913-4176-b5be-8ef5da545414"]
+}, Open  ]],
+
+Cell["Style with a size and colour:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+  3.933045010762053*^9, 3.933045016167248*^9}, {3.933089436370775*^9, 
+  3.933089446503499*^9}, {3.9331797435721292`*^9, 3.933179754788056*^9}, {
+  3.9331862360282717`*^9, 3.933186237362522*^9}, {3.933187382677767*^9, 
+  3.93318738662904*^9}, {3.93327372298297*^9, 3.933273723890574*^9}, {
+  3.933275058413588*^9, 
+  3.9332751526236467`*^9}},ExpressionUUID->"97b05019-14e0-4b03-a643-\
+b0786df18f79"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Style", "[", 
+  RowBox[{"x", ",", "20", ",", "Red"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933275121646641*^9, 3.9332751338078613`*^9}},
+ CellLabel->"In[8]:=",ExpressionUUID->"4a0b027d-cc23-4c36-b543-992a4fcf19e4"],
+
+Cell[BoxData[
+ StyleBox["x",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->20,
+  FontColor->RGBColor[1, 0, 0]]], "Output",
+ CellChangeTimes->{{3.933275123800178*^9, 3.933275134531415*^9}},
+ CellLabel->"Out[8]=",ExpressionUUID->"a4a28ad6-f92b-46a9-a68b-042db58c2552"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Section",
+ CellChangeTimes->{{3.933044963725752*^9, 
+  3.9330449795190353`*^9}},ExpressionUUID->"a1ab1e82-09ce-468e-a7d0-\
+5f91ed75a90d"],
+
+Cell["Q1. Make a list of red, yellow and green.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, 3.933045639637404*^9, {
+   3.933089544720343*^9, 3.933089556828191*^9}, 3.933179850155089*^9, 
+   3.933186285502434*^9, 3.933187554902504*^9, {3.933273757013492*^9, 
+   3.933273759221569*^9}, {3.933275173090176*^9, 
+   3.933275174239065*^9}},ExpressionUUID->"5e7af161-1d1e-4932-855b-\
+53e872d326b1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"Red", ",", "Yellow", ",", "Green"}], "}"}]], "Input",
+ CellChangeTimes->{{3.933044985463201*^9, 3.933044986750958*^9}, {
+  3.9330895601363*^9, 3.933089562755383*^9}, {3.933179852254599*^9, 
+  3.933179853366473*^9}, {3.9331862877850657`*^9, 3.9331862921617928`*^9}, {
+  3.933187556632497*^9, 3.933187562316023*^9}, {3.933273767268964*^9, 
+  3.933273772972868*^9}, {3.933275177576076*^9, 3.933275186793064*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"ca5851d7-84af-4dc7-a3e7-447455e49de9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.933044988930332*^9, 3.9330895635112047`*^9, 3.9331798539544973`*^9, 
+   3.933186292890319*^9, 3.933187562945372*^9, 3.933273773761939*^9, {
+   3.933275183581244*^9, 3.933275187404092*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"02720006-e646-410d-a56b-2aa409055a7b"]
+}, Open  ]],
+
+Cell["Q2. Make a red, yellow, green column (\[OpenCurlyDoubleQuote]traffic \
+light\[CloseCurlyDoubleQuote]).", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.933045056297317*^9}, 3.933045638646614*^9, {
+   3.933089575406213*^9, 3.933089586174968*^9}, 3.933089618736126*^9, 
+   3.933179861024324*^9, 3.9331863178248987`*^9, 3.933187570594631*^9, {
+   3.9332737816404*^9, 3.933273784639071*^9}, 
+   3.933275194729456*^9},ExpressionUUID->"0882b12f-7c20-4a42-83d8-\
+b2f422677fde"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", "Yellow", ",", "Green"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045063288123*^9, 3.9330450677902946`*^9}, {
+  3.9330895890689363`*^9, 3.933089594315775*^9}, {3.933179863134802*^9, 
+  3.9331798652901382`*^9}, {3.933186352377493*^9, 3.933186356606814*^9}, {
+  3.9331875717836657`*^9, 3.9331875774282093`*^9}, {3.933273806775219*^9, 
+  3.933273816955276*^9}, {3.933275200585161*^9, 3.933275203145224*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"1f7e8a21-3af1-4620-9d98-f0b63fcca059"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+      "RGBColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+      "RGBColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+      "RGBColorSwatchTemplate"]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{3.933045068531444*^9, 3.933089595077277*^9, 
+  3.933179865700841*^9, 3.933186357027522*^9, 3.933187578444014*^9, 
+  3.933273817767902*^9, 3.9332752042849197`*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"a0aecffd-2e0f-4675-a9df-9d112846c37c"]
+}, Open  ]],
+
+Cell["Q3. Compute the negation of the colour orange.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, 3.9332738368224363`*^9, {3.9332752137200823`*^9, 
+   3.933275215496457*^9}},ExpressionUUID->"5acbb0fa-cddc-4869-a018-\
+d599c393bee1"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ColorNegate", "[", "Orange", "]"}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.933273846237154*^9, 3.9332738632202587`*^9}, {
+  3.933273897129974*^9, 3.933273902631711*^9}, {3.9332740463093224`*^9, 
+  3.933274049175581*^9}, {3.93327522166499*^9, 3.93327522675489*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"5d7af015-e4bb-466f-bdf6-d8de373cd8e9"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[0., 0.5, 1.]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{3.93304511936385*^9, 3.933045169961187*^9, 
+  3.93309293555685*^9, 3.933179880313223*^9, 3.933186383270523*^9, 
+  3.933187606287635*^9, 3.933273864046978*^9, 3.9332739030446243`*^9, 
+  3.933274050179103*^9, 3.933275227486978*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"774eeac3-ba9e-4040-bcc1-25a8d60318ed"]
+}, Open  ]],
+
+Cell["\<\
+Q4. Make a list of colours with hues varying from 0 to 1 in steps of 0.02.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045185601613*^9, 3.933045192555925*^9}, 
+   3.933045637337912*^9, {3.933092949604866*^9, 3.9330929544290657`*^9}, 
+   3.933179895300529*^9, 3.933186393195125*^9, 3.933187619495668*^9, 
+   3.93327387533532*^9, {3.933275235272347*^9, 3.933275236219849*^9}, 
+   3.933275282627016*^9},ExpressionUUID->"a8859051-b98e-44a3-b579-\
+c3d56e57cd1e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Hue", "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"0", ",", "1", ",", "0.02"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.933045196880291*^9, 3.933045198105199*^9}, {
+  3.9330929558403273`*^9, 3.9330929615395603`*^9}, {3.9331799014291897`*^9, 
+  3.933179907683096*^9}, {3.933180475383464*^9, 3.933180475949798*^9}, {
+  3.933186407382338*^9, 3.933186411210795*^9}, {3.933187629106381*^9, 
+  3.9331876417554417`*^9}, {3.933273882751553*^9, 3.933273885385454*^9}, {
+  3.933275240876005*^9, 3.933275261654573*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"5ea1b8aa-02a1-46a1-bf8f-794e694c64e7"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> Hue[0.]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.02]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.04]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.06]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.08]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.1]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.12]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.14]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.16]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.18]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.2]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.22]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.24]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.26]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.28]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.3]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.32]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.34]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.36]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.38]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.4]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.42]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.44]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.46]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.48]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.5]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.52]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.54]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.56]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.58]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.6]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.62]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.64]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.66]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.68]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.7000000000000001]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.72]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.74]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.76]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.78]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.8]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.8200000000000001]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.84]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.86]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.88]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.9]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.92]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.9400000000000001]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.96]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[0.98]|>,
+    "HueColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> Hue[1.]|>,
+    "HueColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.933045198715712*^9, 3.933092962435878*^9, 3.933179908348542*^9, 
+   3.93318047649053*^9, 3.933186412577729*^9, 3.933187642236689*^9, 
+   3.93327388585631*^9, {3.933275252224763*^9, 3.933275262670959*^9}},
+ CellLabel->"Out[14]=",ExpressionUUID->"3be07b91-1de2-45fe-9d70-608908fa74d7"]
+}, Open  ]],
+
+Cell["\<\
+Q5. Make a list of colours with maximum red and blue, but with green varying \
+from 0 to 1 in steps of 0.05.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045203578677*^9, 3.93304522593603*^9}, 
+   3.933045635790896*^9, 3.93309298548409*^9, 3.933179919442513*^9, 
+   3.933186419723145*^9, 3.933187652915406*^9, 3.933273914763538*^9, {
+   3.933275277180876*^9, 
+   3.933275281160717*^9}},ExpressionUUID->"5bacb8c7-a53a-4a77-9045-\
+7169201206ec"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"RGBColor", "[", 
+    RowBox[{"1", ",", "#", ",", "1"}], "]"}], "&"}], "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"0", ",", "1", ",", "0.05"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9330452161959753`*^9, 3.933045222768099*^9}, {
+  3.933092990272451*^9, 3.933092994707386*^9}, {3.933179921736372*^9, 
+  3.933179932312632*^9}, {3.9331864369767933`*^9, 3.933186447973238*^9}, {
+  3.933187659056711*^9, 3.933187673907609*^9}, {3.933273919331325*^9, 
+  3.9332739284506903`*^9}, {3.93327529688512*^9, 3.9332753296718893`*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"38326284-39fd-4921-81cf-815a315319a2"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1, 0., 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.05, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.1, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.15000000000000002`, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.2, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.25, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.30000000000000004`, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.35000000000000003`, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.4, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.45, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.5, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.55, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.6000000000000001, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.65, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.7000000000000001, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.75, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.8, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.8500000000000001, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.9, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0.9500000000000001, 1]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1., 1]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.933045227819075*^9, 3.933092995158175*^9, 3.933179933117339*^9, 
+   3.933186448659341*^9, {3.933187664402978*^9, 3.933187674852688*^9}, 
+   3.933273928778553*^9, {3.9332753269953957`*^9, 3.933275329946458*^9}},
+ CellLabel->"Out[16]=",ExpressionUUID->"8cc12d4b-fcba-46ef-8bf5-e4450ca268d0"]
+}, Open  ]],
+
+Cell["Q6. Blend the colours pink and yellow.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045203578677*^9, 3.93304522593603*^9}, 
+   3.933045635790896*^9, 3.93309298548409*^9, {3.933179919442513*^9, 
+   3.933179950522543*^9}, {3.933186459312559*^9, 3.933186461254586*^9}, 
+   3.933187694466559*^9, 3.9332739425423737`*^9, 3.9332753390966463`*^9, 
+   3.933275370218625*^9},ExpressionUUID->"56b7d38b-aa0e-4e92-8716-\
+54b540714e5d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"{", 
+   RowBox[{"Pink", ",", "Yellow"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330452161959753`*^9, 3.933045222768099*^9}, {
+  3.933092990272451*^9, 3.933092994707386*^9}, {3.933179921736372*^9, 
+  3.933179932312632*^9}, {3.933180507400897*^9, 3.9331805215854263`*^9}, {
+  3.933186469087304*^9, 3.933186478724206*^9}, {3.933187113961033*^9, 
+  3.933187141516725*^9}, {3.93318770582729*^9, 3.933187713834647*^9}, {
+  3.933273952378022*^9, 3.933273960532893*^9}, {3.933275346311891*^9, 
+  3.933275367449388*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"c552233f-49e4-4283-a8b6-4ee7962ee925"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[1, 0.75, 0.25]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{
+  3.933045227819075*^9, 3.933092995158175*^9, 3.933179933117339*^9, 
+   3.9331805223965187`*^9, {3.933186476281705*^9, 3.933186479102756*^9}, 
+   3.9331871588027277`*^9, 3.933187714369171*^9, 3.933273961170517*^9, {
+   3.93327536188307*^9, 3.933275367951192*^9}},
+ CellLabel->"Out[18]=",ExpressionUUID->"5dd088ca-7f0d-479a-9ce6-6ca0cbaf296d"]
+}, Open  ]],
+
+Cell["\<\
+Q7. Make a list of colours obtained by blending yellow with hues from 0 to 1 \
+in steps of 0.05.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045203578677*^9, 3.93304522593603*^9}, 
+   3.933045635790896*^9, 3.93309298548409*^9, {3.933179919442513*^9, 
+   3.933179950522543*^9}, {3.9331800246437483`*^9, 3.933180026218544*^9}, 
+   3.933186491489092*^9, {3.933187726579035*^9, 3.933187739975668*^9}, 
+   3.9332739713886633`*^9, 3.933275384173807*^9, 
+   3.9332755193526154`*^9},ExpressionUUID->"b578ceab-39b5-492a-ba7e-\
+78f27a53f278"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Blend", "[", 
+    RowBox[{"{", 
+     RowBox[{"Yellow", ",", 
+      RowBox[{"Hue", "[", "#", "]"}]}], "}"}], "]"}], "&"}], "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"0", ",", "1", ",", "0.05"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.9330452161959753`*^9, 3.933045222768099*^9}, {
+  3.933092990272451*^9, 3.933092994707386*^9}, {3.933179921736372*^9, 
+  3.933179932312632*^9}, {3.933180042114746*^9, 3.9331800476925*^9}, {
+  3.933186509439237*^9, 3.9331865331397333`*^9}, {3.933186571465776*^9, 
+  3.9331865753666477`*^9}, {3.933187745017213*^9, 3.9331877512264*^9}, {
+  3.9332739896313457`*^9, 3.933274016164159*^9}, {3.933275395704958*^9, 
+  3.933275432923729*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"dc7f5bc8-eaf8-4803-8f88-22e3f589c946"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1., 0.5, 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.65, 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.8, 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.9500000000000001, 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.8999999999999999, 1., 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.75, 1., 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5999999999999999, 1., 0.]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 1., 0.050000000000000044`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 1., 0.20000000000000018`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 1., 0.3500000000000001]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 1., 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 0.8499999999999999, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 0.6999999999999997, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 0.5499999999999998, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.6000000000000001, 0.5, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.75, 0.5, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.9000000000000004, 0.5, 0.5]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.5, 0.44999999999999973`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.5, 0.2999999999999998]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.5, 0.1499999999999999]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1., 0.5, 0.]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.933045227819075*^9, 3.933092995158175*^9, 3.933179933117339*^9, 
+   3.933180048223353*^9, {3.93318652622665*^9, 3.9331865339006557`*^9}, 
+   3.93318657573284*^9, 3.9331877534441347`*^9, 3.933274016744499*^9, {
+   3.933275405190322*^9, 3.933275433879262*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"d88d6975-99d3-4004-8887-449affd1d295"]
+}, Open  ]],
+
+Cell["\<\
+Q8. Make a list of numbers from 0 to 1 in steps of 0.1, each with a hue equal \
+to its value. \
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, 3.933045639637404*^9, {
+   3.933089544720343*^9, 3.933089556828191*^9}, 3.933179850155089*^9, 
+   3.933186285502434*^9, 3.933187554902504*^9, {3.9331877768028517`*^9, 
+   3.933187786934906*^9}, 3.9332740397367764`*^9, 
+   3.933275474710528*^9},ExpressionUUID->"62d000ed-23c3-4378-ad5d-\
+ad5e9f37b5d4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"i", ",", 
+     RowBox[{"Hue", "[", "i", "]"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"i", ",", "0", ",", "1", ",", "0.1"}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.933044985463201*^9, 3.933044986750958*^9}, {
+  3.9330895601363*^9, 3.933089562755383*^9}, {3.933179852254599*^9, 
+  3.933179853366473*^9}, {3.9331862877850657`*^9, 3.9331862921617928`*^9}, {
+  3.933187556632497*^9, 3.933187562316023*^9}, {3.9331877892979193`*^9, 
+  3.933187793852765*^9}, {3.93327406553126*^9, 3.933274081095523*^9}, {
+  3.93327548895892*^9, 3.933275505250259*^9}},
+ CellLabel->"In[21]:=",ExpressionUUID->"35c0c4c9-2776-4e0a-a5d1-319f67edf658"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{"0.`", ",", 
+     TemplateBox[<|"color" -> Hue[0.]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.1`", ",", 
+     TemplateBox[<|"color" -> Hue[0.1]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.2`", ",", 
+     TemplateBox[<|"color" -> Hue[0.2]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.30000000000000004`", ",", 
+     TemplateBox[<|"color" -> Hue[0.30000000000000004`]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.4`", ",", 
+     TemplateBox[<|"color" -> Hue[0.4]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.5`", ",", 
+     TemplateBox[<|"color" -> Hue[0.5]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.6000000000000001`", ",", 
+     TemplateBox[<|"color" -> Hue[0.6000000000000001]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.7000000000000001`", ",", 
+     TemplateBox[<|"color" -> Hue[0.7000000000000001]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.8`", ",", 
+     TemplateBox[<|"color" -> Hue[0.8]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"0.9`", ",", 
+     TemplateBox[<|"color" -> Hue[0.9]|>,
+      "HueColorSwatchTemplate"]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"1.`", ",", 
+     TemplateBox[<|"color" -> Hue[1.]|>,
+      "HueColorSwatchTemplate"]}], "}"}]}], "}"}]], "Output",
+ CellChangeTimes->{3.933044988930332*^9, 3.9330895635112047`*^9, 
+  3.9331798539544973`*^9, 3.933186292890319*^9, 3.933187562945372*^9, 
+  3.933187794540848*^9, 3.9332740814515944`*^9, 3.9332755060137987`*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"b28e2426-4601-40d7-ae7d-d15faed8bdae"]
+}, Open  ]],
+
+Cell["Q9. Make a purple colour swatch of size 100.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.933045056297317*^9}, 3.933045638646614*^9, {
+   3.933089575406213*^9, 3.933089586174968*^9}, 3.933089618736126*^9, 
+   3.933179861024324*^9, 3.9331863178248987`*^9, 3.933187570594631*^9, {
+   3.933187807192*^9, 3.933187812099823*^9}, 3.933274103156269*^9, {
+   3.933275513498498*^9, 
+   3.93327551741339*^9}},ExpressionUUID->"7d80f318-8077-4d5e-b939-\
+9f0633d979ac"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Style", "[", 
+  RowBox[{"Purple", ",", "100"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045063288123*^9, 3.9330450677902946`*^9}, {
+  3.9330895890689363`*^9, 3.933089594315775*^9}, {3.933179863134802*^9, 
+  3.9331798652901382`*^9}, {3.933186352377493*^9, 3.933186356606814*^9}, {
+  3.9331875717836657`*^9, 3.9331875774282093`*^9}, {3.933187815143216*^9, 
+  3.933187821214715*^9}, {3.933188397689066*^9, 3.933188398066732*^9}, {
+  3.9332741220793447`*^9, 3.933274147127079*^9}, {3.933275527248535*^9, 
+  3.933275535763784*^9}},
+ CellLabel->"In[22]:=",ExpressionUUID->"b5ef318e-14c8-4681-848a-06410b063e9b"],
+
+Cell[BoxData[
+ StyleBox[
+  TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+   "RGBColorSwatchTemplate"],
+  StripOnInput->False,
+  FontSize->100]], "Output",
+ CellChangeTimes->{
+  3.933045068531444*^9, 3.933089595077277*^9, 3.933179865700841*^9, 
+   3.933186357027522*^9, 3.933187578444014*^9, 3.933187822109675*^9, 
+   3.933188398713512*^9, {3.933274137234223*^9, 3.9332741474954844`*^9}, 
+   3.9332755365050364`*^9},
+ CellLabel->"Out[22]=",ExpressionUUID->"dd7fb535-7e8c-4f2a-be96-33e72f70702d"]
+}, Open  ]],
+
+Cell["\<\
+Q10. Make a list of red swatches with sizes from 10 to 100 in steps of 10.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, {3.933187828264011*^9, 3.933187875145669*^9}, 
+   3.9332741568541117`*^9, 
+   3.933275547393962*^9},ExpressionUUID->"be5c5ba7-545a-41bc-b1e4-\
+3bb97796648e"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Style", "[", 
+    RowBox[{"Purple", ",", "#"}], "]"}], "&"}], "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"10", ",", "100", ",", "10"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.9331878597067833`*^9, 3.933187881152461*^9}, {
+  3.9332741737624407`*^9, 3.933274184007201*^9}, {3.933275593006802*^9, 
+  3.9332756031552153`*^9}},
+ CellLabel->"In[23]:=",ExpressionUUID->"e1806d47-5a59-46f1-ad8d-fbbf7ad33451"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->10], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->20], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->30], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->40], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->50], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->60], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->70], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->80], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->90], ",", 
+   StyleBox[
+    TemplateBox[<|"color" -> RGBColor[0.5, 0, 0.5]|>,
+     "RGBColorSwatchTemplate"],
+    StripOnInput->False,
+    FontSize->100]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.93309293555685*^9, 
+   3.933179880313223*^9, 3.933186383270523*^9, 3.933187606287635*^9, {
+   3.93318786308025*^9, 3.9331878816877413`*^9}, 3.933274184507391*^9, 
+   3.933275603506012*^9},
+ CellLabel->"Out[23]=",ExpressionUUID->"6a06c4c5-6526-4d7e-b5c5-9b7c43be9ea4"]
+}, Open  ]],
+
+Cell["Q11. Display the number 999 in red at size 100. ", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, {3.933187828264011*^9, 3.933187875145669*^9}, 
+   3.9332741568541117`*^9, 3.933275547393962*^9, {3.9332756218413143`*^9, 
+   3.933275636859013*^9}},ExpressionUUID->"a03d0a50-bb23-4ac1-9471-\
+fa404f7d407b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Style", "[", 
+  RowBox[{"999", ",", " ", "Red", ",", "100"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.9331878597067833`*^9, 3.933187881152461*^9}, {
+  3.9332741737624407`*^9, 3.933274184007201*^9}, {3.933275593006802*^9, 
+  3.9332756031552153`*^9}, {3.9332756439564543`*^9, 3.933275650273859*^9}},
+ CellLabel->"In[24]:=",ExpressionUUID->"89f1a189-d696-4d22-a23d-a8f97fd5ba0c"],
+
+Cell[BoxData[
+ StyleBox["999",
+  StripOnInput->False,
+  LineColor->RGBColor[1, 0, 0],
+  FrontFaceColor->RGBColor[1, 0, 0],
+  BackFaceColor->RGBColor[1, 0, 0],
+  GraphicsColor->RGBColor[1, 0, 0],
+  FontSize->100,
+  FontColor->RGBColor[1, 0, 0]]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.93309293555685*^9, 
+   3.933179880313223*^9, 3.933186383270523*^9, 3.933187606287635*^9, {
+   3.93318786308025*^9, 3.9331878816877413`*^9}, 3.933274184507391*^9, 
+   3.933275603506012*^9, 3.9332756512932653`*^9},
+ CellLabel->"Out[24]=",ExpressionUUID->"0ae46037-f8b7-4cca-90ac-07acbcbf6ef6"]
+}, Open  ]],
+
+Cell["\<\
+Q12. Make a list of the first 10 squares, in which each value is styled at \
+its size.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, {3.933187828264011*^9, 3.933187875145669*^9}, 
+   3.9332741568541117`*^9, 3.933275547393962*^9, {3.933275619509531*^9, 
+   3.933275624328474*^9}, 
+   3.9332756593060007`*^9},ExpressionUUID->"a6c66797-b401-403a-b10c-\
+58815710a5f8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Style", "[", 
+    RowBox[{"#", ",", "#"}], "]"}], "&"}], "/@", 
+  SuperscriptBox[
+   RowBox[{"Range", "[", "10", "]"}], "2"]}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.9331878597067833`*^9, 3.933187881152461*^9}, {
+  3.9332741737624407`*^9, 3.933274184007201*^9}, {3.933275593006802*^9, 
+  3.9332756031552153`*^9}, {3.933275669882069*^9, 3.933275690158956*^9}, {
+  3.9332757296727552`*^9, 3.933275759332148*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"e01eed89-b2e7-4298-aba6-ec13e6c1a7f9"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->1], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->4], ",", 
+   StyleBox["9",
+    StripOnInput->False,
+    FontSize->9], ",", 
+   StyleBox["16",
+    StripOnInput->False,
+    FontSize->16], ",", 
+   StyleBox["25",
+    StripOnInput->False,
+    FontSize->25], ",", 
+   StyleBox["36",
+    StripOnInput->False,
+    FontSize->36], ",", 
+   StyleBox["49",
+    StripOnInput->False,
+    FontSize->49], ",", 
+   StyleBox["64",
+    StripOnInput->False,
+    FontSize->64], ",", 
+   StyleBox["81",
+    StripOnInput->False,
+    FontSize->81], ",", 
+   StyleBox["100",
+    StripOnInput->False,
+    FontSize->100]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.93309293555685*^9, 
+   3.933179880313223*^9, 3.933186383270523*^9, 3.933187606287635*^9, {
+   3.93318786308025*^9, 3.9331878816877413`*^9}, 3.933274184507391*^9, 
+   3.933275603506012*^9, {3.93327572468252*^9, 3.933275761516396*^9}},
+ CellLabel->"Out[27]=",ExpressionUUID->"b5612727-9752-4b60-b456-7f898e5cbfe2"]
+}, Open  ]],
+
+Cell["\<\
+Q13. Use Part and RandomInteger to make a length-100 list in which each \
+element is randomly Red, Yellow or Green.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, {3.933187828264011*^9, 3.933187875145669*^9}, 
+   3.9332741568541117`*^9, 3.933275547393962*^9, 3.933275626120673*^9, {
+   3.9332757780250607`*^9, 
+   3.9332757792353*^9}},ExpressionUUID->"827ef42b-01da-42ec-a257-\
+f86989584672"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"{", 
+   RowBox[{"Red", ",", "Yellow", ",", "Green"}], "}"}], "[", 
+  RowBox[{"[", 
+   RowBox[{
+    RowBox[{"RandomInteger", "[", 
+     RowBox[{"2", ",", "100"}], "]"}], "+", "1"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.9331878597067833`*^9, 3.933187881152461*^9}, {
+  3.9332741737624407`*^9, 3.933274184007201*^9}, {3.933275593006802*^9, 
+  3.9332756031552153`*^9}, {3.933275798855575*^9, 3.9332758009301643`*^9}, {
+  3.9332758536271973`*^9, 3.933275893866659*^9}, {3.933275927449245*^9, 
+  3.9332759975046377`*^9}, {3.933276231039608*^9, 3.933276293676935*^9}},
+ CellLabel->"In[38]:=",ExpressionUUID->"52adc1ae-d174-439d-a577-4154180e0ca5"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 0, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[1, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1, 0]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.93309293555685*^9, 
+   3.933179880313223*^9, 3.933186383270523*^9, 3.933187606287635*^9, {
+   3.93318786308025*^9, 3.9331878816877413`*^9}, 3.933274184507391*^9, 
+   3.933275603506012*^9, 3.933275895571254*^9, {3.933275994462379*^9, 
+   3.933275998114518*^9}, {3.933276252043152*^9, 3.933276294317759*^9}},
+ CellLabel->"Out[38]=",ExpressionUUID->"14ac3f1d-19da-4a7f-be4d-a98bda43f56f"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Q14. Use Part to make a list of the first 50 digits of ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["2", "1000"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "758fe8a5-ca51-4961-8d1b-1784fbf6dc25"],
+ ", in which each digit has a size equal to 3 times its value."
+}], "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, {3.933089605540449*^9, 
+   3.93308962437987*^9}, 3.9331798750151567`*^9, 3.93318636535917*^9, 
+   3.933187587060635*^9, {3.933187828264011*^9, 3.933187875145669*^9}, 
+   3.9332741568541117`*^9, 3.933275547393962*^9, 3.933275628873576*^9, 
+   3.93327631530345*^9, {3.9332763809115963`*^9, 
+   3.9332763826073933`*^9}},ExpressionUUID->"681f32a2-41f9-4d9b-9748-\
+e28d4cce8078"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"Style", "[", 
+    RowBox[{"#", ",", 
+     RowBox[{"3", "#"}]}], "]"}], "&"}], "/@", 
+  RowBox[{
+   RowBox[{"IntegerDigits", "[", 
+    SuperscriptBox["2", "1000"], "]"}], "[", 
+   RowBox[{"[", 
+    RowBox[{";;", "50"}], "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.933092927485311*^9, 
+  3.933092934791684*^9}, {3.933179876398283*^9, 3.933179879887586*^9}, {
+  3.933186375094068*^9, 3.933186382901073*^9}, {3.933187598325057*^9, 
+  3.93318760509839*^9}, {3.9331878597067833`*^9, 3.933187881152461*^9}, {
+  3.9332741737624407`*^9, 3.933274184007201*^9}, {3.933275593006802*^9, 
+  3.9332756031552153`*^9}, {3.9332763718101797`*^9, 3.9332764196573963`*^9}},
+ CellLabel->"In[42]:=",ExpressionUUID->"00bad747-ec95-4de5-8002-89d08bb9851c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["7",
+    StripOnInput->False,
+    FontSize->21], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["5",
+    StripOnInput->False,
+    FontSize->15], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["8",
+    StripOnInput->False,
+    FontSize->24], ",", 
+   StyleBox["6",
+    StripOnInput->False,
+    FontSize->18], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["7",
+    StripOnInput->False,
+    FontSize->21], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["8",
+    StripOnInput->False,
+    FontSize->24], ",", 
+   StyleBox["6",
+    StripOnInput->False,
+    FontSize->18], ",", 
+   StyleBox["2",
+    StripOnInput->False,
+    FontSize->6], ",", 
+   StyleBox["6",
+    StripOnInput->False,
+    FontSize->18], ",", 
+   StyleBox["7",
+    StripOnInput->False,
+    FontSize->21], ",", 
+   StyleBox["3",
+    StripOnInput->False,
+    FontSize->9], ",", 
+   StyleBox["2",
+    StripOnInput->False,
+    FontSize->6], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["9",
+    StripOnInput->False,
+    FontSize->27], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->12], ",", 
+   StyleBox["8",
+    StripOnInput->False,
+    FontSize->24], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->12], ",", 
+   StyleBox["2",
+    StripOnInput->False,
+    FontSize->6], ",", 
+   StyleBox["5",
+    StripOnInput->False,
+    FontSize->15], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->12], ",", 
+   StyleBox["9",
+    StripOnInput->False,
+    FontSize->27], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["6",
+    StripOnInput->False,
+    FontSize->18], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["8",
+    StripOnInput->False,
+    FontSize->24], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["5",
+    StripOnInput->False,
+    FontSize->15], ",", 
+   StyleBox["6",
+    StripOnInput->False,
+    FontSize->18], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->12], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["4",
+    StripOnInput->False,
+    FontSize->12], ",", 
+   StyleBox["8",
+    StripOnInput->False,
+    FontSize->24], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["1",
+    StripOnInput->False,
+    FontSize->3], ",", 
+   StyleBox["7",
+    StripOnInput->False,
+    FontSize->21], ",", 
+   StyleBox["0",
+    StripOnInput->False,
+    FontSize->0], ",", 
+   StyleBox["5",
+    StripOnInput->False,
+    FontSize->15], ",", 
+   StyleBox["5",
+    StripOnInput->False,
+    FontSize->15]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.93309293555685*^9, 
+   3.933179880313223*^9, 3.933186383270523*^9, 3.933187606287635*^9, {
+   3.93318786308025*^9, 3.9331878816877413`*^9}, 3.933274184507391*^9, 
+   3.933275603506012*^9, {3.93327638419928*^9, 3.933276420275771*^9}},
+ CellLabel->"Out[42]=",ExpressionUUID->"949a9e19-d092-4885-9a6b-40d363493e32"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Extended Questions", "Section",
+ CellChangeTimes->{{3.933045572414176*^9, 
+  3.933045576505332*^9}},ExpressionUUID->"15289483-f97a-4ce9-8060-\
+d19485e93761"],
+
+Cell["\<\
++Q1. Create a column of colours with hues varying from 0 to 1 in steps of \
+0.05.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, 
+   3.933045631467128*^9, 3.93309304924282*^9, {3.933180223133634*^9, 
+   3.93318024931849*^9}, 3.9331865794094343`*^9, 3.9331880901694*^9, {
+   3.93327420521961*^9, 3.933274212519644*^9}, {3.933276454283779*^9, 
+   3.9332764594369297`*^9}},ExpressionUUID->"65988677-9616-4537-9056-\
+6a71fe34d260"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Hue", "/@", 
+   RowBox[{"Range", "[", 
+    RowBox[{"0", ",", "1", ",", "0.05"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045601648616*^9, 3.933045605875023*^9}, {
+   3.933093051132093*^9, 3.933093054976057*^9}, {3.933180224610448*^9, 
+   3.933180234152701*^9}, 3.933186585174122*^9, {3.9331880923951817`*^9, 
+   3.9331880941041107`*^9}, {3.933274222955741*^9, 3.93327423397295*^9}, {
+   3.9332764645716267`*^9, 3.9332764784749193`*^9}},
+ CellLabel->"In[43]:=",ExpressionUUID->"caf82913-b230-47a1-953c-cbf6e1f1a140"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     TemplateBox[<|"color" -> Hue[0.]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.05]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.1]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.15000000000000002`]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.2]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.25]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.30000000000000004`]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.35000000000000003`]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.4]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.45]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.5]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.55]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.6000000000000001]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.65]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.7000000000000001]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.75]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.8]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.8500000000000001]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.9]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[0.9500000000000001]|>,
+      "HueColorSwatchTemplate"]},
+    {
+     TemplateBox[<|"color" -> Hue[1.]|>,
+      "HueColorSwatchTemplate"]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{3.933045606539266*^9, 3.933093055525054*^9, 
+  3.933180234928944*^9, 3.9331865859485817`*^9, 3.9331880945226994`*^9, 
+  3.933274234565363*^9, 3.9332764789458733`*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"43ce856f-c311-46dc-9d85-d1e5b795a445"]
+}, Open  ]],
+
+Cell["\<\
++Q2. Make a list of colours varying from red to green with green components x \
+varying from 0 to 1 in steps of 0.05 and with red components 1-x. \
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045630763904*^9}, 
+   3.933093066507454*^9, {3.9331802453032618`*^9, 3.9331802485563793`*^9}, 
+   3.9331866019893427`*^9, 3.9331881037730417`*^9, 3.933274271868187*^9, 
+   3.933276486124844*^9, 
+   3.9332766670670233`*^9},ExpressionUUID->"cc87318f-58c7-41d8-8e49-\
+b1dac081d316"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"RGBColor", "[", 
+    RowBox[{
+     RowBox[{"1", "-", "#"}], ",", "#", ",", "0"}], "]"}], "&"}], "/@", 
+  RowBox[{"Range", "[", 
+   RowBox[{"0", ",", "1", ",", "0.05"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.933045646511365*^9, 3.9330456475080767`*^9}, {
+  3.933093068209293*^9, 3.933093071895693*^9}, {3.933180257394599*^9, 
+  3.93318026574537*^9}, {3.9331866124917*^9, 3.933186620825633*^9}, {
+  3.933188119735406*^9, 3.933188126693767*^9}, {3.933274293060886*^9, 
+  3.933274302346307*^9}, {3.9332764974801064`*^9, 3.933276527905301*^9}},
+ CellLabel->"In[44]:=",ExpressionUUID->"5be751e6-b90e-4894-8de2-72ebbd628fc8"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[1., 0., 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.95, 0.05, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.9, 0.1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.85, 0.15000000000000002`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.8, 0.2, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.75, 0.25, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.7, 0.30000000000000004`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[0.6499999999999999, 0.35000000000000003`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.6, 0.4, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.55, 0.45, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.5, 0.5, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.44999999999999996`, 0.55, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[0.3999999999999999, 0.6000000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.35, 0.65, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[0.29999999999999993`, 0.7000000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.25, 0.75, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.19999999999999996`, 0.8, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[0.1499999999999999, 0.8500000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0.09999999999999998, 0.9, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[0.04999999999999993, 0.9500000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0., 1., 0]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{3.933045648095525*^9, 3.933093072568637*^9, 
+  3.933180266425596*^9, 3.933186621314743*^9, 3.933188127121689*^9, 
+  3.933274302937787*^9, 3.93327652875839*^9},
+ CellLabel->"Out[44]=",ExpressionUUID->"5f5b1f59-036e-498a-adb9-8895661ceeb5"]
+}, Open  ]],
+
+Cell["\<\
++Q3. Create a list of colours with no red or blue, and with green varying \
+from 0 to 1 and back down to 0 in increments of 0.1 (the 1 should not be \
+repeated).\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.933045654828909*^9, 3.9330456668860083`*^9}, 3.933045736409889*^9, 
+   3.933093082081451*^9, 3.933180276922765*^9, 3.933186631520351*^9, {
+   3.933188136235816*^9, 3.9331881450240517`*^9}, 3.933274311211767*^9, 
+   3.933276554620142*^9, 
+   3.933276665367118*^9},ExpressionUUID->"7d0a007d-6ca9-41d6-ae41-\
+d091ee3cea9d"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"RGBColor", "[", 
+    RowBox[{"0", ",", "#", ",", "0"}], "]"}], "&"}], "/@", 
+  RowBox[{"Join", "[", 
+   RowBox[{
+    RowBox[{"Range", "[", 
+     RowBox[{"0", ",", "1", ",", "0.1"}], "]"}], ",", 
+    RowBox[{"Range", "[", 
+     RowBox[{"0.9", ",", "0", ",", 
+      RowBox[{"-", "0.1"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.933045668871724*^9, 3.933045670351816*^9}, {
+  3.9330930870089808`*^9, 3.933093095152356*^9}, {3.933180287808238*^9, 
+  3.933180334695085*^9}, {3.933186671477257*^9, 3.933186749813414*^9}, {
+  3.93318682967554*^9, 3.933186900276577*^9}, {3.9331881482665873`*^9, 
+  3.933188158821327*^9}, {3.933274322521419*^9, 3.933274337743745*^9}, {
+  3.9332765892289133`*^9, 3.9332766502688007`*^9}},
+ CellLabel->"In[46]:=",ExpressionUUID->"5bae3c17-d5e7-47c8-8545-1fb71f5cbd9c"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|"color" -> RGBColor[0, 0., 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.1, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.2, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.30000000000000004`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.4, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.5, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.6000000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.7000000000000001, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.8, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.9, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 1., 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.9, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.8, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.7, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.6, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.5, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.4, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.29999999999999993`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.19999999999999996`, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0.09999999999999998, 0]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|"color" -> RGBColor[0, 0., 0]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.933045670910715*^9, 3.933093095846922*^9, 3.933180335442196*^9, {
+   3.933186692108526*^9, 3.933186750412044*^9}, 3.9331868353726063`*^9, {
+   3.933186871131144*^9, 3.93318690777597*^9}, 3.933188159231113*^9, 
+   3.933274338299231*^9, {3.933276638645656*^9, 3.9332766511361856`*^9}},
+ CellLabel->"Out[46]=",ExpressionUUID->"c5362b30-e78e-47d0-80ea-b04701636a1a"]
+}, Open  ]],
+
+Cell["+Q4.Blend the colour red and its negation.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.933045677555182*^9, 3.933045686113638*^9}, 3.933045735838911*^9, 
+   3.933093109584738*^9, 3.933180350389103*^9, 3.933186930434984*^9, {
+   3.933188175065734*^9, 3.933188179550551*^9}, 3.933274355960226*^9, {
+   3.933276672613288*^9, 
+   3.933276675729665*^9}},ExpressionUUID->"d7e4417a-ad16-4276-9d47-\
+4826b09e2547"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", 
+    RowBox[{"ColorNegate", "[", "Red", "]"}]}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045688054871*^9, 3.933045690241729*^9}, {
+  3.933093112456822*^9, 3.9330931224739923`*^9}, {3.933180351973815*^9, 
+  3.933180360127295*^9}, {3.933186932163513*^9, 3.933186979377833*^9}, {
+  3.9331872151446047`*^9, 3.933187219977387*^9}, {3.933188184484755*^9, 
+  3.933188195808271*^9}, {3.933274358152917*^9, 3.933274361183618*^9}, {
+  3.9332766789515944`*^9, 3.933276692783595*^9}},
+ CellLabel->"In[48]:=",ExpressionUUID->"075a17da-af61-447a-bcef-97b3d36dafa7"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> RGBColor[0.5, 0.5, 0.5]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{
+  3.933045690845358*^9, 3.933093122857131*^9, 3.93318036054871*^9, {
+   3.9331869361046352`*^9, 3.93318697998638*^9}, 3.933187220413343*^9, 
+   3.933188196381888*^9, 3.9332743616612864`*^9, {3.9332766881228313`*^9, 
+   3.9332766930348473`*^9}},
+ CellLabel->"Out[48]=",ExpressionUUID->"0775af78-6ebd-4e4b-aa86-5f8b4254d8ca"]
+}, Open  ]],
+
+Cell["\<\
++Q5. Blend a list of colors with hues from 0 to 1 in increments of 0.1.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.9330457031081543`*^9, 3.933045735417865*^9}, {3.93309313244449*^9, 
+   3.9330931361654167`*^9}, 3.933180386474403*^9, {3.933186991293446*^9, 
+   3.933186993099061*^9}, {3.9331882124819937`*^9, 3.933188214857037*^9}, {
+   3.933274369268218*^9, 3.933274374752883*^9}, 
+   3.93327670236856*^9},ExpressionUUID->"fa56dab6-8ace-4845-b703-\
+47b8594792c9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"Hue", "/@", 
+   RowBox[{"Range", "[", 
+    RowBox[{"0", ",", "1", ",", "0.1"}], "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045718471546*^9, 3.93304572252605*^9}, {
+   3.933093143253422*^9, 3.9330931514809504`*^9}, 3.933180396319392*^9, {
+   3.933187000737974*^9, 3.933187017127521*^9}, {3.933187255626582*^9, 
+   3.933187256563785*^9}, {3.933188219992919*^9, 3.933188224850297*^9}, {
+   3.93327448023498*^9, 3.933274519159972*^9}, {3.9332767081060257`*^9, 
+   3.933276730749922*^9}},
+ CellLabel->"In[50]:=",ExpressionUUID->"a8d287bc-1820-497a-a49d-2c5c7642331c"],
+
+Cell[BoxData[
+ TemplateBox[<|"color" -> Hue[0.5000000000000001, 1, 1]|>,
+  "HueColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{
+  3.933187017703636*^9, 3.933187257595401*^9, 3.9331882270109167`*^9, 
+   3.933274519860876*^9, {3.933276716569344*^9, 3.933276731626692*^9}},
+ CellLabel->"Out[50]=",ExpressionUUID->"675425bf-27dd-4ad9-9142-f0ae3b3e613e"]
+}, Open  ]],
+
+Cell["\<\
++Q6. Blend the colour red with white, then blend it again with white.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.9330457031081543`*^9, 3.933045735417865*^9}, {3.93309313244449*^9, 
+   3.9330931361654167`*^9}, 3.933180386474403*^9, {3.933186991293446*^9, 
+   3.933186993099061*^9}, {3.933187065925214*^9, 3.933187072793131*^9}, {
+   3.933188238633092*^9, 3.933188240706903*^9}, 3.933274529583344*^9, {
+   3.933276738721335*^9, 
+   3.933276741544238*^9}},ExpressionUUID->"e60a5cfe-fd64-47b6-8c3a-\
+e547839aa551"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Blend", "[", 
+  RowBox[{"{", 
+   RowBox[{"Red", ",", "White", ",", "White"}], "}"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933180411855736*^9, 3.933180427635248*^9}, {
+  3.933187031344117*^9, 3.933187054781824*^9}, {3.933188242918068*^9, 
+  3.933188251664877*^9}, {3.9332745388442907`*^9, 3.9332745786148577`*^9}, {
+  3.933274668123638*^9, 3.933274668469378*^9}, {3.9332767478050127`*^9, 
+  3.9332767667685547`*^9}},
+ CellLabel->"In[53]:=",ExpressionUUID->"4c35690d-3666-4058-972d-ebfffa00b653"],
+
+Cell[BoxData[
+ TemplateBox[<|
+  "color" -> RGBColor[1., 0.6666666666666666, 0.6666666666666666]|>,
+  "RGBColorSwatchTemplate"]], "Output",
+ CellChangeTimes->{
+  3.9331804283725367`*^9, {3.933187037724737*^9, 3.933187055103087*^9}, 
+   3.933188252224434*^9, 3.933274579065336*^9, 3.93327466919954*^9, {
+   3.933276759457814*^9, 3.933276767466826*^9}},
+ CellLabel->"Out[53]=",ExpressionUUID->"304004e0-2da5-4952-bfbe-feca3646f277"]
+}, Open  ]],
+
+Cell["+Q7. Make a list of 100 random colours.", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.9330457031081543`*^9, 3.933045735417865*^9}, {3.93309313244449*^9, 
+   3.9330931361654167`*^9}, 3.933180386474403*^9, {3.933186991293446*^9, 
+   3.933186993099061*^9}, {3.933187065925214*^9, 3.933187072793131*^9}, {
+   3.933188238633092*^9, 3.933188240706903*^9}, {3.933188287247128*^9, 
+   3.933188306455697*^9}, 3.933274609858704*^9, {3.933276775106717*^9, 
+   3.933276777955122*^9}},ExpressionUUID->"b22f90be-c7c2-479e-9e41-\
+851cd5010245"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Table", "[", 
+  RowBox[{
+   RowBox[{"RandomColor", "[", "]"}], ",", "100"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933180411855736*^9, 3.933180427635248*^9}, {
+  3.933187031344117*^9, 3.933187054781824*^9}, {3.933188242918068*^9, 
+  3.933188251664877*^9}, {3.933188311768593*^9, 3.933188342962525*^9}, {
+  3.93327465374971*^9, 3.9332746720839243`*^9}, {3.9332768447659407`*^9, 
+  3.933276857997596*^9}},
+ CellLabel->"In[54]:=",ExpressionUUID->"81c8f722-7986-4251-8909-b3093783e05e"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7617536297864871, 0.48902159314598226`, 0.5665010372931478]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9954856084276624, 0.2827326962575609, 0.8273421778013295]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.3196279384931511, 0.284013835406127, 0.83730061334784]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.961636953329694, 0.878764088728202, 0.007282003344266652]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9388789045153536, 0.00924237962462926, 0.42400594469415176`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7802392354579646, 0.11688602684752536`, 0.46159494881021224`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.0484303916919786, 0.2936047580254162, 0.6857060894354181]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5086621571079359, 0.9009402266826378, 0.30990226347315875`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.21942950203104394`, 0.46923737131610443`, 0.9978483727650702]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5014751918823368, 0.7238560034777497, 0.5877947986416505]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5653266516429278, 0.049108000159287624`, 0.872170157926264]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.10931369986052086`, 0.582757658400129, 0.14274142130051914`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.15832245064687256`, 0.08121633670390871, 0.3472722302327278]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.47936416345707444`, 0.03413402240362262, 0.9633343845517452]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.44514363496131115`, 0.4584143909590028, 0.957383089766837]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.0037617840633781263`, 0.5247443422794162, 0.9455428691999466]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6866623675176502, 0.137638631981446, 0.49607333853306734`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.01619943529957335, 0.8960986768295185, 0.039401276866542156`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.18684268306178886`, 0.7867103976175376, 0.19295919496960257`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.005514934190618215, 0.3339208259009414, 0.9567147993907383]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5903066616802108, 0.8242081242423966, 0.29609470673081484`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4796355744648859, 0.004887062506636619, 0.5442057217408636]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6610650778255611, 0.7307384961434447, 0.5584145386689756]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.1640338999217439, 0.43597651116336267`, 0.5027420321759561]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.20206259832185292`, 0.1406802981879547, 0.2534077229812315]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7548196512737204, 0.3344090270630249, 0.6673573614801449]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.42027828801483125`, 0.8746287677399454, 0.04847634591181005]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7832558316382019, 0.889349442336266, 0.21694882732663845`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.26910368276584196`, 0.31440665576057736`, 0.4944699009108098]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.2412688528468372, 0.24664764037118636`, 0.9228324814172089]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8997627385152682, 0.8236081890215103, 0.3374023430781785]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9237383210356396, 0.9695786486801021, 0.6455717867538933]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.61456727339445, 0.8813607534675967, 0.35361908357153626`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.07312516164430471, 0.6807543807537304, 0.7267595946817269]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6162243137058747, 0.9560937221355115, 0.3399212312797253]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.1581240953691574, 0.8088839369029484, 0.21339722294727737`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6541320575741829, 0.28263668810260634`, 0.20863043178812335`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5926053198616255, 0.14838306800554624`, 0.7921411334879456]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7538161519195912, 0.4410532578583781, 0.49433078580500145`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.22658909110830772`, 0.5916191983782324, 0.23761503955826857`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7613623899192994, 0.8511098592035393, 0.5509986353676544]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6765950479696485, 0.793568431063211, 0.5933769798400266]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.08662087429432375, 0.6941182633067107, 0.5531117639727596]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6942737143421573, 0.7918572084914421, 0.31927785692642496`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.653598876442153, 0.7152173824842891, 0.7877441543038841]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.34984381591926406`, 0.7879891640862973, 0.6332999656203995]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.424394396950033, 0.15592415017275285`, 0.9145244009920714]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.01971731156640577, 0.1246758576826521, 0.1609286817001876]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.3042416744612344, 0.710800038800147, 0.3725986116965272]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.255406513028434, 0.45132027596687774`, 0.596249509012567]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.11180593375802839`, 0.42676537297193606`, 0.8642726759082449]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7906556291581874, 0.7254691237185316, 0.5300925032247066]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9538271074820559, 0.08620225570887352, 0.7850385430225422]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6159784520624918, 0.20342392168607404`, 0.3887677427632066]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.02609131842129364, 0.99999185576512, 0.55987417771725]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.025196212813172858`, 0.08821453250601086, 0.7084952962775675]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5327083259030856, 0.42737686384725304`, 0.34546431782084963`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7965802061249738, 0.9280227663052578, 0.15200412228379934`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8738084097137875, 0.3047437654028353, 0.26824133324132315`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8151825213594097, 0.45118254965529414`, 0.8200749371464642]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.19281527222229133`, 0.3711047962838945, 0.42429463497686215`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.46905774673906087`, 0.4486194884370094, 0.11717810567628284`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5681083779068605, 0.00029538245371374394`, 0.43819291102949176`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.46197009140258305`, 0.17344688693396515`, 0.9883486940975519]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4504438691066277, 0.5554027481603425, 0.31198766277250223`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9335480095455571, 0.2780203269111208, 0.5444836697476405]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.14159554804196506`, 0.023491002324895538`, 0.8198036958918742]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8444415850111826, 0.028601013894209215`, 0.2748000772845567]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.07769306410095944, 0.5333413387311678, 0.18115660127506472`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6798715895329679, 0.6140140923911495, 0.021323242414734267`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6818209593141467, 0.6033552043942798, 0.9282322263166212]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.966244425681295, 0.07582637475289866, 0.7103743116500736]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.2185033093255202, 0.1587132763244281, 0.3786279337898144]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9233602649965447, 0.9699797027568839, 0.5535673615969245]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.45564590591229104`, 0.9678624428637599, 0.6896578164400573]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5914546928242976, 0.5311021595281817, 0.7164101525654554]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4728839597666925, 0.283011069771989, 0.6928871872839091]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9314685814801458, 0.5512177953180175, 0.10675776673894677`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.17245967927171857`, 0.7345541638075108, 0.9078577913433075]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.43717314478210056`, 0.4740640851419562, 0.7819419145512687]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.930788200453331, 0.25710570624735674`, 0.2649336032230316]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.030175911911842768`, 0.01912027152555207, 0.6532358716331741]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.900391052607163, 0.4333534234645442, 0.018602355604957266`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.532776188243755, 0.3669845183071345, 0.5068370560123079]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.801638620993137, 0.29020066730555993`, 0.13733214555877793`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5298563367198554, 0.7666140058117275, 0.25998215653739054`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6330122859841447, 0.595061075122338, 0.6979177238971552]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.14245919410404273`, 0.43543292711085235`, 0.6408994664512693]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4601330461358286, 0.07198170222624078, 0.3122665996429199]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8031584007863146, 0.00796244039517835, 0.03096404129470831]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4893070107648727, 0.2923399904536397, 0.9731723623599828]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.8035489110052734, 0.6339554787127726, 0.5861057728938277]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.9877522687274396, 0.07029143105569191, 0.3353906960344488]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.7788963050562108, 0.03231094213633834, 0.26722031756806075`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.5144049505683121, 0.08346013584592238, 0.7129872050903687]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.1438606602827548, 0.4613192989505044, 0.16038378391323427`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.48231476229575265`, 0.47267476585780144`, 0.9559872675469734]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.6036799805677058, 0.7661268855919547, 0.3190719346638651]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.4105542838495193, 0.8694915468444044, 0.47324295385231796`]|>,
+    "RGBColorSwatchTemplate"], ",", 
+   TemplateBox[<|
+    "color" -> RGBColor[
+      0.12179577551530318`, 0.9898181747299879, 0.11679199488594727`]|>,
+    "RGBColorSwatchTemplate"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.9331804283725367`*^9, {3.933187037724737*^9, 3.933187055103087*^9}, 
+   3.933188252224434*^9, 3.933188343496097*^9, 3.933274673289217*^9, 
+   3.933276858280772*^9},
+ CellLabel->"Out[54]=",ExpressionUUID->"da758e4f-85a5-473e-b1a7-3a5c9488abfb"]
+}, Open  ]],
+
+Cell["\<\
++Q8. Make a column for each number 1 through 10, with the number rendered \
+first in red then in green. \
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.9330457031081543`*^9, 3.933045735417865*^9}, {3.93309313244449*^9, 
+   3.9330931361654167`*^9}, 3.933180386474403*^9, {3.933186991293446*^9, 
+   3.933186993099061*^9}, {3.933187065925214*^9, 3.933187072793131*^9}, {
+   3.933188238633092*^9, 3.933188240706903*^9}, {3.933188287247128*^9, 
+   3.933188306455697*^9}, 3.933274609858704*^9, {3.933274697556552*^9, 
+   3.933274719931581*^9}, 
+   3.933276864784937*^9},ExpressionUUID->"6aa08075-de03-49ef-a0f4-\
+3943646ab178"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Column", "[", 
+  RowBox[{"Riffle", "[", 
+   RowBox[{
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"i", ",", "Red"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "10"}], "}"}]}], "]"}], ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"i", ",", "Green"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "10"}], "}"}]}], "]"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933180411855736*^9, 3.933180427635248*^9}, {
+  3.933187031344117*^9, 3.933187054781824*^9}, {3.933188242918068*^9, 
+  3.933188251664877*^9}, {3.933188311768593*^9, 3.933188342962525*^9}, {
+  3.93327465374971*^9, 3.9332746720839243`*^9}, {3.933274704131535*^9, 
+  3.9332747118239727`*^9}, {3.93327689332913*^9, 3.93327696207651*^9}},
+ CellLabel->"In[59]:=",ExpressionUUID->"cea00335-e1af-4761-9d92-ff3bc90a8df9"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     StyleBox["1",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["1",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["2",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["3",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["4",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["4",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["5",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["5",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["6",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["6",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["7",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["7",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["8",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["8",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["9",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["9",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]},
+    {
+     StyleBox["10",
+      StripOnInput->False,
+      LineColor->RGBColor[1, 0, 0],
+      FrontFaceColor->RGBColor[1, 0, 0],
+      BackFaceColor->RGBColor[1, 0, 0],
+      GraphicsColor->RGBColor[1, 0, 0],
+      FontColor->RGBColor[1, 0, 0]]},
+    {
+     StyleBox["10",
+      StripOnInput->False,
+      LineColor->RGBColor[0, 1, 0],
+      FrontFaceColor->RGBColor[0, 1, 0],
+      BackFaceColor->RGBColor[0, 1, 0],
+      GraphicsColor->RGBColor[0, 1, 0],
+      FontColor->RGBColor[0, 1, 0]]}
+   },
+   DefaultBaseStyle->"Column",
+   GridBoxAlignment->{"Columns" -> {{Left}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+  "Column"]], "Output",
+ CellChangeTimes->{
+  3.9331804283725367`*^9, {3.933187037724737*^9, 3.933187055103087*^9}, 
+   3.933188252224434*^9, 3.933188343496097*^9, 3.933274673289217*^9, 
+   3.933274712839223*^9, {3.933276905812512*^9, 3.9332769623667307`*^9}},
+ CellLabel->"Out[59]=",ExpressionUUID->"4bf6a784-9959-4b5b-982e-d56fc5375420"]
+}, Open  ]],
+
+Cell["\<\
++Q9. Make columns of the numbers 1 through 10, rendered as plain, bold and \
+italic in each column.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045286272798*^9, 3.933045318006721*^9}, {
+   3.933045368732009*^9, 3.933045377536852*^9}, {3.933045545062495*^9, 
+   3.933045552087694*^9}, {3.933045582724339*^9, 3.933045598952709*^9}, {
+   3.9330457031081543`*^9, 3.933045735417865*^9}, {3.93309313244449*^9, 
+   3.9330931361654167`*^9}, 3.933180386474403*^9, {3.933186991293446*^9, 
+   3.933186993099061*^9}, {3.933187065925214*^9, 3.933187072793131*^9}, {
+   3.933188238633092*^9, 3.933188240706903*^9}, {3.933188287247128*^9, 
+   3.933188306455697*^9}, 3.933274609858704*^9, {3.933274722875949*^9, 
+   3.933274741170689*^9}, 
+   3.933276968915304*^9},ExpressionUUID->"1c94c904-0bee-49cc-be2e-\
+74850570f16c"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"Column", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"i", ",", "Red"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Column", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"i", ",", "Green"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "10"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"Column", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{"i", ",", "Blue"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", "10"}], "}"}]}], "]"}], "]"}]}], "}"}]], "Input",
+ CellChangeTimes->{{3.933180411855736*^9, 3.933180427635248*^9}, {
+  3.933187031344117*^9, 3.933187054781824*^9}, {3.933188242918068*^9, 
+  3.933188251664877*^9}, {3.933188311768593*^9, 3.933188342962525*^9}, {
+  3.93327465374971*^9, 3.9332746720839243`*^9}, {3.9332747596541224`*^9, 
+  3.933274769606902*^9}, {3.933277029297625*^9, 3.9332770762805758`*^9}},
+ CellLabel->"In[61]:=",ExpressionUUID->"59452c9f-5e82-4f61-ae26-703ee8d02705"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   TagBox[GridBox[{
+      {
+       StyleBox["1",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["2",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["3",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["4",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["5",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["6",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["7",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["8",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["9",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]},
+      {
+       StyleBox["10",
+        StripOnInput->False,
+        LineColor->RGBColor[1, 0, 0],
+        FrontFaceColor->RGBColor[1, 0, 0],
+        BackFaceColor->RGBColor[1, 0, 0],
+        GraphicsColor->RGBColor[1, 0, 0],
+        FontColor->RGBColor[1, 0, 0]]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {
+       StyleBox["1",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["2",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["3",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["4",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["5",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["6",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["7",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["8",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["9",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]},
+      {
+       StyleBox["10",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 1, 0],
+        FrontFaceColor->RGBColor[0, 1, 0],
+        BackFaceColor->RGBColor[0, 1, 0],
+        GraphicsColor->RGBColor[0, 1, 0],
+        FontColor->RGBColor[0, 1, 0]]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"], ",", 
+   TagBox[GridBox[{
+      {
+       StyleBox["1",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["2",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["3",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["4",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["5",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["6",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["7",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["8",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["9",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]},
+      {
+       StyleBox["10",
+        StripOnInput->False,
+        LineColor->RGBColor[0, 0, 1],
+        FrontFaceColor->RGBColor[0, 0, 1],
+        BackFaceColor->RGBColor[0, 0, 1],
+        GraphicsColor->RGBColor[0, 0, 1],
+        FontColor->RGBColor[0, 0, 1]]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{"Columns" -> {{Left}}},
+     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+    "Column"]}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.9331804283725367`*^9, {3.933187037724737*^9, 3.933187055103087*^9}, 
+   3.933188252224434*^9, 3.933188343496097*^9, 3.933274673289217*^9, 
+   3.933274770295845*^9, 3.9332770461686373`*^9, 3.9332770768961267`*^9},
+ CellLabel->"Out[61]=",ExpressionUUID->"62743a5e-7d30-4d0f-a684-f92ea5efe738"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{702, 852},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0b5572db-88d9-4e0a-8d30-6deeb2e2dd8d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 150, 3, 68, "Section",ExpressionUUID->"8b259311-48ae-4ecd-8dc6-ea5e4a506588"],
+Cell[733, 27, 569, 9, 38, "CodeText",ExpressionUUID->"1bfd07db-0489-4d4f-b4e1-fd122b4004cc"],
+Cell[CellGroupData[{
+Cell[1327, 40, 567, 10, 29, "Input",ExpressionUUID->"f8d2a430-ab95-46ca-ba29-c508cd213514"],
+Cell[1897, 52, 952, 20, 33, "Output",ExpressionUUID->"1c75f68b-e3c7-47bc-9cbd-da06c591aaae"]
+}, Open  ]],
+Cell[2864, 75, 474, 7, 38, "CodeText",ExpressionUUID->"e642b81f-36cc-4e82-a2f4-4f887c416eb6"],
+Cell[CellGroupData[{
+Cell[3363, 86, 439, 7, 29, "Input",ExpressionUUID->"71383e52-7b63-4a77-aefa-e5a3fea85e72"],
+Cell[3805, 95, 366, 6, 33, "Output",ExpressionUUID->"2dc901ab-d280-4dea-a038-afa9c9742976"]
+}, Open  ]],
+Cell[4186, 104, 491, 8, 38, "CodeText",ExpressionUUID->"c74fa225-8583-4f63-8f0b-f521f0ce3736"],
+Cell[CellGroupData[{
+Cell[4702, 116, 397, 6, 29, "Input",ExpressionUUID->"8b74de4e-8fbd-4edd-b60c-7aac71e8d117"],
+Cell[5102, 124, 353, 6, 33, "Output",ExpressionUUID->"83b6581e-52c6-44d9-9001-bbdc97f930f1"]
+}, Open  ]],
+Cell[5470, 133, 501, 8, 38, "CodeText",ExpressionUUID->"194a5a3a-387e-48f7-a349-083b853bab96"],
+Cell[CellGroupData[{
+Cell[5996, 145, 205, 3, 29, "Input",ExpressionUUID->"35914cbb-2a1b-48f8-b19a-d80706d9a87d"],
+Cell[6204, 150, 282, 6, 33, "Output",ExpressionUUID->"33637e60-60e5-4120-99d0-21ace450fb2f"]
+}, Open  ]],
+Cell[6501, 159, 505, 8, 38, "CodeText",ExpressionUUID->"2b1d6d6b-a97f-4883-8989-83269a770bc2"],
+Cell[CellGroupData[{
+Cell[7031, 171, 210, 3, 29, "Input",ExpressionUUID->"95f40e54-7e86-4818-8c6d-bc7be7ff710b"],
+Cell[7244, 176, 225, 4, 33, "Output",ExpressionUUID->"22eeccb3-916b-48a9-93c2-e48a57ba90b8"]
+}, Open  ]],
+Cell[7484, 183, 503, 8, 38, "CodeText",ExpressionUUID->"a4788a2b-ae32-43e9-ba66-4a7ac5a0f4c6"],
+Cell[CellGroupData[{
+Cell[8012, 195, 253, 5, 29, "Input",ExpressionUUID->"787f615e-247f-4041-b982-3cdb0ee0ad2e"],
+Cell[8268, 202, 258, 6, 33, "Output",ExpressionUUID->"9dfc4f11-b913-4176-b5be-8ef5da545414"]
+}, Open  ]],
+Cell[8541, 211, 518, 8, 38, "CodeText",ExpressionUUID->"97b05019-14e0-4b03-a643-b0786df18f79"],
+Cell[CellGroupData[{
+Cell[9084, 223, 240, 4, 29, "Input",ExpressionUUID->"4a0b027d-cc23-4c36-b543-992a4fcf19e4"],
+Cell[9327, 229, 396, 10, 42, "Output",ExpressionUUID->"a4a28ad6-f92b-46a9-a68b-042db58c2552"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9772, 245, 156, 3, 68, "Section",ExpressionUUID->"a1ab1e82-09ce-468e-a7d0-5f91ed75a90d"],
+Cell[9931, 250, 482, 7, 38, "CodeText",ExpressionUUID->"5e7af161-1d1e-4932-855b-53e872d326b1"],
+Cell[CellGroupData[{
+Cell[10438, 261, 528, 8, 29, "Input",ExpressionUUID->"ca5851d7-84af-4dc7-a3e7-447455e49de9"],
+Cell[10969, 271, 603, 13, 33, "Output",ExpressionUUID->"02720006-e646-410d-a56b-2aa409055a7b"]
+}, Open  ]],
+Cell[11587, 287, 539, 8, 38, "CodeText",ExpressionUUID->"0882b12f-7c20-4a42-83d8-b2f422677fde"],
+Cell[CellGroupData[{
+Cell[12151, 299, 570, 9, 29, "Input",ExpressionUUID->"1f7e8a21-3af1-4620-9d98-f0b63fcca059"],
+Cell[12724, 310, 747, 19, 68, "Output",ExpressionUUID->"a0aecffd-2e0f-4675-a9df-9d112846c37c"]
+}, Open  ]],
+Cell[13486, 332, 515, 7, 38, "CodeText",ExpressionUUID->"5acbb0fa-cddc-4869-a018-d599c393bee1"],
+Cell[CellGroupData[{
+Cell[14026, 343, 651, 9, 29, "Input",ExpressionUUID->"5d7af015-e4bb-466f-bdf6-d8de373cd8e9"],
+Cell[14680, 354, 432, 7, 33, "Output",ExpressionUUID->"774eeac3-ba9e-4040-bcc1-25a8d60318ed"]
+}, Open  ]],
+Cell[15127, 364, 620, 10, 38, "CodeText",ExpressionUUID->"a8859051-b98e-44a3-b579-c3d56e57cd1e"],
+Cell[CellGroupData[{
+Cell[15772, 378, 611, 10, 29, "Input",ExpressionUUID->"5ea1b8aa-02a1-46a1-bf8f-794e694c64e7"],
+Cell[16386, 390, 4369, 109, 75, "Output",ExpressionUUID->"3be07b91-1de2-45fe-9d70-608908fa74d7"]
+}, Open  ]],
+Cell[20770, 502, 605, 11, 59, "CodeText",ExpressionUUID->"5bacb8c7-a53a-4a77-9045-7169201206ec"],
+Cell[CellGroupData[{
+Cell[21400, 517, 648, 12, 29, "Input",ExpressionUUID->"38326284-39fd-4921-81cf-815a315319a2"],
+Cell[22051, 531, 2330, 49, 33, "Output",ExpressionUUID->"8cc12d4b-fcba-46ef-8bf5-e4450ca268d0"]
+}, Open  ]],
+Cell[24396, 583, 577, 8, 38, "CodeText",ExpressionUUID->"56b7d38b-aa0e-4e92-8716-54b540714e5d"],
+Cell[CellGroupData[{
+Cell[24998, 595, 647, 11, 29, "Input",ExpressionUUID->"c552233f-49e4-4283-a8b6-4ee7962ee925"],
+Cell[25648, 608, 469, 8, 33, "Output",ExpressionUUID->"5dd088ca-7f0d-479a-9ce6-6ca0cbaf296d"]
+}, Open  ]],
+Cell[26132, 619, 695, 12, 38, "CodeText",ExpressionUUID->"b578ceab-39b5-492a-ba7e-78f27a53f278"],
+Cell[CellGroupData[{
+Cell[26852, 635, 795, 16, 29, "Input",ExpressionUUID->"dc7f5bc8-eaf8-4803-8f88-22e3f589c946"],
+Cell[27650, 653, 2544, 50, 33, "Output",ExpressionUUID->"d88d6975-99d3-4004-8887-449affd1d295"]
+}, Open  ]],
+Cell[30209, 706, 545, 10, 38, "CodeText",ExpressionUUID->"62d000ed-23c3-4378-ad5d-ad5e9f37b5d4"],
+Cell[CellGroupData[{
+Cell[30779, 720, 718, 14, 29, "Input",ExpressionUUID->"35c0c4c9-2776-4e0a-a5d1-319f67edf658"],
+Cell[31500, 736, 1894, 50, 55, "Output",ExpressionUUID->"b28e2426-4601-40d7-ae7d-d15faed8bdae"]
+}, Open  ]],
+Cell[33409, 789, 529, 8, 38, "CodeText",ExpressionUUID->"7d80f318-8077-4d5e-b939-9f0633d979ac"],
+Cell[CellGroupData[{
+Cell[33963, 801, 631, 10, 29, "Input",ExpressionUUID->"b5ef318e-14c8-4681-848a-06410b063e9b"],
+Cell[34597, 813, 498, 11, 145, "Output",ExpressionUUID->"dd7fb535-7e8c-4f2a-be96-33e72f70702d"]
+}, Open  ]],
+Cell[35110, 827, 575, 10, 38, "CodeText",ExpressionUUID->"be5c5ba7-545a-41bc-b1e4-3bb97796648e"],
+Cell[CellGroupData[{
+Cell[35710, 841, 741, 14, 29, "Input",ExpressionUUID->"e1806d47-5a59-46f1-ad8d-fbbf7ad33451"],
+Cell[36454, 857, 1879, 58, 174, "Output",ExpressionUUID->"6a06c4c5-6526-4d7e-b5c5-9b7c43be9ea4"]
+}, Open  ]],
+Cell[38348, 918, 589, 8, 38, "CodeText",ExpressionUUID->"a03d0a50-bb23-4ac1-9471-fa404f7d407b"],
+Cell[CellGroupData[{
+Cell[38962, 930, 690, 10, 33, "Input",ExpressionUUID->"89f1a189-d696-4d22-a23d-a8f97fd5ba0c"],
+Cell[39655, 942, 614, 14, 143, "Output",ExpressionUUID->"0ae46037-f8b7-4cca-90ac-07acbcbf6ef6"]
+}, Open  ]],
+Cell[40284, 959, 661, 12, 38, "CodeText",ExpressionUUID->"a6c66797-b401-403a-b10c-58815710a5f8"],
+Cell[CellGroupData[{
+Cell[40970, 975, 821, 15, 29, "Input",ExpressionUUID->"e01eed89-b2e7-4298-aba6-ec13e6c1a7f9"],
+Cell[41794, 992, 1109, 38, 146, "Output",ExpressionUUID->"b5612727-9752-4b60-b456-7f898e5cbfe2"]
+}, Open  ]],
+Cell[42918, 1033, 688, 12, 59, "CodeText",ExpressionUUID->"827ef42b-01da-42ec-a257-f86989584672"],
+Cell[CellGroupData[{
+Cell[43631, 1049, 975, 17, 29, "Input",ExpressionUUID->"52adc1ae-d174-439d-a577-4154180e0ca5"],
+Cell[44609, 1068, 9106, 209, 117, "Output",ExpressionUUID->"14ac3f1d-19da-4a7f-be4d-a98bda43f56f"]
+}, Open  ]],
+Cell[53730, 1280, 892, 17, 59, "CodeText",ExpressionUUID->"681f32a2-41f9-4d9b-9748-e28d4cce8078"],
+Cell[CellGroupData[{
+Cell[54647, 1301, 881, 18, 33, "Input",ExpressionUUID->"00bad747-ec95-4de5-8002-89d08bb9851c"],
+Cell[55531, 1321, 3759, 158, 77, "Output",ExpressionUUID->"949a9e19-d092-4885-9a6b-40d363493e32"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[59339, 1485, 163, 3, 68, "Section",ExpressionUUID->"15289483-f97a-4ce9-8060-d19485e93761"],
+Cell[59505, 1490, 773, 13, 38, "CodeText",ExpressionUUID->"65988677-9616-4537-9056-6a71fe34d260"],
+Cell[CellGroupData[{
+Cell[60303, 1507, 576, 10, 29, "Input",ExpressionUUID->"caf82913-b230-47a1-953c-cbf6e1f1a140"],
+Cell[60882, 1519, 2315, 73, 395, "Output",ExpressionUUID->"43ce856f-c311-46dc-9d85-d1e5b795a445"]
+}, Open  ]],
+Cell[63212, 1595, 801, 13, 59, "CodeText",ExpressionUUID->"cc87318f-58c7-41d8-8e49-b1dac081d316"],
+Cell[CellGroupData[{
+Cell[64038, 1612, 668, 13, 29, "Input",ExpressionUUID->"5be751e6-b90e-4894-8de2-72ebbd628fc8"],
+Cell[64709, 1627, 2473, 53, 33, "Output",ExpressionUUID->"5f5b1f59-036e-498a-adb9-8895661ceeb5"]
+}, Open  ]],
+Cell[67197, 1683, 882, 15, 59, "CodeText",ExpressionUUID->"7d0a007d-6ca9-41d6-ae41-d091ee3cea9d"],
+Cell[CellGroupData[{
+Cell[68104, 1702, 851, 18, 29, "Input",ExpressionUUID->"5bae3c17-d5e7-47c8-8545-1fb71f5cbd9c"],
+Cell[68958, 1722, 2382, 50, 33, "Output",ExpressionUUID->"c5362b30-e78e-47d0-80ea-b04701636a1a"]
+}, Open  ]],
+Cell[71355, 1775, 753, 11, 38, "CodeText",ExpressionUUID->"d7e4417a-ad16-4276-9d47-4826b09e2547"],
+Cell[CellGroupData[{
+Cell[72133, 1790, 637, 11, 29, "Input",ExpressionUUID->"075a17da-af61-447a-bcef-97b3d36dafa7"],
+Cell[72773, 1803, 450, 8, 33, "Output",ExpressionUUID->"0775af78-6ebd-4e4b-aa86-5f8b4254d8ca"]
+}, Open  ]],
+Cell[73238, 1814, 820, 13, 38, "CodeText",ExpressionUUID->"fa56dab6-8ace-4845-b703-47b8594792c9"],
+Cell[CellGroupData[{
+Cell[74083, 1831, 619, 11, 29, "Input",ExpressionUUID->"a8d287bc-1820-497a-a49d-2c5c7642331c"],
+Cell[74705, 1844, 354, 6, 33, "Output",ExpressionUUID->"675425bf-27dd-4ad9-9142-f0ae3b3e613e"]
+}, Open  ]],
+Cell[75074, 1853, 867, 14, 38, "CodeText",ExpressionUUID->"e60a5cfe-fd64-47b6-8c3a-e547839aa551"],
+Cell[CellGroupData[{
+Cell[75966, 1871, 520, 9, 29, "Input",ExpressionUUID->"4c35690d-3666-4058-972d-ebfffa00b653"],
+Cell[76489, 1882, 429, 8, 33, "Output",ExpressionUUID->"304004e0-2da5-4952-bfbe-feca3646f277"]
+}, Open  ]],
+Cell[76933, 1893, 875, 12, 38, "CodeText",ExpressionUUID->"b22f90be-c7c2-479e-9e41-851cd5010245"],
+Cell[CellGroupData[{
+Cell[77833, 1909, 507, 9, 29, "Input",ExpressionUUID->"81c8f722-7986-4251-8909-b3093783e05e"],
+Cell[78343, 1920, 15391, 407, 117, "Output",ExpressionUUID->"da758e4f-85a5-473e-b1a7-3a5c9488abfb"]
+}, Open  ]],
+Cell[93749, 2330, 974, 16, 59, "CodeText",ExpressionUUID->"6aa08075-de03-49ef-a0f4-3943646ab178"],
+Cell[CellGroupData[{
+Cell[94748, 2350, 916, 21, 29, "Input",ExpressionUUID->"cea00335-e1af-4761-9d92-ff3bc90a8df9"],
+Cell[95667, 2373, 5471, 171, 357, "Output",ExpressionUUID->"4bf6a784-9959-4b5b-982e-d56fc5375420"]
+}, Open  ]],
+Cell[101153, 2547, 969, 16, 59, "CodeText",ExpressionUUID->"1c94c904-0bee-49cc-be2e-74850570f16c"],
+Cell[CellGroupData[{
+Cell[102147, 2567, 1171, 29, 71, "Input",ExpressionUUID->"59452c9f-5e82-4f61-ae26-703ee8d02705"],
+Cell[103321, 2598, 8883, 265, 185, "Output",ExpressionUUID->"62743a5e-7d30-4d0f-a684-f92ea5efe738"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
