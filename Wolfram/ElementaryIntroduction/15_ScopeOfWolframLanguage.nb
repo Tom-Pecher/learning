@@ -1,0 +1,47 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      1067,         39]
+NotebookOptionsPosition[       726,         25]
+NotebookOutlinePosition[      1114,         41]
+CellTagsIndexPosition[      1071,         38]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["Nothing noteworthy", "Subtitle",
+ CellChangeTimes->{{3.933797697935472*^9, 
+  3.933797707262417*^9}},ExpressionUUID->"992047f9-9c07-4f3d-9597-\
+ac160d9668ed"]
+},
+WindowSize->{663, 852},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"0b5572db-88d9-4e0a-8d30-6deeb2e2dd8d"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 164, 3, 53, "Subtitle",ExpressionUUID->"992047f9-9c07-4f3d-9597-ac160d9668ed"]
+}
+]
+*)
+
