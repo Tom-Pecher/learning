@@ -2,4 +2,9 @@
 # PYTHON: W3Schools - Django Tutorial
 # Section 3: Create Virutal Environment
 
-# Nothing noteworthy
+# COMMANDS:
+    # Create virtual environment:
+# python -m venv *venvname*
+
+    # Activate virtual environment:
+# source *venvname*/bin/activate

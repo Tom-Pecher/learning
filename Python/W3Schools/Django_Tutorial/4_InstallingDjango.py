@@ -2,4 +2,6 @@
 # PYTHON: W3Schools - Django Tutorial
 # Section 4: Installing Django
 
-# Nothing noteworthy
+# COMMANDS
+    # Install Django
+# python -m pip install Django
