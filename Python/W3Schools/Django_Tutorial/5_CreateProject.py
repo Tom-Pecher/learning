@@ -6,5 +6,5 @@
     # Create Project
 # django-admin startproject my_tennis_club
 
-    # Navigate to the /my_tennis_club
+    # Navigate to the my_tennis_club
 # py manage.py runserver
