@@ -1,0 +1,878 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     37847,        870]
+NotebookOptionsPosition[     32053,        767]
+NotebookOutlinePosition[     32487,        784]
+CellTagsIndexPosition[     32444,        781]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Lesson", "Section",
+ CellChangeTimes->{{3.933044945653796*^9, 
+  3.93304494744347*^9}},ExpressionUUID->"c7395808-00b9-44e7-b2b4-\
+475c364c9325"],
+
+Cell["Deploy a website:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.933089476917685*^9, {
+   3.934873318772355*^9, 3.934873322626196*^9}, {3.934988016406416*^9, 
+   3.934988026925703*^9}, {3.9351662358309593`*^9, 3.9351662404993057`*^9}, {
+   3.9355666986764383`*^9, 3.9355667041214933`*^9}, {3.935569022826268*^9, 
+   3.935569025886533*^9}},ExpressionUUID->"0cc19f9f-3051-4241-a344-\
+e7f135ebb7ae"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{
+   RowBox[{"Graphics", "[", 
+    RowBox[{"{", 
+     RowBox[{"Red", ",", 
+      RowBox[{"Disk", "[", "]"}]}], "}"}], "]"}], ",", 
+   RowBox[{"Permissions", "->", "\"\<Public\>\""}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, 
+   3.93487332484067*^9, {3.9349880059468193`*^9, 3.934988012460946*^9}, {
+   3.93516621411226*^9, 3.935166232197496*^9}, 3.935566680998637*^9, 
+   3.935568999092146*^9},
+ CellLabel->"In[1]:=",ExpressionUUID->"561f7e3f-2878-4f05-9ee6-10d35d32627b"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/158d2dc3-a612-4e6e-83ca-489265eea76f\"\
+", "https://www.wolframcloud.com/obj/158d2dc3-a612-4e6e-83ca-489265eea76f"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/158d2dc3-a612-4e6e-83ca-489265eea76f"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.933044877087737*^9, 3.9348733256342688`*^9, 
+  3.934988013372711*^9, 3.935166232632792*^9, 3.93556668560106*^9, 
+  3.935569017091278*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"476dd029-f47e-464c-b86f-6a49ccc323d7"]
+}, Open  ]],
+
+Cell["Create a short URL for the webpage:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.933089476917685*^9, {
+   3.934873318772355*^9, 3.934873340559256*^9}, {3.934988055612883*^9, 
+   3.934988070412993*^9}, {3.9351663107964363`*^9, 3.935166316272831*^9}, {
+   3.93556674761861*^9, 3.935566751923903*^9}, {3.9355691081759357`*^9, 
+   3.935569131047987*^9}},ExpressionUUID->"f0678e75-79d2-429c-a5e3-\
+f1301ca1b543"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"URLShorten", "[", 
+  RowBox[{"CloudDeploy", "[", 
+   RowBox[{
+    RowBox[{"Graphics", "[", 
+     RowBox[{"{", 
+      RowBox[{"Red", ",", 
+       RowBox[{"Disk", "[", "]"}]}], "}"}], "]"}], ",", 
+    RowBox[{"Permissions", "->", "\"\<Public\>\""}]}], "]"}], "]"}]], "Input",\
+
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, {
+   3.93487332484067*^9, 3.934873342814859*^9}, {3.934988047954281*^9, 
+   3.934988052254182*^9}, {3.935166297447146*^9, 3.935166306800384*^9}, {
+   3.9355667273565187`*^9, 3.935566734739246*^9}, 3.935569104114254*^9},
+ CellLabel->"In[2]:=",ExpressionUUID->"9e98013e-7f61-487b-8e0e-f9b1fc25187a"],
+
+Cell[BoxData["\<\"https://wolfr.am/1ptBh0FO8\"\>"], "Output",
+ CellChangeTimes->{
+  3.933044877087737*^9, {3.9348733256342688`*^9, 3.934873343482761*^9}, 
+   3.9349880526439953`*^9, 3.935166307264853*^9, 3.935566742392168*^9, 
+   3.935569111226753*^9},
+ CellLabel->"Out[2]=",ExpressionUUID->"4559e2ec-a3ee-40d6-849a-b9f17bb0915d"]
+}, Open  ]],
+
+Cell["\<\
+Use delay to evaluate the expression only when it is requested:\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.933089476917685*^9, {
+   3.934873318772355*^9, 3.934873340559256*^9}, {3.934988055612883*^9, 
+   3.934988070412993*^9}, {3.9351663107964363`*^9, 3.935166316272831*^9}, {
+   3.935166422477516*^9, 3.9351664273309593`*^9}, {3.93556677302635*^9, 
+   3.935566780396431*^9}, {3.935569159139566*^9, 
+   3.935569180504072*^9}},ExpressionUUID->"1cec3651-9067-477c-ba24-\
+e308086305bb"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Delayed", "[", 
+   RowBox[{"ClockGauge", "[", "Now", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, {
+   3.93487332484067*^9, 3.934873342814859*^9}, {3.934988047954281*^9, 
+   3.934988052254182*^9}, {3.935166297447146*^9, 3.935166306800384*^9}, {
+   3.935166431482638*^9, 3.935166435337599*^9}, 3.935566769497102*^9, {
+   3.9355691485350113`*^9, 3.9355691521305847`*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"cc31dd50-ca44-41e0-9105-4fab83a5c9fc"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/b9ece3a0-7fb4-4d87-980a-46755c1fa28e\"\
+", "https://www.wolframcloud.com/obj/b9ece3a0-7fb4-4d87-980a-46755c1fa28e"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/b9ece3a0-7fb4-4d87-980a-46755c1fa28e"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933044877087737*^9, {3.9348733256342688`*^9, 3.934873343482761*^9}, 
+   3.9349880526439953`*^9, 3.935166307264853*^9, 3.93516643577157*^9, 
+   3.93556677343397*^9, 3.935569153202754*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"96286ccf-41fa-4de8-bfbd-3b159e0882e3"]
+}, Open  ]],
+
+Cell["Deploy a page containing a single-use form:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.933089476917685*^9, {
+   3.934873318772355*^9, 3.934873322626196*^9}, {3.9348733597844973`*^9, 
+   3.934873361423085*^9}, {3.934988120974181*^9, 3.934988134880492*^9}, {
+   3.93516635596491*^9, 3.9351663590153923`*^9}, {3.9355668563609533`*^9, 
+   3.9355668624982643`*^9}, {3.935569216962339*^9, 3.9355692287974586`*^9}, {
+   3.935569282253015*^9, 
+   3.935569284297925*^9}},ExpressionUUID->"41dd3fe2-dba9-421b-95db-\
+399e482c7d12"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormFunction", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<x\>\"", "->", "\"\<Number\>\""}], ",", 
+      RowBox[{"\"\<y\>\"", "->", "\"\<Number\>\""}]}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"#x", "+", "#y"}], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330448729199553`*^9, 3.933044876628175*^9}, 
+   3.93487332484067*^9, 3.934873356065773*^9, {3.934988111588993*^9, 
+   3.93498811696567*^9}, {3.9351663355115423`*^9, 3.935166351772681*^9}, {
+   3.935566821039328*^9, 3.935566852771935*^9}, 3.935569208257431*^9},
+ CellLabel->"In[4]:=",ExpressionUUID->"59aea229-fe1b-4587-883f-077d159a6195"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/8f82e580-47ee-4307-a825-b0da2a06083f\"\
+", "https://www.wolframcloud.com/obj/8f82e580-47ee-4307-a825-b0da2a06083f"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/8f82e580-47ee-4307-a825-b0da2a06083f"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933044877087737*^9, 3.9348733256342688`*^9, 3.934988117869151*^9, {
+   3.935166347439322*^9, 3.935166352197048*^9}, {3.9355668296081963`*^9, 
+   3.935566853582588*^9}, 3.935569209529093*^9},
+ CellLabel->"Out[4]=",ExpressionUUID->"8f898d99-cdaa-41ef-9714-52550e1b09cc"]
+}, Open  ]],
+
+Cell["Deploy a page containing a reusable form:", "CodeText",
+ CellChangeTimes->{{3.933044880661512*^9, 3.9330448849037743`*^9}, {
+   3.933045010762053*^9, 3.933045016167248*^9}, 3.933089476917685*^9, {
+   3.934873318772355*^9, 3.934873322626196*^9}, {3.9348733597844973`*^9, 
+   3.934873361423085*^9}, {3.934988120974181*^9, 3.934988134880492*^9}, {
+   3.93516635596491*^9, 3.9351663590153923`*^9}, {3.9355668563609533`*^9, 
+   3.9355668624982643`*^9}, {3.935569216962339*^9, 3.9355692287974586`*^9}, {
+   3.935569282253015*^9, 
+   3.935569299545247*^9}},ExpressionUUID->"b7ce9383-9bcb-4c45-b6db-\
+fea75e37abf9"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<city\>\"", "->", "\"\<City\>\""}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"GeoGraphics", "[", "#city", "]"}], "&"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.935569275216875*^9, 3.93556927521776*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"73fd64da-37a4-4491-8cec-4f596f54ac59"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/b2491402-fe5a-4f1e-b129-21e81e488fe9\"\
+", "https://www.wolframcloud.com/obj/b2491402-fe5a-4f1e-b129-21e81e488fe9"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/b2491402-fe5a-4f1e-b129-21e81e488fe9"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.935569278955344*^9},
+ CellLabel->"Out[5]=",ExpressionUUID->"d6940771-b682-45f1-bb83-3b633c5e37c2"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Questions", "Section",
+ CellChangeTimes->{{3.933044963725752*^9, 
+  3.9330449795190353`*^9}},ExpressionUUID->"412ba78e-200d-42a7-a8a0-\
+21db1e445122"],
+
+Cell["Q1. Deploy a map of your current location to the web. ", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, 3.933045639637404*^9, 
+   3.9348735218505*^9, 3.934988504825323*^9, {3.9351667086353073`*^9, 
+   3.935166715653953*^9}, {3.935566882426754*^9, 3.935566883715104*^9}, 
+   3.935569314445806*^9},ExpressionUUID->"884f091f-7369-499f-8995-\
+ab333a48e82a"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"GeoListPlot", "[", "Here", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933044985463201*^9, 3.933044986750958*^9}, {
+  3.9348735468266973`*^9, 3.934873585530764*^9}, {3.9349885069148827`*^9, 
+  3.934988512087387*^9}, {3.934988544652212*^9, 3.934988546813466*^9}, {
+  3.935166731315803*^9, 3.935166756607051*^9}, {3.935166823735474*^9, 
+  3.93516682641851*^9}, {3.9355668969093647`*^9, 3.935566924332152*^9}, {
+  3.935569338405479*^9, 3.935569344343958*^9}, {3.935569392929907*^9, 
+  3.935569422622797*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"f4a87653-b483-4198-afd5-3e90f0620ed1"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/4bc5fbee-def6-4281-8645-33996c435bb9\"\
+", "https://www.wolframcloud.com/obj/4bc5fbee-def6-4281-8645-33996c435bb9"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/4bc5fbee-def6-4281-8645-33996c435bb9"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933044988930332*^9, 3.9348735862115803`*^9, 3.934988512711432*^9, 
+   3.9349885472410097`*^9, {3.9351667467605886`*^9, 3.935166756839134*^9}, 
+   3.935166826661065*^9, {3.9355669079270267`*^9, 3.9355669280630503`*^9}, 
+   3.935569355726367*^9, {3.9355693956173162`*^9, 3.935569424030957*^9}},
+ CellLabel->"Out[10]=",ExpressionUUID->"d7271c1f-3e08-4eda-a7c4-2adab8362cdb"]
+}, Open  ]],
+
+Cell["\<\
+Q2. Deploy to the web a map that shows the current inferred location of the \
+user.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.933045056297317*^9}, 3.933045638646614*^9, 
+   3.9348736144462852`*^9, 3.9349885599800987`*^9, {3.9351668334617157`*^9, 
+   3.935166837241722*^9}, 3.935566955184834*^9, 
+   3.9355694364400167`*^9},ExpressionUUID->"e5039219-650d-45c3-90b2-\
+144bb22f0edf"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Delayed", "[", 
+   RowBox[{"GeoListPlot", "[", "Here", "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045063288123*^9, 3.9330450677902946`*^9}, {
+  3.9348736347328777`*^9, 3.9348736426961193`*^9}, {3.934988569319585*^9, 
+  3.934988580164898*^9}, {3.935166849893873*^9, 3.935166872407914*^9}, {
+  3.9351669214851027`*^9, 3.935166924900343*^9}, {3.935566970492313*^9, 
+  3.935566978913597*^9}, {3.935569459854368*^9, 3.935569467734952*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"b902cfcb-d50a-42b8-bddb-fbd2b60ac2ad"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/9f48ddf0-85bf-4d72-a17a-0931cdf92701\"\
+", "https://www.wolframcloud.com/obj/9f48ddf0-85bf-4d72-a17a-0931cdf92701"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/9f48ddf0-85bf-4d72-a17a-0931cdf92701"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933045068531444*^9, 3.934873643284285*^9, 3.934988580789967*^9, {
+   3.935166853685094*^9, 3.935166860662538*^9}, 3.935166925622479*^9, 
+   3.935566981763256*^9, 3.935569469522168*^9},
+ CellLabel->"Out[11]=",ExpressionUUID->"8bb23cbb-4db9-4ecd-b7d7-8b715b65a8ad"]
+}, Open  ]],
+
+Cell["\<\
+Q3. Create a website that displays a new random number up to 1000 at size 100 \
+every time it is visited.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, 3.9348736522172747`*^9, 
+   3.934988610281542*^9, 3.935166938537642*^9, 3.935566990758655*^9, 
+   3.935569489409061*^9},ExpressionUUID->"8240b91a-e4f8-496e-ae27-\
+af96e84ebb48"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Style", "[", 
+   RowBox[{
+    RowBox[{"RandomInteger", "[", "1000", "]"}], ",", "100"}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.934873666030972*^9, 
+  3.934873678201981*^9}, {3.934988616906992*^9, 3.934988640876749*^9}, {
+  3.935166943649691*^9, 3.935167025457314*^9}, {3.9355669960090227`*^9, 
+  3.9355670252319202`*^9}, {3.935569496352112*^9, 3.935569518113009*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"a91aa315-ba59-4fcd-892f-5978378882de"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/1357de5b-bc56-4054-a285-74ae0d71a8c1\"\
+", "https://www.wolframcloud.com/obj/1357de5b-bc56-4054-a285-74ae0d71a8c1"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/1357de5b-bc56-4054-a285-74ae0d71a8c1"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.9348736786162786`*^9, {
+   3.934988623708673*^9, 3.9349886413641157`*^9}, 3.9351669635577183`*^9, {
+   3.93516700738764*^9, 3.93516702618563*^9}, 3.935567029623457*^9, 
+   3.93556951912359*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"aa86fa64-66c9-4c6c-967d-1117ce9c241f"]
+}, Open  ]],
+
+Cell[TextData[{
+ "Q4. Deploy a form on the web that takes a number x and returns ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["x", "x"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "681e6f22-a83b-4a01-88d0-1d1516f2dc90"],
+ "."
+}], "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045185601613*^9, 3.933045192555925*^9}, 
+   3.933045637337912*^9, 3.934873737972941*^9, 3.934988663577614*^9, {
+   3.935167045876536*^9, 3.935167052473044*^9}, 3.9355670399587793`*^9, {
+   3.9355695591509333`*^9, 
+   3.9355695765387278`*^9}},ExpressionUUID->"5796bcd5-50b9-4774-91a1-\
+592fbbb6b856"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<x\>\"", "->", "\"\<Number\>\""}], "}"}], ",", 
+    RowBox[{
+     SuperscriptBox["#x", "#x"], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045196880291*^9, 3.933045198105199*^9}, {
+  3.934873747700206*^9, 3.9348738748950663`*^9}, {3.9349886826012173`*^9, 
+  3.934988741072446*^9}, {3.935167065142014*^9, 3.935167090653668*^9}, {
+  3.935567045801861*^9, 3.935567051521566*^9}, {3.935569590809334*^9, 
+  3.93556963609164*^9}, {3.9355696974374323`*^9, 3.9355696982879*^9}, {
+  3.9355697522571363`*^9, 3.935569754960092*^9}},
+ CellLabel->"In[17]:=",ExpressionUUID->"ee43f7f5-3928-4df4-abab-dbf7cd454b3c"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/9d3078fd-cc07-4b74-91d8-49123b0c712d\"\
+", "https://www.wolframcloud.com/obj/9d3078fd-cc07-4b74-91d8-49123b0c712d"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/9d3078fd-cc07-4b74-91d8-49123b0c712d"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933045198715712*^9, {3.9348737831159477`*^9, 3.9348738357336063`*^9}, 
+   3.934873875189405*^9, {3.934988695732995*^9, 3.934988741508429*^9}, {
+   3.935167085384781*^9, 3.935167091097632*^9}, 3.9355670528361387`*^9, {
+   3.935569633262661*^9, 3.935569636644557*^9}, 3.9355697006423817`*^9, 
+   3.935569756018347*^9},
+ CellLabel->"Out[17]=",ExpressionUUID->"bac9855e-0f18-4d4a-ada3-ba6f8a8e8017"]
+}, Open  ]],
+
+Cell["\<\
+Q5. Deploy a form on the web that takes numbers x and y and computes x^y.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045203578677*^9, 3.93304522593603*^9}, 
+   3.933045635790896*^9, {3.9348738889295807`*^9, 3.934873894822279*^9}, 
+   3.9349887530205927`*^9, {3.935167112990864*^9, 3.935167134639368*^9}, 
+   3.9355670592116823`*^9, 
+   3.935569719940578*^9},ExpressionUUID->"4cc71020-7d29-49a3-bfc3-\
+646c5b5d6276"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<x\>\"", "->", "\"\<Number\>\""}], ",", 
+      RowBox[{"\"\<y\>\"", "->", "\"\<Number\>\""}]}], "}"}], ",", 
+    RowBox[{
+     SuperscriptBox["#x", "#y"], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.9330452161959753`*^9, 3.933045222768099*^9}, {
+  3.934873900676751*^9, 3.934873921441978*^9}, {3.934988776463141*^9, 
+  3.934988858570684*^9}, {3.9349888973869467`*^9, 3.934988907412059*^9}, {
+  3.935167137520204*^9, 3.9351671907315397`*^9}, {3.9351672207975082`*^9, 
+  3.935167236516075*^9}, {3.9355670926569443`*^9, 3.9355671192420273`*^9}, {
+  3.935567172899374*^9, 3.9355672507912683`*^9}, {3.935569725547677*^9, 
+  3.9355697367198143`*^9}},
+ CellLabel->"In[16]:=",ExpressionUUID->"825f280a-41e5-4362-87a6-f624fac06d17"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/768fe37f-5c14-4d89-a7ca-a83e32fce75d\"\
+", "https://www.wolframcloud.com/obj/768fe37f-5c14-4d89-a7ca-a83e32fce75d"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/768fe37f-5c14-4d89-a7ca-a83e32fce75d"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933045227819075*^9, {3.934873913783679*^9, 3.934873922514764*^9}, {
+   3.934988813133836*^9, 3.934988859704772*^9}, {3.934988898338746*^9, 
+   3.934988907725718*^9}, {3.935167195318838*^9, 3.9351672381212397`*^9}, 
+   3.935567139025793*^9, {3.935567232110333*^9, 3.935567254922086*^9}, 
+   3.935569738530273*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"ea1d7979-3ab6-4749-9fc6-e6cc0a390ffc"]
+}, Open  ]],
+
+Cell["\<\
+Q6. Deploy a form on the web that takes the topic of a Wikipedia page and \
+gives a word cloud for the page.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, 3.933045639637404*^9, 
+   3.9348735218505*^9, 3.934988504825323*^9, {3.9351667086353073`*^9, 
+   3.935166715653953*^9}, {3.935566882426754*^9, 3.935566883715104*^9}, {
+   3.935567276321248*^9, 3.935567292294859*^9}, 
+   3.9355698048484697`*^9},ExpressionUUID->"5e637688-e1a0-4e97-a2cf-\
+9e8e58d9bf1b"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<topic\>\"", "->", "\"\<String\>\""}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"WordCloud", "[", 
+      RowBox[{"WikipediaData", "[", "#topic", "]"}], "]"}], "&"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.933044985463201*^9, 3.933044986750958*^9}, {
+   3.9348735468266973`*^9, 3.934873585530764*^9}, {3.9349885069148827`*^9, 
+   3.934988512087387*^9}, {3.934988544652212*^9, 3.934988546813466*^9}, {
+   3.935166731315803*^9, 3.935166756607051*^9}, {3.935166823735474*^9, 
+   3.93516682641851*^9}, {3.9355668969093647`*^9, 3.935566924332152*^9}, {
+   3.935567311540702*^9, 3.93556746369418*^9}, 3.9355674989639606`*^9, {
+   3.935569814150735*^9, 3.935569862341021*^9}},
+ CellLabel->"In[18]:=",ExpressionUUID->"4defcab0-ff89-4e7f-b73d-bb0c530e8169"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/b12af901-0258-4e3a-ab71-3851be42dacd\"\
+", "https://www.wolframcloud.com/obj/b12af901-0258-4e3a-ab71-3851be42dacd"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/b12af901-0258-4e3a-ab71-3851be42dacd"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933044988930332*^9, 3.9348735862115803`*^9, 3.934988512711432*^9, 
+   3.9349885472410097`*^9, {3.9351667467605886`*^9, 3.935166756839134*^9}, 
+   3.935166826661065*^9, {3.9355669079270267`*^9, 3.9355669280630503`*^9}, 
+   3.935567333941124*^9, {3.93556743266903*^9, 3.9355674437493277`*^9}, {
+   3.9355674916708612`*^9, 3.9355674997288523`*^9}, 3.935569864793879*^9},
+ CellLabel->"Out[18]=",ExpressionUUID->"0dd3624e-d6fc-47b3-91a2-8105415ea60b"]
+}, Open  ]],
+
+Cell["\<\
+Q7. Deploy a form page on the web that takes a string and repeatedly gives a \
+reversed version at size 50.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.933045056297317*^9}, 3.933045638646614*^9, 
+   3.9348736144462852`*^9, 3.9349885599800987`*^9, {3.9351668334617157`*^9, 
+   3.935166837241722*^9}, 3.935566955184834*^9, 3.935567274370229*^9, 
+   3.935567509617694*^9, 
+   3.935569998830127*^9},ExpressionUUID->"477fb50a-e5ef-4eca-a1c6-\
+2993a4a1a420"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<string\>\"", "->", "\"\<String\>\""}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"Style", "[", 
+      RowBox[{
+       RowBox[{"StringReverse", "[", "#string", "]"}], ",", "50"}], "]"}], 
+     "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.935567542745812*^9, 3.935567640654717*^9}, {
+  3.935570030993452*^9, 3.9355700715996523`*^9}},
+ CellLabel->"In[20]:=",ExpressionUUID->"cd86b46f-3810-4d82-a748-00f654e67ab4"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/3852f552-8fd0-4a24-9c48-2ac7325bdf15\"\
+", "https://www.wolframcloud.com/obj/3852f552-8fd0-4a24-9c48-2ac7325bdf15"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/3852f552-8fd0-4a24-9c48-2ac7325bdf15"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{{3.935567547156415*^9, 3.9355675861940727`*^9}, {
+  3.9355676232936583`*^9, 3.93556764135809*^9}, {3.9355700662153463`*^9, 
+  3.935570072151697*^9}},
+ CellLabel->"Out[20]=",ExpressionUUID->"c69832f7-6045-43be-9d3e-9102502173d8"]
+}, Open  ]],
+
+Cell["\<\
+Q8. Deploy a form page on the web that takes an integer n and repeatedly \
+generates a picture of a polygon with random colour and n sides. \
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, 3.933045638006887*^9, 3.9348736522172747`*^9, 
+   3.934988610281542*^9, 3.935166938537642*^9, 3.935566990758655*^9, 
+   3.935567272140448*^9, 3.9355676778527927`*^9, 3.935570164920211*^9, 
+   3.935570196279687*^9},ExpressionUUID->"123216e3-5446-43a1-860b-\
+b3f219a6a4e6"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"\"\<n\>\"", "->", "\"\<Integer\>\""}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"Style", "[", 
+       RowBox[{
+        RowBox[{"RegularPolygon", "[", "#n", "]"}], ",", 
+        RowBox[{"RandomColor", "[", "]"}]}], "]"}], "]"}], "&"}]}], "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.933045091218141*^9, 3.9330451188091393`*^9}, {
+  3.9330451674076366`*^9, 3.933045169358844*^9}, {3.934873666030972*^9, 
+  3.934873678201981*^9}, {3.934988616906992*^9, 3.934988640876749*^9}, {
+  3.935166943649691*^9, 3.935167025457314*^9}, {3.9355669960090227`*^9, 
+  3.9355670252319202`*^9}, {3.935567680030766*^9, 3.935567703081843*^9}, {
+  3.935570200383361*^9, 3.935570348317094*^9}, {3.935570379368273*^9, 
+  3.935570381093512*^9}},
+ CellLabel->"In[26]:=",ExpressionUUID->"e475a856-4d60-439c-89d3-7153cd68d47f"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/58863d0c-18c5-42a9-8d69-42d90985e3e6\"\
+", "https://www.wolframcloud.com/obj/58863d0c-18c5-42a9-8d69-42d90985e3e6"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/58863d0c-18c5-42a9-8d69-42d90985e3e6"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.93304511936385*^9, 3.933045169961187*^9, 3.9348736786162786`*^9, {
+   3.934988623708673*^9, 3.9349886413641157`*^9}, 3.9351669635577183`*^9, {
+   3.93516700738764*^9, 3.93516702618563*^9}, 3.935567029623457*^9, 
+   3.9355677120527573`*^9, 3.935570251358539*^9, 3.93557034990327*^9, 
+   3.935570383343165*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"05fa7078-a0e0-43ea-9787-5b60060b9afd"]
+}, Open  ]],
+
+Cell["\<\
+Q9. Deploy a form page that takes a location and a number n and repeatedly \
+gives a map of the n nearest volcanoes to the location.\
+\>", "CodeText",
+ CellChangeTimes->{{3.933044981954609*^9, 3.9330449829879637`*^9}, {
+   3.9330450176513767`*^9, 3.9330450320914183`*^9}, {3.933045084826315*^9, 
+   3.9330450895412827`*^9}, {3.933045185601613*^9, 3.933045192555925*^9}, 
+   3.933045637337912*^9, 3.934873737972941*^9, 3.934988663577614*^9, {
+   3.935167045876536*^9, 3.935167052473044*^9}, 3.9355670399587793`*^9, 
+   3.935567269020609*^9, 3.9355677248896923`*^9, 3.9355677641822033`*^9, 
+   3.935570416571373*^9},ExpressionUUID->"e7d93b3f-b3b7-463c-8c34-\
+c7ddf1e1b4bb"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormPage", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<location\>\"", "->", "\"\<Location\>\""}], ",", 
+      RowBox[{"\"\<n\>\"", "->", "\"\<Integer\>\""}]}], "}"}], ",", 
+    RowBox[{
+     RowBox[{"GeoListPlot", "[", 
+      RowBox[{"GeoNearest", "[", 
+       RowBox[{"\"\<Volcano\>\"", ",", "#location", ",", "#n"}], "]"}], "]"}],
+      "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.933045196880291*^9, 3.933045198105199*^9}, {
+  3.934873747700206*^9, 3.9348738748950663`*^9}, {3.9349886826012173`*^9, 
+  3.934988741072446*^9}, {3.935167065142014*^9, 3.935167090653668*^9}, {
+  3.935567045801861*^9, 3.935567051521566*^9}, {3.9355677559713383`*^9, 
+  3.935567775890868*^9}, {3.93557046500487*^9, 3.935570501471192*^9}},
+ CellLabel->"In[27]:=",ExpressionUUID->"62591104-f87e-4aa1-9a12-df66f68930c9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/95f1b8dc-ede2-4156-8721-9089dfa00be2\"\
+", "https://www.wolframcloud.com/obj/95f1b8dc-ede2-4156-8721-9089dfa00be2"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/95f1b8dc-ede2-4156-8721-9089dfa00be2"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{
+  3.933045198715712*^9, {3.9348737831159477`*^9, 3.9348738357336063`*^9}, 
+   3.934873875189405*^9, {3.934988695732995*^9, 3.934988741508429*^9}, {
+   3.935167085384781*^9, 3.935167091097632*^9}, 3.9355670528361387`*^9, 
+   3.935567776504705*^9, 3.935570506027631*^9},
+ CellLabel->"Out[27]=",ExpressionUUID->"db927bb9-297c-4355-9257-6ba6db172f39"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Extended Questions", "Section",
+ CellChangeTimes->{
+  3.935570863240309*^9},ExpressionUUID->"7edd7ef4-a36a-412e-b29f-\
+b6e7f38dbf32"],
+
+Cell["\<\
++Q1. Create a website that displays a random red regular polygon with between \
+3 and 8 sides every time it is visited.\
+\>", "CodeText",
+ CellChangeTimes->{3.9355708729413157`*^9, 3.935570910949864*^9, 
+  3.9355710290334673`*^9},ExpressionUUID->"38dc6d9b-7bf9-4dd0-ad1a-\
+be9e0d7dbad4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"Delayed", "[", 
+   RowBox[{"Graphics", "[", 
+    RowBox[{"Style", "[", 
+     RowBox[{
+      RowBox[{"RegularPolygon", "[", 
+       RowBox[{"RandomInteger", "[", 
+        RowBox[{"{", 
+         RowBox[{"3", ",", "8"}], "}"}], "]"}], "]"}], ",", "Red"}], "]"}], 
+    "]"}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.935570940149321*^9, 3.935570967170075*^9}, 
+   3.935571003278528*^9},
+ CellLabel->"In[31]:=",ExpressionUUID->"6aa21f26-35e6-46e7-ae7a-56481d1a6d74"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/a5939df1-fb1d-4a21-97ee-bc23b8e26b50\"\
+", "https://www.wolframcloud.com/obj/a5939df1-fb1d-4a21-97ee-bc23b8e26b50"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/a5939df1-fb1d-4a21-97ee-bc23b8e26b50"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{3.935570969565687*^9, 3.9355710076893*^9},
+ CellLabel->"Out[31]=",ExpressionUUID->"8f0507b2-3165-4107-8426-2f5bd4d0af15"]
+}, Open  ]],
+
+Cell[TextData[{
+ "+Q2. Deploy a form on the web that takes numbers x and y given in English \
+(e.g. \[OpenCurlyDoubleQuote]eight\[CloseCurlyDoubleQuote]) and computes ",
+ Cell[BoxData[
+  FormBox[
+   SuperscriptBox["x", "y"], TraditionalForm]],
+  FormatType->TraditionalForm,ExpressionUUID->
+  "2f2f8449-7306-408f-acd0-61efaba32796"],
+ "."
+}], "CodeText",
+ CellChangeTimes->{{3.9355708729413157`*^9, 3.935570901723398*^9}, {
+  3.9355710217516603`*^9, 3.935571023306423*^9}, {3.935571062701873*^9, 
+  3.935571064283267*^9}},ExpressionUUID->"e77241fe-1598-4069-aad3-\
+7ca47215b4aa"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CloudDeploy", "[", 
+  RowBox[{"FormFunction", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"\"\<x\>\"", "->", "\"\<SemanticNumber\>\""}], ",", 
+      RowBox[{"\"\<y\>\"", "->", "\"\<SemanticNumber\>\""}]}], "}"}], ",", 
+    RowBox[{
+     SuperscriptBox["#x", "#y"], "&"}]}], "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.935571410247684*^9, 3.935571419278345*^9}},
+ CellLabel->"In[37]:=",ExpressionUUID->"d203a47d-6b21-4daf-804e-7af70a342477"],
+
+Cell[BoxData[
+ InterpretationBox[
+  RowBox[{"CloudObject", "[", 
+   TemplateBox[{
+    "\"https://www.wolframcloud.com/obj/3c569aa2-2ef1-4451-90e0-aa637fcb1706\"\
+", "https://www.wolframcloud.com/obj/3c569aa2-2ef1-4451-90e0-aa637fcb1706"},
+    "HyperlinkURL"], "]"}],
+  CloudObject[
+  "https://www.wolframcloud.com/obj/3c569aa2-2ef1-4451-90e0-aa637fcb1706"],
+  SelectWithContents->True]], "Output",
+ CellChangeTimes->{{3.935571412921545*^9, 3.935571421391704*^9}},
+ CellLabel->"Out[37]=",ExpressionUUID->"34b1de1e-c9b2-47c3-bf90-61b1220d04c6"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{675., 849.75},
+WindowMargins->{{Automatic, 0}, {0, Automatic}},
+TaggingRules-><|"TryRealOnly" -> False|>,
+FrontEndVersion->"13.1 for Linux x86 (64-bit) (June 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"93c64129-1d59-4ff9-8b8d-02b5935400c7"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 150, 3, 68, "Section",ExpressionUUID->"c7395808-00b9-44e7-b2b4-475c364c9325"],
+Cell[733, 27, 488, 7, 38, "CodeText",ExpressionUUID->"0cc19f9f-3051-4241-a344-e7f135ebb7ae"],
+Cell[CellGroupData[{
+Cell[1246, 38, 570, 12, 29, "Input",ExpressionUUID->"561f7e3f-2878-4f05-9ee6-10d35d32627b"],
+Cell[1819, 52, 634, 13, 57, "Output",ExpressionUUID->"476dd029-f47e-464c-b86f-6a49ccc323d7"]
+}, Open  ]],
+Cell[2468, 68, 501, 7, 38, "CodeText",ExpressionUUID->"f0678e75-79d2-429c-a5e3-f1301ca1b543"],
+Cell[CellGroupData[{
+Cell[2994, 79, 664, 14, 29, "Input",ExpressionUUID->"9e98013e-7f61-487b-8e0e-f9b1fc25187a"],
+Cell[3661, 95, 330, 5, 33, "Output",ExpressionUUID->"4559e2ec-a3ee-40d6-849a-b9f17bb0915d"]
+}, Open  ]],
+Cell[4006, 103, 587, 10, 38, "CodeText",ExpressionUUID->"1cec3651-9067-477c-ba24-e308086305bb"],
+Cell[CellGroupData[{
+Cell[4618, 117, 555, 9, 29, "Input",ExpressionUUID->"cc31dd50-ca44-41e0-9105-4fab83a5c9fc"],
+Cell[5176, 128, 686, 14, 57, "Output",ExpressionUUID->"96286ccf-41fa-4de8-bfbd-3b159e0882e3"]
+}, Open  ]],
+Cell[5877, 145, 615, 9, 38, "CodeText",ExpressionUUID->"41dd3fe2-dba9-421b-95db-399e482c7d12"],
+Cell[CellGroupData[{
+Cell[6517, 158, 686, 14, 29, "Input",ExpressionUUID->"59aea229-fe1b-4587-883f-077d159a6195"],
+Cell[7206, 174, 690, 14, 57, "Output",ExpressionUUID->"8f898d99-cdaa-41ef-9714-52550e1b09cc"]
+}, Open  ]],
+Cell[7911, 191, 613, 9, 38, "CodeText",ExpressionUUID->"b7ce9383-9bcb-4c45-b6db-fea75e37abf9"],
+Cell[CellGroupData[{
+Cell[8549, 204, 408, 10, 29, "Input",ExpressionUUID->"73fd64da-37a4-4491-8cec-4f596f54ac59"],
+Cell[8960, 216, 517, 11, 57, "Output",ExpressionUUID->"d6940771-b682-45f1-bb83-3b633c5e37c2"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9526, 233, 156, 3, 68, "Section",ExpressionUUID->"412ba78e-200d-42a7-a8a0-21db1e445122"],
+Cell[9685, 238, 445, 6, 38, "CodeText",ExpressionUUID->"884f091f-7369-499f-8995-ab333a48e82a"],
+Cell[CellGroupData[{
+Cell[10155, 248, 641, 10, 29, "Input",ExpressionUUID->"f4a87653-b483-4198-afd5-3e90f0620ed1"],
+Cell[10799, 260, 793, 15, 57, "Output",ExpressionUUID->"d7271c1f-3e08-4eda-a7c4-2adab8362cdb"]
+}, Open  ]],
+Cell[11607, 278, 464, 9, 38, "CodeText",ExpressionUUID->"e5039219-650d-45c3-90b2-144bb22f0edf"],
+Cell[CellGroupData[{
+Cell[12096, 291, 581, 9, 29, "Input",ExpressionUUID->"b902cfcb-d50a-42b8-bddb-fbd2b60ac2ad"],
+Cell[12680, 302, 685, 14, 57, "Output",ExpressionUUID->"8bb23cbb-4db9-4ecd-b7d7-8b715b65a8ad"]
+}, Open  ]],
+Cell[13380, 319, 506, 9, 59, "CodeText",ExpressionUUID->"8240b91a-e4f8-496e-ae27-af96e84ebb48"],
+Cell[CellGroupData[{
+Cell[13911, 332, 611, 11, 29, "Input",ExpressionUUID->"a91aa315-ba59-4fcd-892f-5978378882de"],
+Cell[14525, 345, 737, 15, 57, "Output",ExpressionUUID->"aa86fa64-66c9-4c6c-967d-1117ce9c241f"]
+}, Open  ]],
+Cell[15277, 363, 747, 16, 38, "CodeText",ExpressionUUID->"5796bcd5-50b9-4774-91a1-592fbbb6b856"],
+Cell[CellGroupData[{
+Cell[16049, 383, 732, 14, 32, "Input",ExpressionUUID->"ee43f7f5-3928-4df4-abab-dbf7cd454b3c"],
+Cell[16784, 399, 817, 16, 57, "Output",ExpressionUUID->"bac9855e-0f18-4d4a-ada3-ba6f8a8e8017"]
+}, Open  ]],
+Cell[17616, 418, 579, 10, 38, "CodeText",ExpressionUUID->"4cc71020-7d29-49a3-bfc3-646c5b5d6276"],
+Cell[CellGroupData[{
+Cell[18220, 432, 868, 17, 32, "Input",ExpressionUUID->"825f280a-41e5-4362-87a6-f624fac06d17"],
+Cell[19091, 451, 813, 16, 57, "Output",ExpressionUUID->"ea1d7979-3ab6-4749-9fc6-e6cc0a390ffc"]
+}, Open  ]],
+Cell[19919, 470, 559, 10, 59, "CodeText",ExpressionUUID->"5e637688-e1a0-4e97-a2cf-9e8e58d9bf1b"],
+Cell[CellGroupData[{
+Cell[20503, 484, 876, 17, 51, "Input",ExpressionUUID->"4defcab0-ff89-4e7f-b73d-bb0c530e8169"],
+Cell[21382, 503, 868, 16, 57, "Output",ExpressionUUID->"0dd3624e-d6fc-47b3-91a2-8105415ea60b"]
+}, Open  ]],
+Cell[22265, 522, 534, 10, 59, "CodeText",ExpressionUUID->"477fb50a-e5ef-4eca-a1c6-2993a4a1a420"],
+Cell[CellGroupData[{
+Cell[22824, 536, 537, 13, 51, "Input",ExpressionUUID->"cd86b46f-3810-4d82-a748-00f654e67ab4"],
+Cell[23364, 551, 645, 13, 57, "Output",ExpressionUUID->"c69832f7-6045-43be-9d3e-9102502173d8"]
+}, Open  ]],
+Cell[24024, 567, 613, 10, 59, "CodeText",ExpressionUUID->"123216e3-5446-43a1-860b-b3f219a6a4e6"],
+Cell[CellGroupData[{
+Cell[24662, 581, 948, 20, 51, "Input",ExpressionUUID->"e475a856-4d60-439c-89d3-7153cd68d47f"],
+Cell[25613, 603, 809, 16, 57, "Output",ExpressionUUID->"05fa7078-a0e0-43ea-9787-5b60060b9afd"]
+}, Open  ]],
+Cell[26437, 622, 681, 11, 59, "CodeText",ExpressionUUID->"e7d93b3f-b3b7-463c-8c34-c7ddf1e1b4bb"],
+Cell[CellGroupData[{
+Cell[27143, 637, 889, 18, 51, "Input",ExpressionUUID->"62591104-f87e-4aa1-9a12-df66f68930c9"],
+Cell[28035, 657, 765, 15, 57, "Output",ExpressionUUID->"db927bb9-297c-4355-9257-6ba6db172f39"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[28849, 678, 139, 3, 68, "Section",ExpressionUUID->"7edd7ef4-a36a-412e-b29f-b6e7f38dbf32"],
+Cell[28991, 683, 297, 6, 59, "CodeText",ExpressionUUID->"38dc6d9b-7bf9-4dd0-ad1a-be9e0d7dbad4"],
+Cell[CellGroupData[{
+Cell[29313, 693, 521, 13, 51, "Input",ExpressionUUID->"6aa21f26-35e6-46e7-ae7a-56481d1a6d74"],
+Cell[29837, 708, 538, 11, 57, "Output",ExpressionUUID->"8f0507b2-3165-4107-8426-2f5bd4d0af15"]
+}, Open  ]],
+Cell[30390, 722, 579, 13, 59, "CodeText",ExpressionUUID->"e77241fe-1598-4069-aad3-7ca47215b4aa"],
+Cell[CellGroupData[{
+Cell[30994, 739, 486, 11, 54, "Input",ExpressionUUID->"d203a47d-6b21-4daf-804e-7af70a342477"],
+Cell[31483, 752, 542, 11, 80, "Output",ExpressionUUID->"34b1de1e-c9b2-47c3-bf90-61b1220d04c6"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
