@@ -1,5 +1,5 @@
 
 # GIT: W3Schools - Main Tutorial
-# Section 0: Home Page
+## Section 0: Home Page
 
-# Nothing noteworthy
+### Nothing noteworthy
