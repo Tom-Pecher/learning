@@ -4,7 +4,4 @@
 
 ### Basic Git Commands:
 | Command | Action |
-| git fetch origin | fetch updates from remote repo |
-| git log origin/master | display log for branch |
-| git diff origin/master | show differences between branches |
-| git pull origin | fetch and merge changes from remote to local repo |
+| git push origin | push changes to remote repo |
