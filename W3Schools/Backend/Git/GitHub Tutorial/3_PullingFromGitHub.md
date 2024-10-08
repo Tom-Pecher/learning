@@ -4,4 +4,4 @@
 
 ### Basic Git Commands:
 | Command | Action |
-| git push origin | push changes to remote repo |
+| git pull origin | pull changes from remote repo |
