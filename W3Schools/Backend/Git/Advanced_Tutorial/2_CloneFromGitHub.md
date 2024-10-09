@@ -1,6 +1,6 @@
 
 # GIT: W3Schools - Advanced Tutorial
-## Section 2: Git Clone from GitHub
+## Section 2: Clone from GitHub
 
 ### Basic Git Commands:
 | Command | Action |
