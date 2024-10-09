@@ -19,7 +19,7 @@
 | ASP | - |
 | Node.js | - |
 | Raspberry Pi | - |
-| Git | 2/27 |
+| Git | 27/27 |
 | MongoDB | - |
 | AWS Cloud | - |
 | XML | - |
