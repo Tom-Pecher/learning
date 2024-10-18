@@ -1,0 +1,48 @@
+
+<!-- HTML: W3Schools - Main Tutorial -->
+<!-- Section 14: Links -->
+
+<!-- Links -->
+<!DOCTYPE html>
+
+    <!-- 
+        Links are found in nearly all web pages. 
+        Links allow users to click their way from page to page.
+     -->
+
+    <!-- The HTML <a> tag defines a hyperlink. It has the following syntax: -->
+<a href="https://www.w3schools.com/">Visit W3Schools.com!</a> 
+
+</html>
+
+<!-- 
+    By default, the linked page will be displayed in the current browser window. 
+    To change this we msut specify the target window:
+    The target attribute can have one of the following values:
+
+_self: Default. Opens the document in the same window/tab as it was clicked
+_blank: Opens the document in a new window or tab
+_parent: Opens the document in the parent frame
+_top: Opens the document in the full body of the window
+ -->
+
+    <!-- A local link (a link to a page within the same website) is specified with a relative URL (without the "https://www" part): -->
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+
+    <!-- Image as a link: -->
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a> 
+
+    <!-- Link to email address (to send email): -->
+<a href="mailto:someone@example.com">Send email</a>
+
+    <!-- Use button as link (must use JavaScript to implement what happens when button is pressed): -->
+<button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+    <!-- Title as hyperlink: -->
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
