@@ -2,7 +2,7 @@
 <!-- HTML: W3Schools - Main Tutorial -->
 <!-- Section 14: Links -->
 
-<!-- Links -->
+<!-- LINKS -->
 <!DOCTYPE html>
 
     <!-- 
@@ -46,3 +46,59 @@ _top: Opens the document in the full body of the window
 
     <!-- Title as hyperlink: -->
 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a> 
+
+<!-- LINK COLOUR -->
+    <!-- One can customize link colours using CSS: -->
+<style>
+    a:link {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: yellow;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+</style> 
+
+    <!-- A link can also be styled as a button using CSS: -->
+<style>
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      padding: 15px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: red;
+    }
+</style>
+
+<!-- BOOKMARKS -->
+<!-- HTML links can be used to create bookmarks, so that readers can jump to specific parts of a web page. -->
+
+    <!-- Use the id attribute to create a bookmark: -->
+<h2 id="C4">Chapter 4</h2>
+
+    <!-- The link to the bookmark: -->
+<a href="#C4">Jump to Chapter 4</a> 
+
+    <!-- Or even to bookmarks from other pages: -->
+<a href="html_demo.html#C4">Jump to Chapter 4</a>
