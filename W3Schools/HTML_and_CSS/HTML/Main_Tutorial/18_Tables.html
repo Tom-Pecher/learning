@@ -1,0 +1,69 @@
+
+<!-- HTML: W3Schools - Main Tutorial -->
+
+
+<!-- Style your table: -->
+<style>
+  table, th, td {
+    /* Border */
+    border: 1px solid black;
+    border-radius: 10px;
+
+    /* Alignment */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+
+    /* Colour */
+    tr:hover {background-color: red;}
+  }
+</style>
+
+<!-- The table is denoted like so: -->
+<table style="width:100%">
+  <!-- Each row is denoted by <tr>: -->
+  <tr>
+    <!-- Each header is denoted by <th>: -->
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <!-- Each cell is denoted by <td>: -->
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+
+<table>
+  <!-- The colgroup object is used to style specific columns: -->
+  <colgroup>
+    <col span="2" style="background-color: #31cccc">
+    <col span="3" style="background-color: pink">
+  </colgroup>
+  <tr>
+    <!-- We can make a header span multiple columns like so: -->
+    <th colspan="2" rowspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table> 
+
+</body>
+</html> 
