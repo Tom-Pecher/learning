@@ -1,0 +1,57 @@
+
+<!-- HTML: W3Schools - Main Tutorial -->
+<!-- Section 29: Responsiveness -->
+
+<!-- RESPONSIVENESS -->
+<!-- A responsive web design will automatically adjust for different screen sizes and viewports. -->
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Page Title</title>
+</head>
+
+<body>
+
+<!-- If the CSS width property is set to 100%, the image will be responsive and scale up and down: -->
+<img src="potato.jpg" style="width:100%;"> 
+
+<!-- However, this might scale the image beyond its original size. To limit this, use max-width: -->
+<img src="img_girl.jpg" style="max-width:100%;height:auto;"> 
+
+<!-- The picture objects allows one to select the image based on the screen size: -->
+<!-- 
+<picture>
+  <source srcset="img_smallflower.jpg" media="(max-width: 600px)">
+  <source srcset="img_flowers.jpg" media="(max-width: 1500px)">
+  <source srcset="flowers.jpg">
+  <img src="img_smallflower.jpg" alt="Flowers">
+</picture>
+ -->
+
+<!-- Text size can be set with a "vw" unit, which means the "viewport width": -->
+<h1 style="font-size:10vw">Hello World</h1> 
+
+<!-- With media queries you can define completely different styles for different browser sizes: -->
+<style>
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+</style> 
+
+</body>
+</html> 
