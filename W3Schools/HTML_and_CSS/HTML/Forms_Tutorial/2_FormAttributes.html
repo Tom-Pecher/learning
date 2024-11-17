@@ -1,0 +1,45 @@
+
+<!-- HTML: W3Schools - Main Tutorial -->
+<!-- Section 2: Form Attributes -->
+
+<!-- ATTRIBUTES -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- The action attribute defines the action to be performed when the form is submitted: -->
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+</form> 
+
+<!-- The method attribute specifies the HTTP method to be used when submitting the form data: -->
+<form action="/action_page.php" method="get"> 
+<!-- 
+    Notes on GET:
+     - Appends the form data to the URL, in name/value pairs
+     - NEVER use GET to send sensitive data! (the submitted form data is visible in the URL!)
+     - The length of a URL is limited (2048 characters)
+     - Useful for form submissions where a user wants to bookmark the result
+     - GET is good for non-secure data, like query strings in Google
+
+    Notes on POST:
+     - Appends the form data inside the body of the HTTP request (the submitted form data is not shown in the URL)
+     - POST has no size limitations, and can be used to send large amounts of data.
+     - Form submissions with POST cannot be bookmarked
+ -->
+
+<!-- The autocomplete attribute specifies if values should be autocompleted based on previously entered information: -->
+<form action="/action_page.php" autocomplete="on">
+
+<!-- The novalidate attribute specifies if the entered data should be validated: -->
+<form action="/action_page.php" novalidate> 
+
+</body>
+</html> 
