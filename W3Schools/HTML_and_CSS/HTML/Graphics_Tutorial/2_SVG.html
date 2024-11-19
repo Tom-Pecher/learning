@@ -1,0 +1,42 @@
+
+<!-- HTML: W3Schools - Graphics Tutorial -->
+<!-- Section 2: SVG -->
+
+<!-- SVG -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!--
+    SVG (Scalable Vector Graphics) defines vector-based graphics in XML, which can be directly embedded in HTML pages.
+    SVG graphics are scalable, and do not lose any quality if they are zoomed or resized.
+ -->
+
+<!-- Draw a circle: -->
+<svg width="100" height="100">
+    <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+</svg>
+
+<!-- Draw a rectangle: -->
+<svg width="400" height="120">
+    <rect x="10" y="10" width="200" height="100" stroke="red" stroke-width="6" fill="blue" />
+</svg>
+
+<!-- Draw gradient elipse: -->
+<svg height="130" width="500">
+    <defs>
+        <linearGradient id="grad1">
+            <stop offset="0%" stop-color="yellow" />
+            <stop offset="100%" stop-color="red" />
+        </linearGradient>
+    </defs>
+    <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+    <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+    Sorry, your browser does not support inline SVG.
+</svg>
+
+</body>
+</html> 
