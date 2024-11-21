@@ -1,0 +1,31 @@
+
+<!-- HTML: W3Schools - Media Tutorial -->
+<!-- Section 2: Videos -->
+
+<!-- VIDEOS -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- The HTML <video> element is used to show a video on a web page. -->
+    <!-- 
+        The controls attribute adds video controls, like play, pause, and volume.
+        The autoplay attribute automatically starts playing the video when the page loads.
+        The muted attribute mutes the video:
+     -->
+<video width="320" height="240" controls autoplay muted>
+    <!-- 
+        The <source> element allows you to specify alternative video files which the browser may choose from. 
+        The browser will use the first recognized format:
+     -->
+    <source src="movie.mp4" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+<!-- The text between the <video> and </video> tags will only be displayed in browsers that do not support the <video> element: -->
+Your browser does not support the video tag.
+</video> 
+
+</body>
+</html> 
