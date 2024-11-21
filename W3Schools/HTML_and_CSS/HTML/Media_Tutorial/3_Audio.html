@@ -1,0 +1,32 @@
+
+<!-- HTML: W3Schools - Media Tutorial -->
+<!-- Section 3: Audio -->
+
+<!-- AUDIO -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- The HTML <audio> element is used to play audio on a web page. -->
+    <!-- 
+        The controls attribute adds video controls, like play, pause, and volume.
+        The autoplay attribute automatically starts playing the audio when the page loads.
+        The muted attribute mutes the audio by default:
+     -->
+<audio controls autoplay muted>
+    <!-- 
+        The <source> element allows you to specify alternative audio files which the browser may choose from. 
+        The browser will use the first recognized format:
+     -->
+    <source src="horse.ogg" type="audio/ogg">
+    <source src="horse.mp3" type="audio/mpeg">
+<!-- The text between the <audio> and </audio> tags will only be displayed in browsers that do not support the <audio> element: -->
+    Your browser does not support the audio element.
+</audio> 
+
+
+</body>
+</html> 
