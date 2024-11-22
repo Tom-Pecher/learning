@@ -1,0 +1,62 @@
+
+<!-- HTML: W3Schools - API Tutorial -->
+<!-- Section 1: Geolocation -->
+
+<!-- GEOLOCATION -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- 
+    The HTML Geolocation API is used to get the geographical position of a user.
+    Since this can compromise privacy, the position is not available unless the user approves it.
+ -->
+
+ <h1>HTML Geolocation</h1>
+ <p>Click the button to get your coordinates.</p>
+ 
+ <button onclick="getLocation()">Try It</button>
+ 
+ <p id="demo"></p>
+ 
+<script>
+const x = document.getElementById("demo");
+ 
+function getLocation() {
+    if (navigator.geolocation) {
+    // The getCurrentPosition() method is used to return the user's position.
+    navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+ 
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+<!-- 
+    getCurrentPosition() return data:
+        coords.latitude 	        The latitude as a decimal number (always returned)
+        coords.longitude 	        The longitude as a decimal number (always returned)
+        coords.accuracy 	        The accuracy of position (always returned)
+        coords.altitude 	        The altitude in meters above the mean sea level (returned if available)
+        coords.altitudeAccuracy 	The altitude accuracy of position (returned if available)
+        coords.heading 	            The heading as degrees clockwise from North (returned if available)
+        coords.speed 	            The speed in meters per second (returned if available)
+        timestamp 	                The date/time of the response (returned if available)
+ -->
+
+<!-- 
+    Other important methods:
+        watchPosition() - Returns the current position of the user and continues to return updated position as the user moves (like the GPS in a car).
+        clearWatch() - Stops the watchPosition() method.
+ -->
+
+</body>
+</html> 
