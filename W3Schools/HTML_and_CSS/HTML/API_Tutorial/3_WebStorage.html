@@ -1,0 +1,33 @@
+
+<!-- HTML: W3Schools - API Tutorial -->
+<!-- Section 3: Web Storage -->
+
+<!-- WEB STORAGE -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<!-- With web storage, web applications can store data locally within the user's browser. -->
+<!-- 
+    window.localStorage - stores data with no expiration date
+    window.sessionStorage - stores data for one session (data is lost when the browser tab is closed)
+ -->
+<div id="result"></div>
+
+<script>
+// Check browser support
+if (typeof(Storage) !== "undefined") {
+  // Store
+  localStorage.setItem("lastname", "Smith");
+  // Retrieve
+  document.getElementById("result").innerHTML = localStorage.getItem("lastname");
+} else {
+  document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+}
+</script>
+
+</body>
+</html> 
