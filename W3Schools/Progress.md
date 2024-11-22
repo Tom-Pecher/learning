@@ -46,7 +46,7 @@
 ## HTML and CSS
 | Topic | Progress |
 | -------- | ------- |
-| HTML | 39/58 |
+| HTML | 58/58 |
 | CSS | - |
 | RWD | - |
 | Bootstrap | - |
