@@ -1,0 +1,10 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 2: Syntax */
+
+/* Apply CSS to all selector tags (<p>, paragraphs): */
+p {
+    /* All declarations have a the form, property:value */
+    color: red;
+    text-align: center;
+}
