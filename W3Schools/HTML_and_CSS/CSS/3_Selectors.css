@@ -1,0 +1,30 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 3: Selectors */
+
+/* CSS selectors are used to select the HTML elements to be styled. */
+/* 
+    These can be divided into five catagories:
+      - Simple selectors (select elements based on name, id, class)
+      - Combinator selectors (select elements based on a specific relationship between them)
+      - Pseudo-class selectors (select elements based on a certain state)
+      - Pseudo-elements selectors (select and style a part of an element)
+      - Attribute selectors (select elements based on an attribute or attribute value)
+*/
+
+/* The CSS element selector selects HTML elements based on name: */
+p {
+    text-align: center;
+    color: red;
+}
+
+/* The id selector (#) uses the id attribute of an HTML element to select a specific element: */
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+.center {
+    text-align: center;
+    color: red;
+}
