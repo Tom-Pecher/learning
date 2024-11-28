@@ -1,0 +1,48 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 7: Backgrounds */
+
+    /* BACKGROUND COLOUR: */
+/* Set the background colour of the page by changing the body background-color attribute: */
+body {
+    background-color: lightblue;
+}
+
+/* Set the background colour of different HTML elements: */
+h1 {
+    background-color: green;
+}
+  
+p {
+    background-color: yellow;
+    /* Set an opacity also: */
+    opacity: 0.3;
+}
+
+
+    /* BACKGROUND IMAGE: */
+/* Set the background image of an element: */
+h2 {
+    background-image: url("potato.jpg");
+}
+
+
+    /* BACKGROUND REPEAT: */
+/* By default, the background-image property repeats an image both horizontally and vertically: */
+body {
+    background-image: url("potato.jpg");
+}
+
+/* We can specify a specific direction to repeat in like so: */
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+
+/* We can also specify that the image should not repeat at all: */
+body {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    /* We can set the start position for the image like so: */
+    background-position: right top;
+}
