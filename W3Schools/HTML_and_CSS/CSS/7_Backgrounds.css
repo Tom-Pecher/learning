@@ -2,7 +2,7 @@
 /* CSS: W3Schools - Main Tutorial */
 /* Section 7: Backgrounds */
 
-    /* BACKGROUND COLOUR: */
+    /* BACKGROUND COLOUR */
 /* Set the background colour of the page by changing the body background-color attribute: */
 body {
     background-color: lightblue;
@@ -20,14 +20,14 @@ p {
 }
 
 
-    /* BACKGROUND IMAGE: */
+    /* BACKGROUND IMAGE */
 /* Set the background image of an element: */
 h2 {
     background-image: url("potato.jpg");
 }
 
 
-    /* BACKGROUND REPEAT: */
+    /* BACKGROUND REPEAT */
 /* By default, the background-image property repeats an image both horizontally and vertically: */
 body {
     background-image: url("potato.jpg");

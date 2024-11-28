@@ -1,0 +1,96 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 8: Borders */
+
+    /* BORDER STYLE */
+/* Using classes, we can set the border style (what kind of border to display): */
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+/* We can then write <p class="mix">A mixed border.</p> to get a specific border type. */
+
+
+    /* BORDER WIDTH */
+/* We can also set the border width (how thick the border is): */
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+/* We can also set the width of each side individually */
+p.two {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom, 35px left */
+}
+
+
+    /* BORDER COLOUR */
+/* We can set the border colour as one would expect: */
+p.one {
+    border-style: solid;
+    border-color: red;
+}
+
+
+    /* BORDER SIDES */
+/* As demonstrated, we can set the styles of each side separately: */
+p {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+}
+
+/* 
+    Which stide is given which style depends on how many arguments are supplied:
+    Four values:
+        border-style: 1 2 3 4;
+            top border is 1
+            right border is 2
+            bottom border is 3
+            left border is 4
+
+    Three values:
+        border-style: 1 2 3;
+            top border is 1
+            right and left borders are 2
+            bottom border is 3
+
+    Two values:
+        border-style: 1 2;
+            top and bottom borders are 1
+            right and left borders are 2
+
+    One value:
+        border-style: 1;
+            all four borders are 1
+*/
+
+
+    /* BORDER SHORTHAND */
+/* We can also use the shorthand property to set all border properties at once (border-width. border-style, border-color): */
+p {
+    border: 5px solid red;
+}
+
+/* The same can be done for specific sides: */
+p {
+    border-left: 6px solid red;
+}
+
+
+    /* ROUNDED BORDERS */
+/* The border-radius property is used to add rounded borders to an element: */
+p {
+    border: 2px solid red;
+    border-radius: 5px;
+}
