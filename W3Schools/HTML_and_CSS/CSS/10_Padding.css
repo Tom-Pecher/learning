@@ -1,0 +1,34 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 10: Padding */
+
+/* The CSS padding properties are used to generate space around an element's content, inside of any defined borders: */
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+/*
+    All the padding properties can have the following values:
+        length      - specifies a padding in px, pt, cm, etc.
+        %           - specifies a padding in % of the width of the containing element
+        inherit     - specifies that the padding should be inherited from the parent element
+
+*/
+
+/* 
+    The CSS width property specifies the width of the element's content area. 
+    The content area is the portion inside the padding, border, and margin of an element.
+    So, if an element has a specified width, the padding added to that element will be added to the total width of the element.
+    This is often an undesirable result.
+    To keep the width at 300px, no matter the amount of padding, you can use the box-sizing property.
+    This causes the element to maintain its actual width; if you increase the padding, the available content space will decrease.
+
+*/
+div {
+    width: 300px;
+    padding: 25px;
+    box-sizing: border-box;
+}
