@@ -35,14 +35,38 @@ body {
 
 /* We can specify a specific direction to repeat in like so: */
 body {
-    background-image: url("gradient_bg.png");
+    background-image: url("potato.jpg");
     background-repeat: repeat-x;
 }
 
 /* We can also specify that the image should not repeat at all: */
 body {
-    background-image: url("img_tree.png");
+    background-image: url("potato.jpg");
     background-repeat: no-repeat;
     /* We can set the start position for the image like so: */
     background-position: right top;
 }
+
+    /* BACKGROUND ATTACHMENT */
+/* By default, a background image scrolls along with the page. We can set it to stay fixed: */
+body {
+    background-image: url("potato.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed; /* fixed or scroll */
+}
+
+    /* BACKGROUND SHORTHAND */
+/* We can use the background shorthand property to set all background properties at once: */
+body {
+    background: #ffffff url("potato.jpg") no-repeat right top;
+}
+
+/*
+    BACKGROUND PROPERTIES:
+     - background-color
+     - background-image
+     - background-repeat
+     - background-attachment
+     - background-position
+*/
