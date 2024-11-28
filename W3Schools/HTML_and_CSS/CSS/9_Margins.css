@@ -1,0 +1,47 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 9: Margins */
+
+/* The CSS margin properties are used to create space around elements, outside of any defined borders: */
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+/* 
+    The margin property can have from one to four values:
+        auto        - the browser calculates the margin
+        length      - specifies a margin in px, pt, cm, etc.
+        %           - specifies a margin in % of the width of the containing element
+        inherit     - specifies that the margin should be inherited from the parent element
+*/
+
+/* We can also use shorthand for margins: */
+p {
+    margin: 25px 50px 75px 100px;
+}
+
+/* Using auto horizontally centers the element in its container: */
+div {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+/* Using inhert causes it to inherit its margin from the container: */
+p.ex1 {
+    margin-left: inherit;
+}
+
+/* Margin collapse states that the top and bottom margins of elements are sometimes collapsed into a single margin that is equal to the largest of the two margins: */
+/* This only happens with top and bottom margins: */
+h1 {
+    margin: 0 0 50px 0;
+}
+  
+h2 {
+    margin: 20px 0 0 0;
+}
+/* In this example, h1 and h2 are stacked on top of each other. Instead of the margin being 50+20=70px, it is collapsed to be 50px. */
