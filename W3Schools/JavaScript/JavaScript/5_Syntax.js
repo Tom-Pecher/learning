@@ -22,8 +22,3 @@ x = 6;  // Assigns the value 6 to x
 // Operators:
 //    We use operators to form expressions:
 (5 + 6) * 10
-
-// Comments:
-//    Single line comment
-/* Multi-line
-   comment */
