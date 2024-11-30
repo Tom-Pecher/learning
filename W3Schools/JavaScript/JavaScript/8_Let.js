@@ -10,4 +10,3 @@
 //          Scope	Redeclare	Reassign	Hoisted	    Binds this
 // var	    No      Yes	        Yes	        Yes	        Yes
 // let	    Yes     No	        Yes	        No	        No
-// const	Yes     No	        No	        No	        No
