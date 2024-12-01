@@ -1,0 +1,19 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 11: Height and Width */
+
+/*
+    The height and width properties can take several values:
+        auto        - This is default. The browser calculates the height and width
+        length      - Defines the height/width in px, cm, etc.
+        %           - Defines the height/width in percent of the containing block
+        initial     - Sets the height/width to its default value
+        inherit     - The height/width will be inherited from its parent value
+*/
+
+/* THe max-width property is used to set the maximum possible width: */
+div {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+}
