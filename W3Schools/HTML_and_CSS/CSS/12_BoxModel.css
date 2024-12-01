@@ -1,0 +1,18 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 12: Box Model */
+
+/*
+    The CSS box model consists of 4 parts:
+        Content     - The content of the box, where text and images appear
+        Padding     - Clears an area around the content. The padding is transparent
+        Border      - A border that goes around the padding and content
+        Margin      - Clears an area outside the border. The margin is transparent
+*/
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}

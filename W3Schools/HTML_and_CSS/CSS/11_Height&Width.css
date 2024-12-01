@@ -11,7 +11,7 @@
         inherit     - The height/width will be inherited from its parent value
 */
 
-/* THe max-width property is used to set the maximum possible width: */
+/* The max-width property is used to set the maximum possible width: */
 div {
     max-width: 500px;
     height: 100px;
