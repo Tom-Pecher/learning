@@ -1,0 +1,51 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 13: Outline */
+
+/* An outline is a line drawn outside the element's border. */
+/* Unlike borders, outlines are not part of an element's dimensions and may overlap with other elements. */
+
+/* OUTLINE STYLE */
+/* 
+    The outline-style property allows a variety of different line styles:     
+        dotted  - Defines a dotted outline
+        dashed  - Defines a dashed outline
+        solid   - Defines a solid outline
+        double  - Defines a double outline
+        groove  - Defines a 3D grooved outline
+        ridge   - Defines a 3D ridged outline
+        inset   - Defines a 3D inset outline
+        outset  - Defines a 3D outset outline
+        none    - Defines no outline
+        hidden  - Defines a hidden outline
+*/
+
+/* OUTLINE WIDTH */
+/* 
+    The outline-width property allows you to specify the width of the outline. 
+        thin    - Defines a thin outline
+        medium  - Defines a medium outline
+        thick   - Defines a thick outline
+        length  - Defines an outline with a specific width. 
+*/
+
+/* OUTLINE COLOUR */
+    /* We set the colour of an outline like any other element: */
+p.ex1 {
+    border: 2px solid black; /* We can use outlines to have two colours around our element. */
+    outline-style: solid;
+    outline-color: red;
+}
+
+/* OUTLINE SHORTHAND */
+    /* We can use the shorthand property to set all the outline properties in one declaration (without listing CSS properties). */
+p.ex3 {outline: 5px solid yellow;}
+
+/* OUTLINE OFFSET */
+    /* Using the offset property, we can create space between the outline and the element's edge: */
+p {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+}
