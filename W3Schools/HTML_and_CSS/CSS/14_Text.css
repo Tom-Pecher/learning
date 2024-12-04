@@ -1,0 +1,122 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 14: Text */
+
+/* TEXT COLOUR */
+/* The colour of text and its background can be changed like: */
+h1 {
+    background-color: black;
+    color: white;
+}
+
+
+/* TEXT ALIGNMENT */
+/* The text-align property is used to set the horizontal alignment of a text: */
+h1 {
+    text-align: center;
+}
+
+/* 
+    This can be set to:
+    - left
+    - right
+    - center
+    - justify (stretched to fill width)
+*/
+
+/* Similarly, text-align-last stipulates how the last line of the text should be aligned: */
+h1 {
+    text-align-last: right;
+}
+
+
+/* TEXT DECORATION */
+/* Decoration lines are used to surround or pass through text: */
+h1 {
+    text-decoration-line: overline;
+}
+h2 {
+    text-decoration-line: line-through;
+}
+h3 {
+    text-decoration-line: underline;
+}
+p {
+    text-decoration-line: overline underline;
+}
+
+/* One can set the colour, style and thickness of the line: */
+p {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    text-decoration-thickness: 5px;
+}
+
+/* This can also be accomplished using shorthand: */
+p {
+    text-decoration: underline red double 5px;
+}
+
+/* We can also use the none setting to remove decorations from text that has them by default (e.g. links): */
+a {
+    text-decoration: none;
+}
+
+
+/* TEXT TRANSFORMATION */
+/* We can change the case of our text using the transform property: */
+p.uppercase {
+    text-transform: uppercase;
+}
+p.lowercase {
+    text-transform: lowercase;
+}
+p.capitalize {
+    text-transform: capitalize;
+}
+
+
+/* TEXT SPACING */
+/* We can change the indentation of the first line of text: */
+p {
+    text-indent: 50px;
+}
+
+/* As well as play with the space between letters: */
+h1 {
+    letter-spacing: 5px;
+}
+h2 {
+    letter-spacing: -2px;
+}
+
+/* This can be done vertically (between lines) too: */
+p.small {
+    line-height: 0.8;
+}
+
+p.big {
+    line-height: 1.8;
+}
+
+/* And between words: */
+p.one {
+    word-spacing: 10px;
+}
+p.two {
+    word-spacing: -2px;
+}
+
+/* Finally, we can also specify how whitespace is handled, for example here whitespace wrapping is disabled: */
+p {
+    white-space: nowrap;
+}
+
+
+/* TEXT SHADOW */
+/* We can also create the appearances of a shadow, specifying its direction and colour: */
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
