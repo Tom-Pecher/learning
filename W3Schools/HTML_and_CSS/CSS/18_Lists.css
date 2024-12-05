@@ -1,0 +1,44 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 18: Lists */
+
+
+/* Unordered list, circular markers: */
+ul.a {
+    list-style-type: circle;
+  }
+  
+/* Unordered list, square markers: */
+ul.b {
+    list-style-type: square;
+}
+  
+/* Ordered list, numbers markers: */
+ol.c {
+    list-style-type: upper-roman;
+}
+  
+/* Ordered list, roman numerals markers: */
+ol.d {
+    list-style-type: lower-alpha;
+}
+
+/* Set the position of the list marks: */
+ul.a {
+    list-style-position: outside;
+}
+ul.b {
+    list-style-position: inside;
+}
+
+/* Remove the default list style: */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Lists also use shorthand: */
+ul {
+    list-style: square inside url("sqpurple.gif");
+}
