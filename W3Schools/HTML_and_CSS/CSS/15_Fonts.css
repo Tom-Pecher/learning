@@ -1,0 +1,109 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 15: Fonts */
+
+/* BASICS */
+/* 
+    There are 5 main font families:
+        Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+        Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+        Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+        Cursive fonts imitate human handwriting.
+        Fantasy fonts are decorative/playful fonts.
+*/
+
+/* We can use font-family to set the font of text: */
+.p1 {/* If the font name has a space, it must be placed in quotes: */
+    font-family: "Times New Roman", Times, serif;
+}
+/* It is a good idea to set several fonts as backup in case some are incompatible with the browser. */
+
+
+/* WEB-SAFE FONTS */
+/* Good back-up fonts include web-safe fonts (ones that are universally installed on all browsers). */
+/* 
+    Some examples include:
+        Arial (sans-serif)
+        Verdana (sans-serif)
+        Tahoma (sans-serif)
+        Trebuchet MS (sans-serif)
+        Times New Roman (serif)
+        Georgia (serif)
+        Garamond (serif)
+        Courier New (monospace)
+        Brush Script MT (cursive)
+*/
+
+
+/* FONT STYLE */
+/* We can change the style of our font like so: */
+p.normal {
+    font-style: normal;     /* normal text */
+}
+p.italic {
+    font-style: italic;     /* italic text */
+}
+p.oblique {
+    font-style: oblique;    /* leaning text (similar to italic) */
+}
+
+/* Similarly, we can set the font weight: */
+p.normal {
+    font-weight: normal;
+}
+p.thick {
+    font-weight: bold;
+}
+
+
+/* FONT SIZE */
+/* Font size can be set absolutely or relatively compared to the page size. */
+/* We set it like so: */
+h1 {
+    font-size: 40px;    /* using pixel */
+}
+/* We can use em (1em = current font size, 16px by default):  */
+h1 {
+    font-size: 2.5em;   /* 40px/16=2.5em */
+}
+
+/* The best solution is to set a default font-size in percent for the body: */
+body {
+    font-size: 100%;
+}
+h1 {
+    font-size: 2.5em;
+}
+
+/* The text size can be set with a vw (viewport width): */
+/* <h1 style="font-size:10vw">Hello World</h1> */
+
+
+/* GOOGLE FONTS */
+/* For custom fonts, we can use Google Fonts: */
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> */
+
+
+/* FONT FAMILIES */
+/* 
+    Here are some key guidelines for good font engineering:
+    1. Complement fonts together
+    2. Use font superfamilies
+    3. Contrast is essential
+    4. Choose only one main font
+*/
+
+
+/* FONT PROPERTY */
+/* 
+    The font property is a shorthand for the following properties:
+        font-style
+        font-variant
+        font-weight
+        font-size/line-height
+        font-family 
+*/
+p.a {
+    font: 20px Arial, sans-serif;
+}
+  
