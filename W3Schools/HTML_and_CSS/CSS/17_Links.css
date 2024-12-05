@@ -1,0 +1,43 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 17: Links */
+
+
+/* To style a link properly, we should style each of its states: */
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+/* selected link */
+a:active {
+    color: blue;
+} 
+
+/* To remove the underline, we must modify the text-decoration attribute: */
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* A more advanced example is to display links as buttons/boxes: */
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: red;
+}
