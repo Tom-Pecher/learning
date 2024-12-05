@@ -1,0 +1,34 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 16: Icons */
+
+
+/* We can add icons to our page using an icon library: */
+/* 
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i class="fas fa-cloud"></i>
+</body> 
+*/
+
+/* Using Bootstrap icons: */
+/* 
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i class="fas fa-cloud"></i>
+</body> 
+*/
+
+/* Using Google icons: */
+/* 
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <i class="fas fa-cloud"></i>
+</body> 
+*/
