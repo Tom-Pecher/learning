@@ -1,0 +1,79 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 19: Tables */
+
+
+/* TABLE BORDERS */
+/* With the border attribute, we can set the thickness and style: */
+table, th, td {
+    border: 1px solid;
+}
+
+/* In the above example, we set borders for both the table and the header/data cells. */
+/* This gives a double border. To remove this, we can set the border only to one, or use table-collapse: */
+table {
+    border-collapse: collapse;
+}
+
+
+/* TABLE SIZE */
+/* It is often best to set the table width to that of the page: */
+table {
+    width: 100%;
+}
+
+/* But we can set the heights as we wish: */
+th {
+    height: 70px;
+}
+
+
+/* TABLE ALIGNMENT */
+/* We can modify the alignment of the text within each cell to be left, right or centre: */
+td {
+    text-align: center;
+}
+
+/* We can also align vertically: */
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+
+
+/* TABLE STYLE */
+/* We can use padding to control the space between the text and the borders: */
+th, td {
+    padding: 15px;
+    text-align: left;
+} 
+
+/* We can style specific borders: */
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+/* We can even set the table to highlight rows as we mouse over them: */
+tr:hover {background-color: coral;}
+
+/* Here is how we can give our tables the quintessential striped look: */
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* And again, we can set the cell and text colours like so: */
+th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+
+/* RESPONSIVE TABLES */
+/* If there is not enough space to fit on the screen, it is good practice to add a horizonal scroll bar: */
+/* 
+<div style="overflow-x:auto;">
+
+<table>
+... table content ...
+</table>
+
+</div>
+*/
