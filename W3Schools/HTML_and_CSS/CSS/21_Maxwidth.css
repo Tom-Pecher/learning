@@ -1,0 +1,11 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 21: Max-Width */
+
+
+/* We can set a max-width for block elements. This is good for handling small elements when the screen size gets too small: */
+div {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
