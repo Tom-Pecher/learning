@@ -15,7 +15,7 @@
 | Go | - |
 | Django | 8/49 |
 | PostgreSQL | - |
-| Typescipt | - |
+| Typescript | - |
 | ASP | - |
 | Node.js | - |
 | Raspberry Pi | - |
@@ -47,7 +47,7 @@
 | Topic | Progress |
 | -------- | ------- |
 | HTML | 58/58 |
-| CSS | - |
+| CSS | 18/? |
 | RWD | - |
 | Bootstrap | - |
 | W3.CSS | - |
@@ -64,7 +64,7 @@
 ## JavaScript
 | Topic | Progress |
 | -------- | ------- |
-| JavaScript | - |
+| JavaScript | 26/? |
 | React | - |
 | jQuery | - |
 | Vue | - |
