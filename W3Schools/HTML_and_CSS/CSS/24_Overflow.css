@@ -1,0 +1,37 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 24: Overflow */
+
+
+/* 
+
+The CSS overflow property controls what happens to content that is too big to fit into an area. */
+
+/* By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box: */
+div {
+    width: 200px;
+    height: 65px;
+    background-color: coral;
+    overflow: visible;
+}
+
+/* With the hidden value, the overflow is clipped, and the rest of the content is hidden: */
+div {
+    overflow: hidden;
+}
+
+/* The scroll value will add a scrollbar to the element: */
+div {
+    overflow: scroll;
+}
+
+/* The auto value will display a scrollbar only when necessary: */
+div {
+    overflow: auto;
+}
+
+/* We can set the overflow property in each direction separately: */
+div {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
