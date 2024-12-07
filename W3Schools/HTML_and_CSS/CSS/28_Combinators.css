@@ -1,0 +1,23 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 28: Combinators */
+
+/* The descendant combinator (space) matches all elements that are descendants of a specified element: */
+div p {
+    background-color: yellow;
+}
+
+/* The child combinator selects all elements that are the children of a specified element: */
+div > p {
+    background-color: yellow;
+}
+
+/* The next sibling combinator is used to select an element that is directly after another specific element: */
+div + p {
+    background-color: yellow;
+}
+
+/* The subsequent-sibling combinator selects all elements that are next siblings of a specified element: */
+div ~ p {
+    background-color: yellow;
+}
