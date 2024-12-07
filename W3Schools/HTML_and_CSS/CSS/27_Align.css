@@ -1,0 +1,26 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 27: Align */
+
+
+/* To horizontally center a block element (like <div>), set margin to auto: */
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+/* To just centre the text, set text-align to centre: */
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+/* To center an image, set left and right margin to auto and make it into a block element: */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
