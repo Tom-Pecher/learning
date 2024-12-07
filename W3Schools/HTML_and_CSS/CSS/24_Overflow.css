@@ -3,9 +3,7 @@
 /* Section 24: Overflow */
 
 
-/* 
-
-The CSS overflow property controls what happens to content that is too big to fit into an area. */
+/* The CSS overflow property controls what happens to content that is too big to fit into an area. */
 
 /* By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box: */
 div {

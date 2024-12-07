@@ -1,0 +1,92 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 25: Float */
+
+
+/* FLOAT */
+/* The float property is used for positioning and formatting content. */
+/*
+    This can take one of 4 values:
+        left    - The element floats to the left of its container
+        right   - The element floats to the right of its container
+        none    - The element does not float (will be displayed just where it occurs in the text). This is default
+        inherit - The element inherits the float value of its parent
+*/
+
+
+/* CLEAR */
+/* The clear property specifies what should happen with the element that is next to a floating element. */
+/*
+    This can take one of 5 values:
+        none    - The element is not pushed below left or right floated elements. This is default
+        left    - The element is pushed below left floated elements
+        right   - The element is pushed below right floated elements
+        both    - The element is pushed below both left and right floated elements
+        inherit - The element inherits the clear value from its parent
+*/
+div1 {
+    float: left;
+  }
+  
+div2 {
+    clear: left;
+}
+
+/* If a floated element is taller than the containing element, it will "overflow" outside of its container. We can then add a clearfix hack to solve this problem: */
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* USEFUL EXAMPLES */
+/* Three boxes of equal size: */
+* {
+    box-sizing: border-box;
+}
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+/* We can apply this in an image container: */
+.img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* We can also use it to create a nav menu: */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+   a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #111;
+}
+  
+.active {
+    background-color: red;
+}
