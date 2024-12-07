@@ -1,0 +1,14 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 23: Z-Index */
+
+
+/* The z-index property specifies the stack order of an element. */
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* The lower the z-index, the further back the element goes. */
