@@ -1,0 +1,54 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 22: Position */
+
+
+/* The position property specifies the type of positioning method used for an element. */
+
+/* Static positioned elements (default) are not affected by the top, bottom, left, and right properties. */
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+/* Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. */
+/* Other content will not be adjusted to fit into any gap left by the element: */
+div.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+/* Fixed elements are positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled: */
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+/* An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed): */
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+  
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+/* A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place: */
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}
