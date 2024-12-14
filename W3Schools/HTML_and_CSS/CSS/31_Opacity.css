@@ -1,0 +1,8 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 31: Opacity */
+
+/* The opacity property is often used together with the :hover selector to change the opacity on mouse-over: */
+img:hover {
+  opacity: 0.5;
+}
