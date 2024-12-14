@@ -1,0 +1,33 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 32: Navbar */
+
+/* BASICS */
+/* With CSS you can transform boring HTML menus into good-looking navigation bars. */
+/*  
+<ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul>
+*/
+
+ul {
+  list-style-type: none;  /* Remove bullets */
+  margin: 0;              /* Remove default margin */
+  padding: 0;             /* Remove default padding */
+}
+
+/* VERTICAL NAVBAR */
+/* To build a vertical navigation bar, you can style the <a> elements inside the list, in addition to the code from the previous page: */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
