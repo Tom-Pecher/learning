@@ -1,0 +1,25 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 30: Pseudo-Elements */
+
+/* A CSS pseudo-element is used to style specific parts of an element. */
+p::first-line { /* double colon */
+  color: #ff0000;
+  font-variant: small-caps;
+}
+
+/* Pseudo-elements can be combined with HTML classes:  */
+p.intro::first-letter {
+  color: #ff0000;
+  font-size: 200%;
+}
+
+/* 
+    Example pseo-element:
+        - first-line
+        - first-letter
+        - before
+        - after
+        - marker
+        - selection
+*/
