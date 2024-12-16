@@ -1,0 +1,31 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 38: Counters */
+
+/* CSS counters are "variables" maintained by CSS whose values can be incremented by CSS rules (to track how many times they are used). */
+/* Counters let you adjust the appearance of content based on its placement in the document. */
+
+/* 
+  Counter Properties:
+    counter-reset         - Creates or resets a counter
+    counter-increment     - Increments a counter value
+    content               - Inserts generated content
+    counter()/counters()  - Adds the value of a counter to an element
+*/
+body {
+  counter-reset: section;
+}
+
+h1 {
+  counter-reset: subsection;
+}
+
+h1::before {
+  counter-increment: section;
+  content: "Section " counter(section) ". ";
+}
+
+h2::before {
+  counter-increment: subsection;
+  content: counter(section) "." counter(subsection) " ";
+}
