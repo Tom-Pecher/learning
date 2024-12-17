@@ -1,0 +1,18 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 43: Math Functions */
+
+/* The calc() function performs a calculation to be used as property value: */
+#div1 {
+    width: calc(100% - 100px);
+}
+
+/* The min() function returns the smallest of the listed values: */
+#div1 {
+    width: min(50%, 300px);
+}
+
+/* The max() function returns the largest of the listed values: */
+#div1 {
+    width: max(50%, 300px);
+}
