@@ -1,0 +1,16 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 41: Specificity */
+
+/* If there are two or more CSS rules that point to the same element, the selector with the highest specificity will "win", and its style declaration will be applied to that HTML element. */
+
+/*
+    Specifificity hierarchy:
+        Inline style 	                  <h1 style="color: pink;"> 	  Highest priority, directly applied with the style attribute
+        Id selectors 	                  #navbar 	                    Second highest priority, identified by the unique id attribute of an element
+        Classes and pseudo-classes 	    .test, :hover 	              Third highest priority, targeted using class names
+        Attributes 	                    [type="text"] 	              Low priority, applies to attributes
+        Elements and pseudo-elements 	  h1, ::before, ::after 	      Lowest priority, applies to HTML elements and pseudo-elements
+*/
+
+/* For selectors with equal specificity, the last one will overrule. */
