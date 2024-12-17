@@ -1,0 +1,17 @@
+
+/* CSS: W3Schools - Main Tutorial */
+/* Section 42: The !important Rule */
+
+/* The !important rule overrides all previous styling: */
+#myid {
+    background-color: blue !important;
+}
+  
+/* The only way to overrule an !important is with an !important on the same (or higher) level of hierarchy: */
+.myclass {
+    background-color: gray !important;
+}
+  
+p {
+    background-color: red !important;
+}
