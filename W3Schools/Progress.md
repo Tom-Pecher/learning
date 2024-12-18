@@ -47,7 +47,7 @@
 | Topic | Progress |
 | -------- | ------- |
 | HTML | 58/58 |
-| CSS | 18/? |
+| CSS | 45/? |
 | RWD | - |
 | Bootstrap | - |
 | W3.CSS | - |
@@ -64,7 +64,7 @@
 ## JavaScript
 | Topic | Progress |
 | -------- | ------- |
-| JavaScript | 26/? |
+| JavaScript | 30/? |
 | React | - |
 | jQuery | - |
 | Vue | - |
