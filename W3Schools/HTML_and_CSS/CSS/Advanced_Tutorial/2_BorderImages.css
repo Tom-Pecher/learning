@@ -1,0 +1,17 @@
+
+/* CSS: W3Schools - Advanced Tutorial */
+/* Section 2: Border Images */
+
+/* We can set an image as a style for our border: */
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(border.png) 30 round;
+}
+
+/* 
+    The property has parts:
+        The image to use as the border
+        Where to slice the image
+        Define whether the middle sections should be repeated or stretched
+*/
