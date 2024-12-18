@@ -1,0 +1,30 @@
+
+/* CSS: W3Schools - Advanced Tutorial */
+/* Section 1: Rounded Corners */
+
+/* The CSS border-radius property defines the radius of an element's corners. */
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* We can set different radii for each corner of an element: */
+#rcorners2 {
+    border-radius: 15px 50px 30px 5px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+/* We can also have elliptical corners: */
+#rcorners3 {
+    border-radius: 50px / 15px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
