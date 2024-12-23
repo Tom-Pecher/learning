@@ -1,0 +1,12 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 5: Elements -->
+
+<!-- An XML element is everything from (including) the element's start tag to (including) the element's end tag: -->
+<price>29.99</price>
+
+<!-- Elements can be left empty: -->
+<element></element>
+
+<!-- We can also use a self-closing tag: -->
+<element />
