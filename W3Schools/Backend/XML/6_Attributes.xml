@@ -1,0 +1,21 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 6: Attributes -->
+
+<!-- Attributes contain data related to a specific element: -->
+<person gender="female">
+
+<!-- Attributes most be quoted. -->
+<!-- If an attribute contains quotes, we can use the opposite quotes like so: -->
+<gangster name='George "Shotgun" Ziegler'>
+
+<!-- Or we can use character entities: -->
+<gangster name="George &quot;Shotgun&quot; Ziegler">
+
+<!-- 
+    Elements and attributes both contain data. However:
+        - attributes cannot contain multiple values (elements can)
+        - attributes cannot contain tree structures (elements can)
+        - attributes are not easily expandable (for future changes)
+    Hence, attributes are often used to store data that is not part of the actual content.
+-->
