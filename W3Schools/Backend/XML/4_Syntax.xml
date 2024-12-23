@@ -1,0 +1,16 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 4: Syntax -->
+
+<!-- 
+XML Syntax Rules:
+    - XML documents must contain one root element that is the parent of all other elements
+    - The prologue (specifying the version and charset) is optional, but must be put at the start of the document if included.
+    - All XML elements must have a closing tag.
+    - XML tags are case sensitive.
+    - XML elements must be properly nested (one inside the other, rather than overlapping).
+    - XML attribute values must be quoted.
+    - Special characters (like <, >, &, and ") must be escaped.
+    - White space is preserved in XML elements (not truncated as in HTML).
+    - Comments (such as this one) should be included to improve readability.
+-->
