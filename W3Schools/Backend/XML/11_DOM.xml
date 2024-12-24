@@ -1,0 +1,25 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 11: DOM -->
+
+<!-- The XML DOM defines a standard way for accessing and manipulating XML documents. It presents an XML document as a tree-structure. -->
+
+<!-- All XML elements can be accessed through the XML DOM: -->
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+
+  <book category="cooking">
+    <title lang="en">Everyday Italian</title>
+    <author>Giada De Laurentiis</author>
+    <year>2005</year>
+    <price>30.00</price>
+  </book>
+
+  <book category="children">
+    <title lang="en">Harry Potter</title>
+    <author>J K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+  </book>
+
+</bookstore>
