@@ -1,0 +1,32 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 10: Parser -->
+
+<!-- The XML DOM (Document Object Model) defines the properties and methods for accessing and editing XML. -->
+
+<!-- This example parses a text string into an XML DOM object, and extracts the info from it with JavaScript: -->
+<!-- 
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var text, parser, xmlDoc;
+
+text = "<bookstore><book>" +
+"<title>Everyday Italian</title>" +
+"<author>Giada De Laurentiis</author>" +
+"<year>2005</year>" +
+"</book></bookstore>";
+
+parser = new DOMParser();
+xmlDoc = parser.parseFromString(text,"text/xml");
+
+document.getElementById("demo").innerHTML =
+xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
+</script>
+
+</body>
+</html>
+-->
