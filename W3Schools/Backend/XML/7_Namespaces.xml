@@ -1,0 +1,37 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 7: Namespaces -->
+
+<!-- When working on the same projects, different people will use different names and so conflicts may arise. -->
+<!-- Name conflicts in XML can easily be avoided using a name prefix: -->
+<h:table>
+  <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+  </h:tr>
+</h:table>
+
+<f:table>
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:table> 
+
+<!-- To use prefixes for element names, a namespace can be defined by an xmlns attribute in the start tag of an element: -->
+
+<root xmlns:h="http://www.w3.org/TR/html4/" xmlns:f="https://www.w3schools.com/furniture">
+
+<h:table>
+  <h:tr>
+    <h:td>Apples</h:td>
+    <h:td>Bananas</h:td>
+  </h:tr>
+</h:table>
+
+<f:table>
+  <f:name>African Coffee Table</f:name>
+  <f:width>80</f:width>
+  <f:length>120</f:length>
+</f:table>
+
+</root>
