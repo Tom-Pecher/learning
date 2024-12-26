@@ -1,0 +1,17 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 16: Validator -->
+
+<!-- An XML document with correct syntax is called "Well Formed". -->
+<!-- The syntax rules were described in the previous chapters. -->
+
+<!-- A "valid" XML document must be well formed. In addition, it must conform to a document type definition. -->
+<!-- 
+  There are two different document type definitions that can be used with XML:
+      DTD         - The original Document Type Definition
+      XML Schema  - An XML-based alternative to DTD
+
+A document type definition defines the rules and the legal elements and attributes for an XML document.
+-->
+
+<!-- W3Schools has an XML validator to perform syntax checks. -->
