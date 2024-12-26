@@ -1,0 +1,25 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 17: DTD -->
+
+
+<!-- DTD stands for Document Type Definition. -->
+<!-- A DTD defines the structure and the legal elements and attributes of an XML document. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "Note.dtd">
+<note>
+<to>Tove</to>
+<from>Jani</from>
+<heading>Reminder</heading>
+<body>Don't forget me this weekend!</body>
+</note>
+
+<!-- DDT file: -->
+<!DOCTYPE note
+[
+<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
