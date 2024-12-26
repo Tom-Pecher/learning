@@ -1,0 +1,41 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 15: XLink -->
+
+<!-- XLink is used to create hyperlinks within XML documents. -->
+
+<!-- To get access to the XLink features we must declare the XLink namespace: -->
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore xmlns:xlink="http://www.w3.org/1999/xlink">
+<book title="XQuery Kick Start">
+  <description
+  xlink:type="simple"
+  xlink:href="/images/XQuery.gif"
+  xlink:show="new">
+  XQuery Kick Start delivers a concise introduction
+  to the XQuery standard.......
+  </description>
+</book>
+</bookstore>
+
+
+<!-- XPointer allows links to point to specific parts of an XML document. -->
+<?xml version="1.0" encoding="UTF-8"?>
+<mydogs xmlns:xlink="http://www.w3.org/1999/xlink">
+<mydog>
+  <description>
+  Anton is my favorite dog. He has won a lot of.....
+  </description>
+  <fact xlink:type="simple" xlink:href="https://dog.com/dogbreeds.xml#Rottweiler">
+  Fact about Rottweiler
+  </fact>
+</mydog>
+<mydog>
+  <description>
+  Pluto is the sweetest dog on earth......
+  </description>
+  <fact xlink:type="simple" xlink:href="https://dog.com/dogbreeds.xml#FCRetriever">
+  Fact about flat-coated Retriever
+  </fact>
+</mydog>
+</mydogs>
