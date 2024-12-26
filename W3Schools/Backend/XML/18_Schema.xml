@@ -1,0 +1,19 @@
+
+<!-- XML: W3Schools - Main Tutorial -->
+<!-- Section 18: Schema -->
+
+
+<!-- An XML Schema describes the structure of an XML document, just like a DTD. -->
+<!-- XML Schema is an XML-based alternative to DTD: -->
+<xs:element name="note">
+
+<xs:complexType>
+  <xs:sequence>
+    <xs:element name="to" type="xs:string"/>
+    <xs:element name="from" type="xs:string"/>
+    <xs:element name="heading" type="xs:string"/>
+    <xs:element name="body" type="xs:string"/>
+  </xs:sequence>
+</xs:complexType>
+
+</xs:element>
