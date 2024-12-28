@@ -22,7 +22,7 @@
 | Git | 27/27 |
 | MongoDB | - |
 | AWS Cloud | - |
-| XML | - |
+| XML | 19/? |
 
 ## Data Analytics
 | Topic | Progress |
