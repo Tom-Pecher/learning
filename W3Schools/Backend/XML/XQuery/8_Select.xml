@@ -1,0 +1,28 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 8: Selecting and Filtering -->
+
+
+<!-- To loop a specific number of times in a for clause, you may use the to keyword: -->
+for $x in (1 to 5)
+return <test>{$x}</test>
+
+<!-- The at keyword can be used to count the iteration: -->
+for $x at $i in doc("books.xml")/bookstore/book/title
+return <book>{$i}. {data($x)}</book> 
+
+<!-- It is also allowed with more than one in expression in the for clause: -->
+for $x in (10,20), $y in (100,200)
+return <test>x={$x} and y={$y}</test>
+
+<!-- Use let for variable assignment: -->
+let $x := (1 to 5)
+return <test>{$x}</test> 
+
+<!-- Use where to specify more the one criterion for the result: -->
+where $x/price>30 and $x/price<100
+
+<!-- The order by clause is used to specify the sort order of the result. Here we want to order the result by category and title: -->
+for $x in doc("books.xml")/bookstore/book
+order by $x/@category, $x/title
+return $x/title
