@@ -1,0 +1,24 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 6: Syntax -->
+
+<!-- 
+    Key Syntax Rules:
+        XQuery is case-sensitive
+        XQuery elements, attributes, and variables must be valid XML names
+        An XQuery string value can be in single or double quotes
+        An XQuery variable is defined with a $ followed by a name, e.g. $bookstore
+        XQuery comments are delimited by (: and :), e.g. (: XQuery Comment :)
+-->
+
+<!-- Conditional expressions can be written using if-then-else: -->
+for $x in doc("books.xml")/bookstore/book
+return if ($x/@category="children")
+then <child>{data($x/title)}</child>
+else <adult>{data($x/title)}</adult>
+
+<!-- 
+    There are two ways to compare values in XQuery:
+        - General comparisons: =, !=, <, <=, >, >=      these return true if any of the values are true
+        - Value comparisons: eq, ne, lt, le, gt, ge     these return true if one value is supplied (else error) and is true
+-->
