@@ -1,0 +1,24 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 5: Terminology -->
+
+<!-- 
+    Key Terms:
+        element                 - <book>
+        attribute               - lang="en"
+        text                    - J K. Rowling
+        namespace               - xmlns="http://www.w3.org/2005/Atom"
+        processing-instruction  - <?xml-stylesheet type="text/xsl" href="books.xsl"?>
+        comment                 - <!-- This is a comment -->
+        document (root) nodes   - <bookstore>
+
+<bookstore> (root node)
+<author>J K. Rowling</author> (element node)
+lang="en" (attribute node)
+-->
+
+<!-- Atomic values are nodes with no children or parent. -->
+
+<!-- Items are atomic values or nodes. -->
+
+<!-- Nodes can be described by their relative position to other nodes as parents, children, siblings, ancestors and descendants. -->
