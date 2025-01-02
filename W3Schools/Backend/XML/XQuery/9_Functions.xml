@@ -1,0 +1,23 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 9: Functions -->
+
+<!-- User-defined functions follow the following format: -->
+<!-- 
+declare function prefix:function_name($parameter as datatype)
+as returnDatatype
+{
+ ...function code here...
+};
+-->
+
+<!-- Example: -->
+declare function local:minPrice($p as xs:decimal?,$d as xs:decimal?)
+as xs:decimal?
+{
+let $disc := ($p * $d) div 100
+return ($p - $disc)
+};
+
+<!-- Below is an example of how to call the function above: -->
+<minPrice>{local:minPrice($book/price,$book/discount)}</minPrice>
