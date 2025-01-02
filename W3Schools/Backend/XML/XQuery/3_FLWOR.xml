@@ -1,0 +1,26 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 3: FLWOR -->
+
+<!-- 
+    FLWOR stands for:
+        For         - selects a sequence of nodes
+        Let         - binds a sequence to a variable
+        Where       - filters the nodes
+        Order by    - sorts the nodes
+        Return      - what to return (gets evaluated once for every node)
+-->
+
+<!-- The following will select all titles of books with a price of 30+: -->
+doc("books.xml")/bookstore/book[price>30]/title 
+
+<!-- The following FLWOR expression will do the same thing: -->
+for $x in doc("books.xml")/bookstore/book
+where $x/price>30
+return $x/title
+
+<!-- We may also choose to sort the titles alphabetically: -->
+for $x in doc("books.xml")/bookstore/book
+where $x/price>30
+order by $x/title
+return $x/title
