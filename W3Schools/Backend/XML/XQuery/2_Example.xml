@@ -1,0 +1,16 @@
+
+<!-- XML: W3Schools - XQuery Tutorial -->
+<!-- Section 2: Example -->
+
+<!-- We use books.xml for these examples. -->
+<!-- XQuery uses functions to extract data from XML documents. -->
+
+<!-- The doc() function is used to open the "books.xml" file: -->
+doc("books.xml") 
+
+<!-- XQuery uses path expressions to navigate through elements in an XML document. -->
+<!-- The following path expression is used to select all the title elements in the "books.xml" file: -->
+doc("books.xml")/bookstore/book/title
+
+<!-- We can use predicates to select books with specific properties: -->
+doc("books.xml")/bookstore/book[price<30]
