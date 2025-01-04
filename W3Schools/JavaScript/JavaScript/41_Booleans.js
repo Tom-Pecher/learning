@@ -20,18 +20,3 @@ Boolean(0)
 Boolean(-0)
 Boolean("")
 Boolean(null)
-
-// Boolean Operators:
-// AND  &&
-// OR   ||
-// NOT  !
-
-// Comparison Operators:
-// ==   equal
-// ===  strictly equal
-// !=   not equal
-// !==  strictly not equal
-// >    greater than
-// <    less than
-// >=   greater than or equal to
-// <=   less than or equal to
