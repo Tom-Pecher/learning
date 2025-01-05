@@ -1,6 +1,6 @@
 
 // JAVASCRIPT: W3Schools - Main Tutorial
-// Section 43: Switch
+// Section 44: Switch
 
 
 // Switch Statements:
