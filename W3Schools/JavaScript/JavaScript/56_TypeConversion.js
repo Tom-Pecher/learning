@@ -1,6 +1,6 @@
 
 // JAVASCRIPT: W3Schools - Main Tutorial
-// Section 55: Type Conversion
+// Section 56: Type Conversion
 
 // The global method Number() converts a variable (or a value) into a number.
 Number("3.14")
