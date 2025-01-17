@@ -4,7 +4,7 @@
 | Topic | Progress |
 | -------- | ------- |
 | Python | 40/40 |
-| SQL | - |
+| SQL | 1/? |
 | MySQL | - |
 | PHP | - |
 | Java | - |
@@ -64,7 +64,7 @@
 ## JavaScript
 | Topic | Progress |
 | -------- | ------- |
-| JavaScript | 30/? |
+| JavaScript | 74/? |
 | React | - |
 | jQuery | - |
 | Vue | - |
