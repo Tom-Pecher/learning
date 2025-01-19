@@ -9,7 +9,7 @@ public class Main {
     // Booleans
     boolean isJavaFun = true;
 
-    // Conditional statements return boolean values:
+    // Comparison operators return boolean values:
     int x = 10;
     int y = 9;
     System.out.println(x > y);
