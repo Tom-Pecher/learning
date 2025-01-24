@@ -47,7 +47,7 @@ int main() {
   printf("%f\n", f1);
   printf("%f\n", d1);
 
-  // We 
+  // All variables take up different amounts of memory:
   float myFloatNum = 3.5;
 
   printf("%f\n", myFloatNum);
