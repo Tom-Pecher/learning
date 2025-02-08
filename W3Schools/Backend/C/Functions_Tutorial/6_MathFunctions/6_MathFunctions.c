@@ -3,7 +3,7 @@
 // Section 6: Math Functions
 
 #include <stdio.h>
- #include <math.h> // We can use the math.h library to perform mathematical operations.
+#include <math.h> // We can use the math.h library to perform mathematical operations.
 
 int main() {
   // The sqrt() function returns the square root of a number:
