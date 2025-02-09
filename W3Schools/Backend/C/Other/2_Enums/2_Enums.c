@@ -3,7 +3,6 @@
 // Section 2: Enums
 
 #include <stdio.h>
-#include <string.h>
 
 // An enum is a group of constants:
 enum Level1 {
