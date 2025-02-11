@@ -21,7 +21,7 @@ print(fruits[c(1, 3)])
 # The last elements can be accessed with negative indices:
 print(fruits[-1])
 
-# Vectors are mutable so we can change their elements:
+# Change their elements:
 fruits[1] <- "pear"
 print(fruits)
 
