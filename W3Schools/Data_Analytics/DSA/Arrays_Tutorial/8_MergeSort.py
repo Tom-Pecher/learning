@@ -4,14 +4,14 @@
 
 my_array = [7, 3, 9, 12, 11]
 
-# Radix Sort Algorithm: O(nk) where k is the number of digits in the largest number
-def merge_sort(arr):
-    if len(arr) <= 1:
-        return arr
+# Merge Sort Algorithm: O(n logn)
+def merge_sort(array):
+    if len(array) <= 1:
+        return array
 
-    mid = len(arr) // 2
-    leftHalf = arr[:mid]
-    rightHalf = arr[mid:]
+    mid = len(array) // 2
+    leftHalf = array[:mid]
+    rightHalf = array[mid:]
 
     sortedLeft = merge_sort(leftHalf)
     sortedRight = merge_sort(rightHalf)
