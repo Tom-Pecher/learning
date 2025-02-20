@@ -1,6 +1,6 @@
 
 # DSA: W3Schools - Arrays Tutorial
-# Section 6: Counting Sort
+# Section 7: Radix Sort
 
 # A radix is the number of unique digits in a number system (the base).
 my_array = [7, 3, 9, 12, 11]
@@ -23,5 +23,6 @@ def radixSort(array):
                 array.append(val)
 
         exp *= 10
+    return array
 
-print("Sorted array:", my_array)
+print("Sorted array:", radixSort(my_array))
