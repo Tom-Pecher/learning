@@ -5,10 +5,10 @@
 my_array = [7, 3, 9, 12, 11]
 
 # Linear Search Algorithm: O(n)
-def linear_search(arr, targetVal):
-    for i in range(len(arr)):
-        if arr[i] == targetVal:
-            return True, arr[i]
-    return (False, None)
+def linear_search(array, target_val):
+    for i in range(len(array)):
+        if array[i] == target_val:
+            return True, array[i]
+    return False, None
 
-print("Sorted array:", linear_search(my_array, 9))
+print("Sorted array:", linear_search(my_array, 0))
