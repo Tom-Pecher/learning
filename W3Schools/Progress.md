@@ -6,13 +6,14 @@
 | Python | 40/40 |
 | SQL | 1/? |
 | MySQL | - |
-| PHP | - |
-| Java | - |
+| PHP | 4/? |
+| Java | 27/? |
 | C | 33/33 |
 | C++ | 39/39 |
-| R | - |
+| C# | 9/? |
+| R | 17/? |
 | Kotlin | - |
-| Go | - |
+| Go | 8/? |
 | Django | 8/49 |
 | PostgreSQL | - |
 | Typescript | - |
@@ -33,14 +34,14 @@
 | ChatGPT-4 | - |
 | Google Bard | - |
 | Machine Learning | - |
-| DSA | - |
+| DSA | 17/? |
 | Data Science | - |
 | NumPy | 44/44 |
 | Pandas | 15/15 |
 | SciPy | 11/11 |
 | Matplotlib | 3/13 |
 | Statistics | - |
-| Excel | - |
+| Excel | 8/? |
 | Google Sheets | - |
 
 ## HTML and CSS
@@ -84,9 +85,9 @@
 | Web Statistics | - |
 | Web Certificates | - |
 | Web Development | - |
-| Code Editor | / |
-| Test your Typing Speed | / |
-| Play a Code Game | / |
+| Code Editor | N/A |
+| Test your Typing Speed | N/A |
+| Play a Code Game | N/A |
 | Cyber Security | - |
 | Accessibility | - |
-| Join our Newsletter | / |
+| Join our Newsletter | N/A |
