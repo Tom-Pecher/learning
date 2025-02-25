@@ -6,4 +6,4 @@
 // Instead, I will be writing and running C# code as scripts.
 
 using System;
-Console.WriteLine("Hello World!");
+Console.WriteLine("Section 2");
