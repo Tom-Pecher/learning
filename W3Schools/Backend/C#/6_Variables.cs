@@ -2,8 +2,6 @@
 // C#: W3Schools - Main Tutorial
 // Section 6: Variables
 
-using System;
-
 // Variables in C# work the same as in any other programming language:
 string name = "John";
 Console.WriteLine(name);

@@ -2,8 +2,6 @@
 // C#: W3Schools - Main Tutorial
 // Section 9: User Input
 
-using System;
-
 Console.WriteLine("Enter username:");
 
 // We use Console.ReadLine() to get user input:

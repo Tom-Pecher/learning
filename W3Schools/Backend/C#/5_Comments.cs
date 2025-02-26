@@ -6,5 +6,4 @@
 /* This is a
 multi-line comment */
 
-using System;
 Console.WriteLine("Section 5");

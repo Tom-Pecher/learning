@@ -4,5 +4,4 @@
 
 // Nothing noteworthy
 
-using System;
 Console.WriteLine("Section 1");

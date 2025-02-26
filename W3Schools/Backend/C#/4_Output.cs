@@ -2,8 +2,6 @@
 // C#: W3Schools - Main Tutorial
 // Section 4: Output
 
-using System;
-
 // Console.WriteLine() is used to output data to the console:
 Console.WriteLine("Hello World!");
 

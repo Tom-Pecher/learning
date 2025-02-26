@@ -19,5 +19,4 @@
 //   }
 // }
 
-using System;
 Console.WriteLine("Section 3");
