@@ -1,5 +1,5 @@
 
-## CYBERSECURITY: W3Schools - Main Tutorial
+## CYBERSECURITY: W3Schools - Introduction
 ### Section 2: Money Making Threats
 
 #### Key threats organizations face frequently:
