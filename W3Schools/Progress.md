@@ -88,6 +88,6 @@
 | Code Editor | N/A |
 | Test your Typing Speed | N/A |
 | Play a Code Game | N/A |
-| Cyber Security | - |
+| Cyber Security | 5/? |
 | Accessibility | - |
 | Join our Newsletter | N/A |
