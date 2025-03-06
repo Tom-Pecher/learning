@@ -3,3 +3,31 @@
 <!-- Section 1: Introduction -->
 
 <!-- AngularJS extends HTML with new attributes. -->
+<!DOCTYPE html>
+<html>
+
+<!-- AngularJS is distributed as a JavaScript file, and can be added to a web page with a script tag: -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+<!-- AngularJS extends HTML with ng-directives. -->
+<body>
+
+<!-- The ng-app directive defines an AngularJS application: -->
+<div ng-app="">
+    <!-- The ng-model directive binds the value of HTML controls (input, select, textarea) to application data: -->
+    <p>Name: <input type="text" ng-model="name"></p>
+
+    <!-- The ng-bind directive binds application data to the HTML view: -->
+    <p ng-bind="name"></p>
+
+    <!-- The ng-init directive initializes AngularJS application variables: -->
+    <div ng-app="" ng-init="firstName='John'">
+    <p>The name is <span ng-bind="firstName"></span></p>
+
+    <!-- AngularJS expressions are written inside double braces: {{ expression }}. -->
+    <!-- AngularJS will "output" data exactly where the expression is written: -->
+    <div ng-app="">
+        <p>My first expression: {{ 5 + 5 }}</p>
+    </div>
+</body>
+</html>
