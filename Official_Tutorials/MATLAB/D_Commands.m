@@ -14,6 +14,6 @@ load('x.mat');
 
 % See the contents of a variable by calling its name:
 y = 2;
-y;
+disp(y);
 
 % Use 'clc' to clear the command window.
