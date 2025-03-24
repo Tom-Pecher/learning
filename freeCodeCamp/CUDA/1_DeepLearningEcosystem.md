@@ -19,7 +19,7 @@ Production:
  - Detectron2
 
 Low-level:
- - CUDA: can be thought of as the programming language for NVIDEA GPUs
+ - CUDA: can be thought of as the programming language for NVIDIA GPUs
  - ROCm: AMD equivalent for CUDA
  - OpenCL: Open Computing Language
 
@@ -46,8 +46,7 @@ Compilers:
  - XLA
  - LLVM
  - MLIR
- - NVCC (NVIDEA CUDA compiler)
+ - NVCC (NVIDIA CUDA compiler)
 
 Miscellaneous:
  - HuggingFace
- 
