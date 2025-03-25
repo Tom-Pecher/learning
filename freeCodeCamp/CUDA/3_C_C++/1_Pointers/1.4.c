@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 4: Null Pointers
+// Section 1.4: Null Pointers
 
 #include <stdio.h>
 

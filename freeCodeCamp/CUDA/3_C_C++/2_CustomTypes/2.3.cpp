@@ -1,6 +1,6 @@
 
 // C++ Mini Tutorial
-// Section 2: Custom Types
+// Section 2.3: Custom Types
 
 #include <iostream>
 

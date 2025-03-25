@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 1: Pointers
+// Section 1.1: Pointers
 
 #include <stdio.h>
 

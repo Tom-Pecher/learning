@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 3: Void Pointers
+// Section 1.3: Void Pointers
 
 #include <stdio.h>
 

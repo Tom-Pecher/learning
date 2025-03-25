@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 5: Arrays and Pointers
+// Section 1.5: Arrays and Pointers
 
 #include <stdio.h>
 

@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 1: Size_T
+// Section 2.1: Size_T
 
 #include <stdio.h>
 

@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 6: Matrices and Pointers
+// Section 1.6: Matrices and Pointers
 
 #include <stdio.h>
 

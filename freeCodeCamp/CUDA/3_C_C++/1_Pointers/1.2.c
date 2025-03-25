@@ -1,6 +1,6 @@
 
 // C Mini Tutorial
-// Section 2: Nesting Pointers
+// Section 1.2: Nesting Pointers
 
 #include <stdio.h>
 
