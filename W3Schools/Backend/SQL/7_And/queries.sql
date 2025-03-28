@@ -2,10 +2,10 @@
 -- SQL: W3Schools - Main Tutorial
 -- Section 7: And
 
--- Combine coditions using the AND keyword:
+-- Combine conditions using the AND keyword:
 SELECT *
 FROM Customers
-WHERE Country = 'Mexico' AND CustomerName LIKE 'A%'; -- G is the first letter
+WHERE Country = 'Mexico' AND CustomerName LIKE 'A%'; -- A is the first letter
 
 -- SELECT column1, column2, ...
 -- FROM table_name
