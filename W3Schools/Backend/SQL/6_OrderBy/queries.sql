@@ -1,6 +1,6 @@
 
 -- SQL: W3Schools - Main Tutorial
--- Section 5: Where
+-- Section 6: Order By
 
 -- The order by keyword is used to sort the result-set in ascending or descending order:
 SELECT * FROM products
