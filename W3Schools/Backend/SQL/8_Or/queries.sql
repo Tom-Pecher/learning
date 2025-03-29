@@ -2,7 +2,7 @@
 -- SQL: W3Schools - Main Tutorial
 -- Section 8: Or
 
--- Combine conditions using the AND keyword:
+-- Combine conditions using the OR keyword:
 SELECT *
 FROM Customers
 WHERE Country = 'Mexico' OR CustomerName LIKE 'A%';
