@@ -2,5 +2,5 @@
 // Rust: W3Schools - Main Tutorial
 // Section 0: HomePage
 
-// Nothing noteworthy.
+// Nothing noteworthy:
 fn main() {}
