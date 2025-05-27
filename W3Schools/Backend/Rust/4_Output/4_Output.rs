@@ -1,6 +1,6 @@
 
 // Rust: W3Schools - Main Tutorial
-// Section 4: Output:
+// Section 4: Output
 
 fn main() {
 

@@ -1,6 +1,6 @@
 
 // Rust: W3Schools - Main Tutorial
-// Section 3: Syntax:
+// Section 3: Syntax
 
 // The main function is the entry point of a Rust program:
 fn main() {
