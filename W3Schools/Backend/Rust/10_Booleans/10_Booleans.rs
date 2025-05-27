@@ -9,11 +9,4 @@ fn main() {
 
     // Comparison operators return booleans:
     println!("{}", is_programming_fun && is_fish_tasty);
-
-    // We can use conditional statements using boolean expressions:
-    if is_programming_fun {
-        println!("Programming is fun!");
-    } else {
-        println!("Programming is not fun?");
-    }
 }
