@@ -2,7 +2,7 @@
 ## Bash: W3Schools - Main Tutorial
 ### Section 2: List (ls)
 
-The "ls" (list command) lists all of the file and directory names within the current directory.
+The "ls" (list) command lists all of the file and directory names within the current directory.
 
 Options:
     -l                           Long listing format
