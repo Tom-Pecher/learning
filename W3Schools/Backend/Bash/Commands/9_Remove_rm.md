@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 9: Remove (rm)
 
 The "rm" (remove) command is used to remove files and directories.

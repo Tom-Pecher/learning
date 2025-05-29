@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 13: Aliases
 
 We can create aliases for long and complicated commands. 

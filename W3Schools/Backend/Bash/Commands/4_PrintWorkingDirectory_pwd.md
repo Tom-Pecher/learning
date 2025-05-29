@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 4: Print Working Directory (pwd)
 
 The "pwd" (print working directory) command prints the absolute path of the current working directory.

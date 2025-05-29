@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 10: Timestamp (touch)
 
 The "touch" (timestamp) command will create an empty file if it does not already exist or update its timestamp if it does.

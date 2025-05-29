@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 2: List (ls)
 
 The "ls" (list) command lists all of the file and directory names within the current directory.

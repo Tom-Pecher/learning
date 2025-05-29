@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 6: Concatenate (cat)
 
 The "cat" (concatenate) command is used to display a file's contents in the terminal.

@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 8: Move (mv)
 
 The "mv" (move) command is used to move/rename files.

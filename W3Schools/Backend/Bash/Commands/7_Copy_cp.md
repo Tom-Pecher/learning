@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 7: Copy (cp)
 
 The "cp" (copy) command is used to copy the contents of one file to another.

@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 11: Make Directory (mkdir)
 
 The "mkdir" (make directory) command creates a directory with the specified name.

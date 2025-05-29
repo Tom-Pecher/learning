@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 3: Change Directory (cd)
 
 The "cd" (change directory) command changes the current working directory of the terminal.

@@ -1,5 +1,5 @@
 
-## Bash: W3Schools - Main Tutorial
+## Bash: W3Schools - Commands Tutorial
 ### Section 1: Commands
 
 Here is an overview of the basic commands that are covered in this tutorial.
