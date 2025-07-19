@@ -14,4 +14,5 @@ fn main() {
     
     let sum = add(3, 4);
     println!("Sum is: {}", sum);
+    
 }
