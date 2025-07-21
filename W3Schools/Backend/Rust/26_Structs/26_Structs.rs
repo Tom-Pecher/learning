@@ -8,7 +8,7 @@ struct Person {
     name: String,
     age: u32,
     can_vote: bool,
-  }
+}
 
 fn main() {
 
